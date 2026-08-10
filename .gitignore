@@ -1,0 +1,24 @@
+# SPDX-FileCopyrightText: Copyright 2026 SK TELECOM CO., LTD.
+# SPDX-License-Identifier: Apache-2.0
+
+.DS_Store
+.env
+.env.*
+!.env.example
+/.local-data/
+/operator-state/
+*.egg-info/
+*.key
+*.pem
+*.py[cod]
+.coverage
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.venv/
+/.venv-data/
+__pycache__/
+build/
+/data/cache/
+/data/materialized/
+dist/
