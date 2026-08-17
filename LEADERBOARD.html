@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>라우터 실험 리더보드</title>
+  <style>
+    :root {
+      --bg-primary: #ffffff;
+      --bg-secondary: #f5f5f5;
+      --text-primary: #000000;
+      --text-secondary: #666666;
+      --border-color: #e0e0e0;
+      --color-adopted: #1D9E75;
+      --color-rejected: #888780;
+      --color-pending: #7F77DD;
+      --color-reference: #888780;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-primary: #1e1e1e;
+        --bg-secondary: #2d2d2d;
+        --text-primary: #e0e0e0;
+        --text-secondary: #a0a0a0;
+        --border-color: #404040;
+        --color-adopted: #1D9E75;
+        --color-rejected: #888780;
+        --color-pending: #7F77DD;
+        --color-reference: #888780;
+      }
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      padding: 2rem;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .header {
+      margin-bottom: 2.5rem;
+    }
+
+    .title {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .timestamp {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .summary-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 1.5rem;
+    }
+
+    .summary-label {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .summary-value {
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+
+    .leaderboard {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 2rem;
+    }
+
+    .leaderboard-row {
+      display: grid;
+      grid-template-columns: 80px 1fr 120px;
+      gap: 1rem;
+      align-items: center;
+      padding: 1rem;
+      border-bottom: 1px solid var(--border-color);
+      font-size: 0.95rem;
+    }
+
+    .leaderboard-row:last-child {
+      border-bottom: none;
+    }
+
+    .leaderboard-row.header {
+      background: var(--bg-primary);
+      font-weight: 600;
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 1.2rem 1rem;
+    }
+
+    .exp-id {
+      font-weight: 600;
+      min-width: 70px;
+    }
+
+    .exp-name {
+      color: var(--text-primary);
+      text-align: left;
+    }
+
+    .bar-container {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .bar {
+      height: 24px;
+      border-radius: 4px;
+      transition: opacity 0.2s;
+      min-width: 20px;
+    }
+
+    .bar:hover {
+      opacity: 0.85;
+    }
+
+    .bar.adopted {
+      background-color: var(--color-adopted);
+    }
+
+    .bar.rejected {
+      background-color: var(--color-rejected);
+    }
+
+    .bar.pending {
+      background-color: var(--color-pending);
+    }
+
+    .bar.reference {
+      background-color: var(--color-reference);
+    }
+
+    .score {
+      text-align: right;
+      font-weight: 500;
+      min-width: 50px;
+    }
+
+    .status-badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 3px;
+      font-weight: 500;
+      margin-left: 0.5rem;
+      white-space: nowrap;
+    }
+
+    .status-badge.adopted {
+      background: var(--color-adopted);
+      color: white;
+    }
+
+    .status-badge.rejected {
+      background: var(--color-rejected);
+      color: white;
+    }
+
+    .status-badge.pending {
+      background: var(--color-pending);
+      color: white;
+    }
+
+    .status-badge.reference {
+      background: var(--color-reference);
+      color: white;
+    }
+
+    .footer {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border-color);
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+    }
+
+    .footer-label {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .footer-content {
+      line-height: 1.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="title">라우터 실험 리더보드</div>
+      <div class="timestamp" id="timestamp"></div>
+    </div>
+
+    <div class="summary">
+      <div class="summary-card">
+        <div class="summary-label">현재 배포 (held-out dev)</div>
+        <div class="summary-value">0.7000</div>
+        <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.5rem;">CV EV 0.6982 (정합 확인) | Train-only 재학습·조회표 lookup 제거 검증, 2026-08-16 | E27 랭크 효율 헤드 β=0.25</div>
+      </div>
+      <div class="summary-card">
+        <div class="summary-label">시작점</div>
+        <div class="summary-value">0.6842</div>
+        <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.5rem;">기준선</div>
+      </div>
+      <div class="summary-card">
+        <div class="summary-label">실험 완료</div>
+        <div class="summary-value">27건</div>
+        <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.5rem;">채택 4·기각 21·보류 2</div>
+      </div>
+      <div class="summary-card" style="background: rgba(127, 119, 221, 0.1); border-color: var(--color-pending);">
+        <div class="summary-label">오라클 상한 (완벽 예측)</div>
+        <div class="summary-value">0.7944</div>
+        <div style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.5rem;">가중 EV | fast 0.7469 / balanced 0.7978 / premium 0.8544 | best-of-3 0.8789</div>
+        <div style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.3rem; font-style: italic;">현재 배포→오라클 격차: 0.0962 | 80% 목표는 오라클을 초과하여 도달 불가</div>
+      </div>
+    </div>
+
+    <div class="leaderboard">
+      <div class="leaderboard-row header">
+        <div>순위</div>
+        <div>실험명</div>
+        <div>스코어</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">3</div>
+        <div class="exp-name">E23b comp1024+ordinal 결합 (로컬)<span class="status-badge rejected">미채택</span></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6985 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6985</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">2</div>
+        <div class="exp-name">E21 순서형 임계 + k=16 + gain α0.5<span class="status-badge adopted">이전 배포본</span></div>
+        <div class="bar-container">
+          <div class="bar adopted" style="width: calc((0.6982 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6982</div>
+      </div>
+
+      <div class="leaderboard-row" style="background: rgba(29, 158, 117, 0.08);">
+        <div class="exp-id">1★</div>
+        <div class="exp-name">E27 랭크 효율 헤드 β=0.25 채택<span class="status-badge adopted">채택 확정</span><div style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.25rem;">순서형 임계 + kNN k=16 + gain α0.5 + 랭크 효율 β=0.25 | CV EV 0.6982→약 0.6989 (+0.0007) | held-out dev 0.7000 (Train-only 재학습, 2026-08-16) | QEMU 6.6~7.7초 통과 | 시드 7/17/23: +0.0006/+0.0010/+0.0006<br><span style="font-style: italic;">※ 0.7286은 합산(Train+Dev) 학습 후 dev 재채점한 in-sample 참고치 — 성능 지표 아님</span></div></div>
+        <div class="bar-container">
+          <div class="bar adopted" style="width: calc((0.6989 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6989</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">4</div>
+        <div class="exp-name">E19 텍스트한도 8k<span class="status-badge rejected">기각</span></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6977 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6977</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">5</div>
+        <div class="exp-name">E25 증류 λ=0 (베이스)<span class="status-badge reference">참고</span></div>
+        <div class="bar-container">
+          <div class="bar reference" style="width: calc((0.6977 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6977</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">5+</div>
+        <div class="exp-name">E32 비용 불확실성 팽창 (로컬)<span class="status-badge rejected">기각</span><div style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.25rem;">κ=0 0.6977 → κ=2 0.6949 단조 악화 | 진단: σ 상위20% |잔차|가 하위의 4.0배</div></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6977 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6977</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">6</div>
+        <div class="exp-name">E20 kNN k=16 + gain α0.5<span class="status-badge adopted">채택</span></div>
+        <div class="bar-container">
+          <div class="bar adopted" style="width: calc((0.6976 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6976</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">6+</div>
+        <div class="exp-name">E28 어휘 선택 특징 (Colab)<span class="status-badge rejected">기각</span><div style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.25rem;">K=0 0.6976 / K=24 0.6957 / K=48 0.6974 / K=96 0.6972 — 전부 기준선 이하 | 선택 토큰은 문장부호·출처 템플릿 어휘 = 난이도 신호 아님</div></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6976 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6976</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">7</div>
+        <div class="exp-name">E20 k=32 가중²<span class="status-badge rejected">기각</span></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6976 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6976</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">8</div>
+        <div class="exp-name">E26 부호 분해 이득 헤드 (VM1)<span class="status-badge rejected">기각</span></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6976 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6976</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">9</div>
+        <div class="exp-name">E21 순서형+회귀 혼합<span class="status-badge rejected">기각</span></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6974 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6974</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">10</div>
+        <div class="exp-name">E20 k=16 가중²<span class="status-badge rejected">기각</span></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6970 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6970</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">11</div>
+        <div class="exp-name">E19 char bins 16384<span class="status-badge rejected">기각</span></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6969 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6969</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">12</div>
+        <div class="exp-name">E15 word-kNN<span class="status-badge rejected">기각</span></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6968 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6968</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">13</div>
+        <div class="exp-name">E25 증류 λ=0.2<span class="status-badge rejected">기각</span></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6966 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6966</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">14</div>
+        <div class="exp-name">E14 gain α=0.5 (k=8)<span class="status-badge adopted">채택</span></div>
+        <div class="bar-container">
+          <div class="bar adopted" style="width: calc((0.6966 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6966</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">15</div>
+        <div class="exp-name">E20 k=8 (이전 배포)<span class="status-badge adopted">채택</span></div>
+        <div class="bar-container">
+          <div class="bar adopted" style="width: calc((0.6962 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6962</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">16</div>
+        <div class="exp-name">E17 GBM 12설정 최고<span class="status-badge rejected">기각</span></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6962 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6962</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">17</div>
+        <div class="exp-name">E31 비용 비율+smearing (VM2)<span class="status-badge rejected">기각</span></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6961 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6961</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">18</div>
+        <div class="exp-name">E17 5시드 앙상블<span class="status-badge rejected">기각</span></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6959 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6959</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">19</div>
+        <div class="exp-name">E20 k=32 가중¹<span class="status-badge rejected">기각</span></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6957 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6957</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">20</div>
+        <div class="exp-name">E19 char stride1<span class="status-badge rejected">기각</span></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6956 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6956</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">21</div>
+        <div class="exp-name">E20 k=4<span class="status-badge rejected">기각</span></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6948 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6948</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">22</div>
+        <div class="exp-name">E18 GBM+MLP 25%<span class="status-badge rejected">기각</span></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6941 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6941</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">23</div>
+        <div class="exp-name">E25 증류 λ=0.4<span class="status-badge rejected">기각</span></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6937 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6937</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">24</div>
+        <div class="exp-name">E13 DM 모듈<span class="status-badge rejected">기각</span></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6932 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6932</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">25</div>
+        <div class="exp-name">E11 합산학습 기준<span class="status-badge adopted">채택</span></div>
+        <div class="bar-container">
+          <div class="bar adopted" style="width: calc((0.6926 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6926</div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="exp-id">26</div>
+        <div class="exp-name">E18 MLP 단독<span class="status-badge rejected">기각</span></div>
+        <div class="bar-container">
+          <div class="bar rejected" style="width: calc((0.6829 - 0.680) / 0.020 * 100%)"></div>
+        </div>
+        <div class="score">0.6829</div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-label">진행 상황</div>
+      <div class="footer-content">
+        진행 중 실험 없음 — 세션 종료, Colab 연결 정리됨. E33(family 잔차 전문가)은 미착수 대기 항목으로 표기.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function updateTimestamp() {
+      const now = new Date();
+      const year = now.getFullYear();
+      const month = String(now.getMonth() + 1).padStart(2, '0');
+      const date = String(now.getDate()).padStart(2, '0');
+      const hours = String(now.getHours()).padStart(2, '0');
+      const minutes = String(now.getMinutes()).padStart(2, '0');
+
+      document.getElementById('timestamp').textContent =
+        `갱신: ${year}-${month}-${date} ${hours}:${minutes}`;
+    }
+
+    updateTimestamp();
+  </script>
+</body>
+</html>

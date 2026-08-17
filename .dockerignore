@@ -9,6 +9,9 @@ src/ossp_router/**
 !src/ossp_router/__init__.py
 !src/ossp_router/cli.py
 !src/ossp_router/heuristic.py
+!src/ossp_router/learned_router.py
+!src/ossp_router/legacy_hash_regex.py
+!src/ossp_router/similarity.py
 !src/ossp_router/image_evidence.py
 !src/ossp_router/operator_helper.py
 !src/ossp_router/orchestrator.py
@@ -19,6 +22,9 @@ src/ossp_router/**
 src/ossp_router/resources/**
 !src/ossp_router/resources/__init__.py
 !src/ossp_router/resources/routing-policy.v1.json
+!src/ossp_router/resources/learned-router.v1.json
+!src/ossp_router/resources/learned-router-heavy.v1.json
+!src/ossp_router/resources/hash-regex-public.v1.json
 !baselines/
 baselines/**
 !baselines/feature_budget.py

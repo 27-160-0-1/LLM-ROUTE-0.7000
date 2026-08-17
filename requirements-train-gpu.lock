@@ -1,0 +1,8 @@
+numpy==2.2.6
+scipy==1.15.3
+cupy-cuda11x==13.6.0
+nvidia-cuda-runtime-cu11==11.7.99
+nvidia-cuda-nvrtc-cu11==11.7.99
+nvidia-cublas-cu11==11.10.3.66
+nvidia-cusparse-cu11==11.7.4.91
+nvidia-cusolver-cu11==11.4.0.1

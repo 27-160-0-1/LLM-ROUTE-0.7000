@@ -20,5 +20,16 @@
 __pycache__/
 build/
 /data/cache/
+/data/combined/
 /data/materialized/
 dist/
+/artifacts/
+/tmp/
+/reports/baseline-reproduced.json
+
+# local-only: rollback backups and regenerable held-out build
+*.json.bak
+/reports/holdout/
+
+# build outputs
+/build/

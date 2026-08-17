@@ -37,6 +37,7 @@ _CODE_MARKERS = re.compile(
 )
 _MATH_MARKERS = re.compile(r"[=+\-*/^∑∫√≈≠≤≥<>]|\\(?:frac|sum|int|sqrt)\b")
 _NUMBER = re.compile(r"\d")
+_HANGUL_SYLLABLE = re.compile(r"[가-힣]")
 _WORD = re.compile(r"[A-Za-z가-힣]+")
 _SENTENCE_END = re.compile(r"[.!?。！？]")
 _REASONING_WORDS = re.compile(
@@ -76,8 +77,10 @@ def extract_features(episode: Episode) -> PromptFeatures:
 
     text = episode_text(episode)
     characters = len(text)
-    nonspace = sum(not character.isspace() for character in text)
-    hangul = sum("\uac00" <= character <= "\ud7a3" for character in text)
+    # str.split() drops exactly the characters where str.isspace() is true, so
+    # this stays identical to a per-character scan at C speed.
+    nonspace = sum(map(len, text.split()))
+    hangul = len(_HANGUL_SYLLABLE.findall(text))
     numbers = len(_NUMBER.findall(text))
     message_count = 1 if episode.prompt is not None else len(episode.messages or ())
     return PromptFeatures(

@@ -5,6 +5,9 @@ SPDX-License-Identifier: Apache-2.0
 
 # Efficient LLM Routing Challenge
 
+> 이 작업본에 추가된 GPU 학습·CPU 실행 라우터와 재현 방법은
+> [LEARNED_ROUTER_README.md](LEARNED_ROUTER_README.md)에 정리되어 있습니다.
+
 **프롬프트 난이도·특성에 따라 최적 모델을 선택하는 compute-efficient routing
 오픈소스 라우터 개발 챌린지**
 
