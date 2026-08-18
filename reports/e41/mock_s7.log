@@ -1,0 +1,11 @@
+[e41 W=0.5 ridge_gbm s7 calib=1] aux rows 70 (calibrated=True)
+[e41 W=0.5 ridge_gbm s7 calib=1] features for 2710 rows in 109s
+[e41 W=0.5 ridge_gbm s7 calib=1] fold 0 pub_fit=2126 aux_used=69 166s
+[e41 W=0.5 ridge_gbm s7 calib=1] fold 1 pub_fit=2109 aux_used=70 187s
+[e41 W=0.5 ridge_gbm s7 calib=1] fold 2 pub_fit=2093 aux_used=69 183s
+[e41 W=0.5 ridge_gbm s7 calib=1] fold 3 pub_fit=2111 aux_used=70 177s
+[e41 W=0.5 ridge_gbm s7 calib=1] fold 4 pub_fit=2121 aux_used=69 191s
+[e41 W=0.5 ridge_gbm s7 calib=1] meta OOF rmse score 0.3839/0.3582/0.3058 logcost 0.4936/0.3997/0.6473
+[e41 W=0.5 ridge_gbm s7 calib=1] prod OOF rmse light score 0.3907 logcost 0.5903
+[e41 W=0.5 ridge_gbm s7 calib=1] RESULT weighted EV 0.6980 score 0.6983 | fast 0.6633@0.97; balanced 0.6942@0.87; premium 0.7479@0.88
+[e41 W=0.5 ridge_gbm s7 calib=1] DONE

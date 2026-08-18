@@ -1,0 +1,10115 @@
+{
+"train-0012": {
+"family": "gsm8k_or_other",
+"answer": "200",
+"source": "gsm8k"
+},
+"train-0021": {
+"family": "aime",
+"answer": "276000",
+"source": "gsm8k"
+},
+"train-0028": {
+"family": "gsm8k_or_other",
+"answer": "35",
+"source": "gsm8k"
+},
+"train-0034": {
+"family": "gsm8k_or_other",
+"answer": "96",
+"source": "gsm8k"
+},
+"train-0039": {
+"family": "aime",
+"answer": "28",
+"source": "gsm8k"
+},
+"train-0053": {
+"family": "gsm8k_or_other",
+"answer": "750",
+"source": "gsm8k"
+},
+"train-0055": {
+"family": "gsm8k_or_other",
+"answer": "52",
+"source": "gsm8k"
+},
+"train-0061": {
+"family": "aime",
+"answer": "10",
+"source": "gsm8k"
+},
+"train-0064": {
+"family": "gsm8k_or_other",
+"answer": "90",
+"source": "gsm8k"
+},
+"train-0070": {
+"family": "gsm8k_or_other",
+"answer": "6",
+"source": "gsm8k"
+},
+"train-0073": {
+"family": "aime",
+"answer": "70000",
+"source": "gsm8k"
+},
+"train-0077": {
+"family": "gsm8k_or_other",
+"answer": "60",
+"source": "gsm8k"
+},
+"train-0081": {
+"family": "gsm8k_or_other",
+"answer": "1218",
+"source": "gsm8k"
+},
+"train-0086": {
+"family": "ruletaker",
+"answer": "16",
+"source": "gsm8k"
+},
+"train-0094": {
+"family": "gsm8k_or_other",
+"answer": "77",
+"source": "gsm8k"
+},
+"train-0095": {
+"family": "ruletaker",
+"answer": "15",
+"source": "gsm8k"
+},
+"train-0098": {
+"family": "gsm8k_or_other",
+"answer": "6",
+"source": "gsm8k"
+},
+"train-0103": {
+"family": "gsm8k_or_other",
+"answer": "34",
+"source": "gsm8k"
+},
+"train-0108": {
+"family": "gsm8k_or_other",
+"answer": "27",
+"source": "gsm8k"
+},
+"train-0111": {
+"family": "gsm8k_or_other",
+"answer": "188",
+"source": "gsm8k"
+},
+"train-0137": {
+"family": "gsm8k_or_other",
+"answer": "15",
+"source": "gsm8k"
+},
+"train-0138": {
+"family": "gsm8k_or_other",
+"answer": "138",
+"source": "gsm8k"
+},
+"train-0187": {
+"family": "gsm8k_or_other",
+"answer": "89",
+"source": "gsm8k"
+},
+"train-0195": {
+"family": "gsm8k_or_other",
+"answer": "5",
+"source": "gsm8k"
+},
+"train-0199": {
+"family": "gsm8k_or_other",
+"answer": "14400",
+"source": "gsm8k"
+},
+"train-0205": {
+"family": "gsm8k_or_other",
+"answer": "32",
+"source": "gsm8k"
+},
+"train-0213": {
+"family": "gsm8k_or_other",
+"answer": "159",
+"source": "gsm8k"
+},
+"train-0223": {
+"family": "gsm8k_or_other",
+"answer": "16",
+"source": "gsm8k"
+},
+"train-0235": {
+"family": "gsm8k_or_other",
+"answer": "4",
+"source": "gsm8k"
+},
+"train-0239": {
+"family": "gsm8k_or_other",
+"answer": "33",
+"source": "gsm8k"
+},
+"train-0242": {
+"family": "gsm8k_or_other",
+"answer": "300",
+"source": "gsm8k"
+},
+"train-0253": {
+"family": "aime",
+"answer": "9",
+"source": "gsm8k"
+},
+"train-0257": {
+"family": "gsm8k_or_other",
+"answer": "280",
+"source": "gsm8k"
+},
+"train-0271": {
+"family": "gsm8k_or_other",
+"answer": "70",
+"source": "gsm8k"
+},
+"train-0299": {
+"family": "gsm8k_or_other",
+"answer": "216",
+"source": "gsm8k"
+},
+"train-0309": {
+"family": "gsm8k_or_other",
+"answer": "15",
+"source": "gsm8k"
+},
+"train-0316": {
+"family": "aime",
+"answer": "160",
+"source": "gsm8k"
+},
+"train-0323": {
+"family": "gsm8k_or_other",
+"answer": "40000",
+"source": "gsm8k"
+},
+"train-0332": {
+"family": "gsm8k_or_other",
+"answer": "133",
+"source": "gsm8k"
+},
+"train-0335": {
+"family": "aime",
+"answer": "90",
+"source": "gsm8k"
+},
+"train-0353": {
+"family": "gsm8k_or_other",
+"answer": "168000",
+"source": "gsm8k"
+},
+"train-0361": {
+"family": "aime",
+"answer": "5",
+"source": "gsm8k"
+},
+"train-0364": {
+"family": "gsm8k_or_other",
+"answer": "4",
+"source": "gsm8k"
+},
+"train-0372": {
+"family": "gsm8k_or_other",
+"answer": "4",
+"source": "gsm8k"
+},
+"train-0378": {
+"family": "gsm8k_or_other",
+"answer": "24",
+"source": "gsm8k"
+},
+"train-0384": {
+"family": "gsm8k_or_other",
+"answer": "92",
+"source": "gsm8k"
+},
+"train-0388": {
+"family": "gsm8k_or_other",
+"answer": "45",
+"source": "gsm8k"
+},
+"train-0400": {
+"family": "gsm8k_or_other",
+"answer": "80",
+"source": "gsm8k"
+},
+"train-0416": {
+"family": "gsm8k_or_other",
+"answer": "48",
+"source": "gsm8k"
+},
+"train-0417": {
+"family": "gsm8k_or_other",
+"answer": "2350",
+"source": "gsm8k"
+},
+"train-0418": {
+"family": "gsm8k_or_other",
+"answer": "156",
+"source": "gsm8k"
+},
+"train-0426": {
+"family": "gsm8k_or_other",
+"answer": "8",
+"source": "gsm8k"
+},
+"train-0432": {
+"family": "gsm8k_or_other",
+"answer": "4",
+"source": "gsm8k"
+},
+"train-0436": {
+"family": "gsm8k_or_other",
+"answer": "44",
+"source": "gsm8k"
+},
+"train-0448": {
+"family": "gsm8k_or_other",
+"answer": "310",
+"source": "gsm8k"
+},
+"train-0449": {
+"family": "gsm8k_or_other",
+"answer": "60",
+"source": "gsm8k"
+},
+"train-0450": {
+"family": "aime",
+"answer": "25",
+"source": "gsm8k"
+},
+"train-0462": {
+"family": "gsm8k_or_other",
+"answer": "27",
+"source": "gsm8k"
+},
+"train-0469": {
+"family": "gsm8k_or_other",
+"answer": "240",
+"source": "gsm8k"
+},
+"train-0475": {
+"family": "gsm8k_or_other",
+"answer": "18",
+"source": "gsm8k"
+},
+"train-0485": {
+"family": "gsm8k_or_other",
+"answer": "62",
+"source": "gsm8k"
+},
+"train-0495": {
+"family": "gsm8k_or_other",
+"answer": "40",
+"source": "gsm8k"
+},
+"train-0502": {
+"family": "gsm8k_or_other",
+"answer": "163",
+"source": "gsm8k"
+},
+"train-0504": {
+"family": "gsm8k_or_other",
+"answer": "120",
+"source": "gsm8k"
+},
+"train-0506": {
+"family": "aime",
+"answer": "70",
+"source": "gsm8k"
+},
+"train-0507": {
+"family": "gsm8k_or_other",
+"answer": "25",
+"source": "gsm8k"
+},
+"train-0515": {
+"family": "gsm8k_or_other",
+"answer": "240",
+"source": "gsm8k"
+},
+"train-0526": {
+"family": "aime",
+"answer": "4",
+"source": "gsm8k"
+},
+"train-0529": {
+"family": "gsm8k_or_other",
+"answer": "360",
+"source": "gsm8k"
+},
+"train-0547": {
+"family": "gsm8k_or_other",
+"answer": "18",
+"source": "gsm8k"
+},
+"train-0551": {
+"family": "aime",
+"answer": "30",
+"source": "gsm8k"
+},
+"train-0552": {
+"family": "gsm8k_or_other",
+"answer": "240",
+"source": "gsm8k"
+},
+"train-0553": {
+"family": "aime",
+"answer": "6",
+"source": "gsm8k"
+},
+"train-0560": {
+"family": "gsm8k_or_other",
+"answer": "20",
+"source": "gsm8k"
+},
+"train-0569": {
+"family": "ruletaker",
+"answer": "224000",
+"source": "gsm8k"
+},
+"train-0575": {
+"family": "aime",
+"answer": "5",
+"source": "gsm8k"
+},
+"train-0579": {
+"family": "gsm8k_or_other",
+"answer": "8000",
+"source": "gsm8k"
+},
+"train-0581": {
+"family": "gsm8k_or_other",
+"answer": "4",
+"source": "gsm8k"
+},
+"train-0605": {
+"family": "gsm8k_or_other",
+"answer": "12",
+"source": "gsm8k"
+},
+"train-0610": {
+"family": "aime",
+"answer": "118000",
+"source": "gsm8k"
+},
+"train-0623": {
+"family": "gsm8k_or_other",
+"answer": "45",
+"source": "gsm8k"
+},
+"train-0634": {
+"family": "gsm8k_or_other",
+"answer": "112",
+"source": "gsm8k"
+},
+"train-0635": {
+"family": "aime",
+"answer": "123",
+"source": "gsm8k"
+},
+"train-0649": {
+"family": "gsm8k_or_other",
+"answer": "42",
+"source": "gsm8k"
+},
+"train-0659": {
+"family": "gsm8k_or_other",
+"answer": "20",
+"source": "gsm8k"
+},
+"train-0665": {
+"family": "gsm8k_or_other",
+"answer": "7300",
+"source": "gsm8k"
+},
+"train-0666": {
+"family": "aime",
+"answer": "2280",
+"source": "gsm8k"
+},
+"train-0689": {
+"family": "gsm8k_or_other",
+"answer": "11",
+"source": "gsm8k"
+},
+"train-0693": {
+"family": "gsm8k_or_other",
+"answer": "60",
+"source": "gsm8k"
+},
+"train-0700": {
+"family": "aime",
+"answer": "5600",
+"source": "gsm8k"
+},
+"train-0703": {
+"family": "gsm8k_or_other",
+"answer": "38",
+"source": "gsm8k"
+},
+"train-0714": {
+"family": "aime",
+"answer": "38",
+"source": "gsm8k"
+},
+"train-0719": {
+"family": "gsm8k_or_other",
+"answer": "20",
+"source": "gsm8k"
+},
+"train-0731": {
+"family": "gsm8k_or_other",
+"answer": "180",
+"source": "gsm8k"
+},
+"train-0742": {
+"family": "gsm8k_or_other",
+"answer": "7",
+"source": "gsm8k"
+},
+"train-0743": {
+"family": "aime",
+"answer": "50",
+"source": "gsm8k"
+},
+"train-0756": {
+"family": "aime",
+"answer": "12",
+"source": "gsm8k"
+},
+"train-0757": {
+"family": "ruletaker",
+"answer": "30",
+"source": "gsm8k"
+},
+"train-0761": {
+"family": "gsm8k_or_other",
+"answer": "20",
+"source": "gsm8k"
+},
+"train-0763": {
+"family": "gsm8k_or_other",
+"answer": "3000",
+"source": "gsm8k"
+},
+"train-0766": {
+"family": "aime",
+"answer": "694",
+"source": "gsm8k"
+},
+"train-0784": {
+"family": "gsm8k_or_other",
+"answer": "64",
+"source": "gsm8k"
+},
+"train-0785": {
+"family": "gsm8k_or_other",
+"answer": "95",
+"source": "gsm8k"
+},
+"train-0788": {
+"family": "gsm8k_or_other",
+"answer": "75",
+"source": "gsm8k"
+},
+"train-0789": {
+"family": "gsm8k_or_other",
+"answer": "10",
+"source": "gsm8k"
+},
+"train-0794": {
+"family": "gsm8k_or_other",
+"answer": "25",
+"source": "gsm8k"
+},
+"train-0800": {
+"family": "gsm8k_or_other",
+"answer": "1300",
+"source": "gsm8k"
+},
+"train-0811": {
+"family": "gsm8k_or_other",
+"answer": "14000",
+"source": "gsm8k"
+},
+"train-0835": {
+"family": "gsm8k_or_other",
+"answer": "8",
+"source": "gsm8k"
+},
+"train-0837": {
+"family": "aime",
+"answer": "3",
+"source": "gsm8k"
+},
+"train-1403": {
+"family": "gsm8k_or_other",
+"answer": "360",
+"source": "gsm8k"
+},
+"train-1404": {
+"family": "gsm8k_or_other",
+"answer": "10",
+"source": "gsm8k"
+},
+"train-1405": {
+"family": "gsm8k_or_other",
+"answer": "160",
+"source": "gsm8k"
+},
+"train-1406": {
+"family": "ruletaker",
+"answer": "120",
+"source": "gsm8k"
+},
+"train-1407": {
+"family": "aime",
+"answer": "32",
+"source": "gsm8k"
+},
+"train-1408": {
+"family": "gsm8k_or_other",
+"answer": "16",
+"source": "gsm8k"
+},
+"train-1409": {
+"family": "aime",
+"answer": "5",
+"source": "gsm8k"
+},
+"train-1410": {
+"family": "gsm8k_or_other",
+"answer": "15",
+"source": "gsm8k"
+},
+"train-1411": {
+"family": "gsm8k_or_other",
+"answer": "30",
+"source": "gsm8k"
+},
+"train-1412": {
+"family": "gsm8k_or_other",
+"answer": "4",
+"source": "gsm8k"
+},
+"train-1413": {
+"family": "gsm8k_or_other",
+"answer": "4",
+"source": "gsm8k"
+},
+"train-1414": {
+"family": "gsm8k_or_other",
+"answer": "43",
+"source": "gsm8k"
+},
+"train-1415": {
+"family": "aime",
+"answer": "8",
+"source": "gsm8k"
+},
+"train-1416": {
+"family": "gsm8k_or_other",
+"answer": "23",
+"source": "gsm8k"
+},
+"train-1417": {
+"family": "gsm8k_or_other",
+"answer": "90",
+"source": "gsm8k"
+},
+"train-1418": {
+"family": "gsm8k_or_other",
+"answer": "66",
+"source": "gsm8k"
+},
+"train-1419": {
+"family": "gsm8k_or_other",
+"answer": "105",
+"source": "gsm8k"
+},
+"train-1420": {
+"family": "gsm8k_or_other",
+"answer": "101",
+"source": "gsm8k"
+},
+"train-1421": {
+"family": "gsm8k_or_other",
+"answer": "280",
+"source": "gsm8k"
+},
+"train-1422": {
+"family": "gsm8k_or_other",
+"answer": "25000",
+"source": "gsm8k"
+},
+"train-1423": {
+"family": "aime",
+"answer": "162",
+"source": "gsm8k"
+},
+"train-1424": {
+"family": "aime",
+"answer": "21",
+"source": "gsm8k"
+},
+"train-1425": {
+"family": "aime",
+"answer": "6",
+"source": "gsm8k"
+},
+"train-1426": {
+"family": "aime",
+"answer": "2",
+"source": "gsm8k"
+},
+"train-1427": {
+"family": "gsm8k_or_other",
+"answer": "11",
+"source": "gsm8k"
+},
+"train-1428": {
+"family": "aime",
+"answer": "1",
+"source": "gsm8k"
+},
+"train-1429": {
+"family": "ruletaker",
+"answer": "24",
+"source": "gsm8k"
+},
+"train-1430": {
+"family": "gsm8k_or_other",
+"answer": "360",
+"source": "gsm8k"
+},
+"train-1431": {
+"family": "gsm8k_or_other",
+"answer": "54",
+"source": "gsm8k"
+},
+"train-1432": {
+"family": "gsm8k_or_other",
+"answer": "27",
+"source": "gsm8k"
+},
+"train-1433": {
+"family": "gsm8k_or_other",
+"answer": "81",
+"source": "gsm8k"
+},
+"train-1434": {
+"family": "gsm8k_or_other",
+"answer": "36",
+"source": "gsm8k"
+},
+"train-1435": {
+"family": "gsm8k_or_other",
+"answer": "14",
+"source": "gsm8k"
+},
+"train-1436": {
+"family": "gsm8k_or_other",
+"answer": "15",
+"source": "gsm8k"
+},
+"train-1437": {
+"family": "aime",
+"answer": "2",
+"source": "gsm8k"
+},
+"train-1438": {
+"family": "gsm8k_or_other",
+"answer": "42",
+"source": "gsm8k"
+},
+"train-1439": {
+"family": "gsm8k_or_other",
+"answer": "20",
+"source": "gsm8k"
+},
+"train-1440": {
+"family": "gsm8k_or_other",
+"answer": "31",
+"source": "gsm8k"
+},
+"train-1441": {
+"family": "gsm8k_or_other",
+"answer": "2",
+"source": "gsm8k"
+},
+"train-1442": {
+"family": "gsm8k_or_other",
+"answer": "2",
+"source": "gsm8k"
+},
+"train-1443": {
+"family": "gsm8k_or_other",
+"answer": "132",
+"source": "gsm8k"
+},
+"train-1444": {
+"family": "gsm8k_or_other",
+"answer": "26",
+"source": "gsm8k"
+},
+"train-1445": {
+"family": "gsm8k_or_other",
+"answer": "70",
+"source": "gsm8k"
+},
+"train-1446": {
+"family": "gsm8k_or_other",
+"answer": "288",
+"source": "gsm8k"
+},
+"train-1447": {
+"family": "gsm8k_or_other",
+"answer": "80",
+"source": "gsm8k"
+},
+"train-1448": {
+"family": "gsm8k_or_other",
+"answer": "18",
+"source": "gsm8k"
+},
+"train-1449": {
+"family": "gsm8k_or_other",
+"answer": "48",
+"source": "gsm8k"
+},
+"train-1450": {
+"family": "gsm8k_or_other",
+"answer": "14",
+"source": "gsm8k"
+},
+"train-1451": {
+"family": "aime",
+"answer": "1600",
+"source": "gsm8k"
+},
+"train-1452": {
+"family": "gsm8k_or_other",
+"answer": "106",
+"source": "gsm8k"
+},
+"train-1453": {
+"family": "gsm8k_or_other",
+"answer": "9",
+"source": "gsm8k"
+},
+"train-1454": {
+"family": "gsm8k_or_other",
+"answer": "1260",
+"source": "gsm8k"
+},
+"train-1455": {
+"family": "gsm8k_or_other",
+"answer": "22",
+"source": "gsm8k"
+},
+"train-1456": {
+"family": "gsm8k_or_other",
+"answer": "720",
+"source": "gsm8k"
+},
+"train-1457": {
+"family": "ruletaker",
+"answer": "2",
+"source": "gsm8k"
+},
+"train-1458": {
+"family": "gsm8k_or_other",
+"answer": "1490",
+"source": "gsm8k"
+},
+"train-1459": {
+"family": "gsm8k_or_other",
+"answer": "40",
+"source": "gsm8k"
+},
+"train-1460": {
+"family": "gsm8k_or_other",
+"answer": "5760",
+"source": "gsm8k"
+},
+"train-1461": {
+"family": "gsm8k_or_other",
+"answer": "48",
+"source": "gsm8k"
+},
+"train-1462": {
+"family": "aime",
+"answer": "8400",
+"source": "gsm8k"
+},
+"train-1463": {
+"family": "gsm8k_or_other",
+"answer": "250",
+"source": "gsm8k"
+},
+"train-1464": {
+"family": "gsm8k_or_other",
+"answer": "60",
+"source": "gsm8k"
+},
+"train-1465": {
+"family": "gsm8k_or_other",
+"answer": "32",
+"source": "gsm8k"
+},
+"train-1466": {
+"family": "gsm8k_or_other",
+"answer": "225",
+"source": "gsm8k"
+},
+"train-1467": {
+"family": "ruletaker",
+"answer": "350",
+"source": "gsm8k"
+},
+"train-1468": {
+"family": "gsm8k_or_other",
+"answer": "272",
+"source": "gsm8k"
+},
+"train-1469": {
+"family": "gsm8k_or_other",
+"answer": "21",
+"source": "gsm8k"
+},
+"train-1470": {
+"family": "gsm8k_or_other",
+"answer": "16",
+"source": "gsm8k"
+},
+"train-1471": {
+"family": "gsm8k_or_other",
+"answer": "85000",
+"source": "gsm8k"
+},
+"train-1472": {
+"family": "gsm8k_or_other",
+"answer": "16",
+"source": "gsm8k"
+},
+"train-1473": {
+"family": "gsm8k_or_other",
+"answer": "2",
+"source": "gsm8k"
+},
+"train-1474": {
+"family": "gsm8k_or_other",
+"answer": "10",
+"source": "gsm8k"
+},
+"train-1475": {
+"family": "gsm8k_or_other",
+"answer": "14",
+"source": "gsm8k"
+},
+"train-1476": {
+"family": "gsm8k_or_other",
+"answer": "50",
+"source": "gsm8k"
+},
+"train-1477": {
+"family": "gsm8k_or_other",
+"answer": "32",
+"source": "gsm8k"
+},
+"train-1478": {
+"family": "gsm8k_or_other",
+"answer": "39",
+"source": "gsm8k"
+},
+"train-1479": {
+"family": "aime",
+"answer": "13",
+"source": "gsm8k"
+},
+"train-1480": {
+"family": "gsm8k_or_other",
+"answer": "5",
+"source": "gsm8k"
+},
+"train-1481": {
+"family": "gsm8k_or_other",
+"answer": "490",
+"source": "gsm8k"
+},
+"train-1482": {
+"family": "aime",
+"answer": "308",
+"source": "gsm8k"
+},
+"train-1483": {
+"family": "gsm8k_or_other",
+"answer": "1800",
+"source": "gsm8k"
+},
+"train-1484": {
+"family": "aime",
+"answer": "20",
+"source": "gsm8k"
+},
+"train-1485": {
+"family": "aime",
+"answer": "9",
+"source": "gsm8k"
+},
+"train-1486": {
+"family": "gsm8k_or_other",
+"answer": "8",
+"source": "gsm8k"
+},
+"train-1487": {
+"family": "gsm8k_or_other",
+"answer": "23",
+"source": "gsm8k"
+},
+"train-1488": {
+"family": "gsm8k_or_other",
+"answer": "28",
+"source": "gsm8k"
+},
+"train-1489": {
+"family": "gsm8k_or_other",
+"answer": "9",
+"source": "gsm8k"
+},
+"train-1490": {
+"family": "gsm8k_or_other",
+"answer": "40",
+"source": "gsm8k"
+},
+"train-1491": {
+"family": "aime",
+"answer": "157",
+"source": "gsm8k"
+},
+"train-1492": {
+"family": "aime",
+"answer": "132",
+"source": "gsm8k"
+},
+"train-1493": {
+"family": "aime",
+"answer": "3",
+"source": "gsm8k"
+},
+"train-1494": {
+"family": "gsm8k_or_other",
+"answer": "193",
+"source": "gsm8k"
+},
+"train-1495": {
+"family": "gsm8k_or_other",
+"answer": "20",
+"source": "gsm8k"
+},
+"train-1496": {
+"family": "gsm8k_or_other",
+"answer": "70",
+"source": "gsm8k"
+},
+"train-1497": {
+"family": "gsm8k_or_other",
+"answer": "3",
+"source": "gsm8k"
+},
+"train-1498": {
+"family": "gsm8k_or_other",
+"answer": "20",
+"source": "gsm8k"
+},
+"train-1499": {
+"family": "gsm8k_or_other",
+"answer": "155",
+"source": "gsm8k"
+},
+"train-1500": {
+"family": "aime",
+"answer": "15",
+"source": "gsm8k"
+},
+"train-1501": {
+"family": "gsm8k_or_other",
+"answer": "273",
+"source": "gsm8k"
+},
+"train-1502": {
+"family": "aime",
+"answer": "60",
+"source": "gsm8k"
+},
+"train-1503": {
+"family": "aime",
+"answer": "6",
+"source": "gsm8k"
+},
+"train-1504": {
+"family": "gsm8k_or_other",
+"answer": "700",
+"source": "gsm8k"
+},
+"train-1505": {
+"family": "gsm8k_or_other",
+"answer": "1000",
+"source": "gsm8k"
+},
+"train-1506": {
+"family": "gsm8k_or_other",
+"answer": "19",
+"source": "gsm8k"
+},
+"train-1507": {
+"family": "gsm8k_or_other",
+"answer": "150",
+"source": "gsm8k"
+},
+"train-1508": {
+"family": "gsm8k_or_other",
+"answer": "3",
+"source": "gsm8k"
+},
+"train-1509": {
+"family": "aime",
+"answer": "10",
+"source": "gsm8k"
+},
+"train-1510": {
+"family": "gsm8k_or_other",
+"answer": "2400",
+"source": "gsm8k"
+},
+"train-1511": {
+"family": "gsm8k_or_other",
+"answer": "390",
+"source": "gsm8k"
+},
+"train-1512": {
+"family": "gsm8k_or_other",
+"answer": "34",
+"source": "gsm8k"
+},
+"train-1513": {
+"family": "gsm8k_or_other",
+"answer": "5",
+"source": "gsm8k"
+},
+"train-1514": {
+"family": "gsm8k_or_other",
+"answer": "3",
+"source": "gsm8k"
+},
+"dev-0016": {
+"family": "gsm8k_or_other",
+"answer": "5",
+"source": "gsm8k"
+},
+"dev-0019": {
+"family": "gsm8k_or_other",
+"answer": "11",
+"source": "gsm8k"
+},
+"dev-0022": {
+"family": "gsm8k_or_other",
+"answer": "2325",
+"source": "gsm8k"
+},
+"dev-0027": {
+"family": "gsm8k_or_other",
+"answer": "54",
+"source": "gsm8k"
+},
+"dev-0029": {
+"family": "gsm8k_or_other",
+"answer": "75",
+"source": "gsm8k"
+},
+"dev-0030": {
+"family": "gsm8k_or_other",
+"answer": "10",
+"source": "gsm8k"
+},
+"dev-0035": {
+"family": "gsm8k_or_other",
+"answer": "145",
+"source": "gsm8k"
+},
+"dev-0045": {
+"family": "gsm8k_or_other",
+"answer": "100",
+"source": "gsm8k"
+},
+"dev-0048": {
+"family": "gsm8k_or_other",
+"answer": "8",
+"source": "gsm8k"
+},
+"dev-0049": {
+"family": "gsm8k_or_other",
+"answer": "230",
+"source": "gsm8k"
+},
+"dev-0057": {
+"family": "gsm8k_or_other",
+"answer": "80",
+"source": "gsm8k"
+},
+"dev-0063": {
+"family": "gsm8k_or_other",
+"answer": "41",
+"source": "gsm8k"
+},
+"dev-0073": {
+"family": "gsm8k_or_other",
+"answer": "880",
+"source": "gsm8k"
+},
+"dev-0074": {
+"family": "aime",
+"answer": "300",
+"source": "gsm8k"
+},
+"dev-0077": {
+"family": "gsm8k_or_other",
+"answer": "6",
+"source": "gsm8k"
+},
+"dev-0082": {
+"family": "gsm8k_or_other",
+"answer": "1",
+"source": "gsm8k"
+},
+"dev-0095": {
+"family": "aime",
+"answer": "230",
+"source": "gsm8k"
+},
+"dev-0105": {
+"family": "aime",
+"answer": "12",
+"source": "gsm8k"
+},
+"dev-0106": {
+"family": "gsm8k_or_other",
+"answer": "15",
+"source": "gsm8k"
+},
+"dev-0112": {
+"family": "gsm8k_or_other",
+"answer": "20",
+"source": "gsm8k"
+},
+"dev-0121": {
+"family": "gsm8k_or_other",
+"answer": "31",
+"source": "gsm8k"
+},
+"dev-0141": {
+"family": "aime",
+"answer": "250",
+"source": "gsm8k"
+},
+"dev-0144": {
+"family": "gsm8k_or_other",
+"answer": "68",
+"source": "gsm8k"
+},
+"dev-0163": {
+"family": "gsm8k_or_other",
+"answer": "375",
+"source": "gsm8k"
+},
+"dev-0165": {
+"family": "gsm8k_or_other",
+"answer": "24",
+"source": "gsm8k"
+},
+"dev-0167": {
+"family": "gsm8k_or_other",
+"answer": "7",
+"source": "gsm8k"
+},
+"dev-0169": {
+"family": "gsm8k_or_other",
+"answer": "98",
+"source": "gsm8k"
+},
+"dev-0190": {
+"family": "gsm8k_or_other",
+"answer": "60000",
+"source": "gsm8k"
+},
+"dev-0191": {
+"family": "aime",
+"answer": "3",
+"source": "gsm8k"
+},
+"dev-0194": {
+"family": "aime",
+"answer": "57",
+"source": "gsm8k"
+},
+"dev-0203": {
+"family": "gsm8k_or_other",
+"answer": "4000",
+"source": "gsm8k"
+},
+"dev-0217": {
+"family": "gsm8k_or_other",
+"answer": "75",
+"source": "gsm8k"
+},
+"dev-0218": {
+"family": "aime",
+"answer": "8",
+"source": "gsm8k"
+},
+"dev-0219": {
+"family": "gsm8k_or_other",
+"answer": "240",
+"source": "gsm8k"
+},
+"dev-0256": {
+"family": "gsm8k_or_other",
+"answer": "27",
+"source": "gsm8k"
+},
+"dev-0266": {
+"family": "gsm8k_or_other",
+"answer": "385000",
+"source": "gsm8k"
+},
+"dev-0279": {
+"family": "aime",
+"answer": "6",
+"source": "gsm8k"
+},
+"dev-0280": {
+"family": "aime",
+"answer": "7",
+"source": "gsm8k"
+},
+"dev-0284": {
+"family": "aime",
+"answer": "100",
+"source": "gsm8k"
+},
+"dev-0287": {
+"family": "gsm8k_or_other",
+"answer": "30",
+"source": "gsm8k"
+},
+"dev-0289": {
+"family": "gsm8k_or_other",
+"answer": "5",
+"source": "gsm8k"
+},
+"dev-0291": {
+"family": "aime",
+"answer": "14",
+"source": "gsm8k"
+},
+"dev-0318": {
+"family": "gsm8k_or_other",
+"answer": "800",
+"source": "gsm8k"
+},
+"dev-0321": {
+"family": "gsm8k_or_other",
+"answer": "4",
+"source": "gsm8k"
+},
+"dev-0331": {
+"family": "gsm8k_or_other",
+"answer": "342",
+"source": "gsm8k"
+},
+"dev-0336": {
+"family": "aime",
+"answer": "16",
+"source": "gsm8k"
+},
+"dev-0378": {
+"family": "aime",
+"answer": "300",
+"source": "gsm8k"
+},
+"dev-0387": {
+"family": "gsm8k_or_other",
+"answer": "84",
+"source": "gsm8k"
+},
+"dev-0395": {
+"family": "gsm8k_or_other",
+"answer": "20",
+"source": "gsm8k"
+},
+"dev-0401": {
+"family": "gsm8k_or_other",
+"answer": "104",
+"source": "gsm8k"
+},
+"dev-0402": {
+"family": "aime",
+"answer": "42",
+"source": "gsm8k"
+},
+"dev-0403": {
+"family": "gsm8k_or_other",
+"answer": "10",
+"source": "gsm8k"
+},
+"dev-0409": {
+"family": "gsm8k_or_other",
+"answer": "5",
+"source": "gsm8k"
+},
+"dev-0411": {
+"family": "gsm8k_or_other",
+"answer": "300",
+"source": "gsm8k"
+},
+"dev-0412": {
+"family": "aime",
+"answer": "2",
+"source": "gsm8k"
+},
+"dev-0702": {
+"family": "gsm8k_or_other",
+"answer": "17",
+"source": "gsm8k"
+},
+"dev-0703": {
+"family": "gsm8k_or_other",
+"answer": "7",
+"source": "gsm8k"
+},
+"dev-0704": {
+"family": "aime",
+"answer": "60",
+"source": "gsm8k"
+},
+"dev-0705": {
+"family": "gsm8k_or_other",
+"answer": "1000",
+"source": "gsm8k"
+},
+"dev-0706": {
+"family": "gsm8k_or_other",
+"answer": "32",
+"source": "gsm8k"
+},
+"dev-0707": {
+"family": "aime",
+"answer": "1100",
+"source": "gsm8k"
+},
+"dev-0708": {
+"family": "gsm8k_or_other",
+"answer": "250",
+"source": "gsm8k"
+},
+"dev-0709": {
+"family": "gsm8k_or_other",
+"answer": "69",
+"source": "gsm8k"
+},
+"dev-0710": {
+"family": "gsm8k_or_other",
+"answer": "50",
+"source": "gsm8k"
+},
+"dev-0711": {
+"family": "gsm8k_or_other",
+"answer": "13",
+"source": "gsm8k"
+},
+"dev-0712": {
+"family": "aime",
+"answer": "31800",
+"source": "gsm8k"
+},
+"dev-0713": {
+"family": "gsm8k_or_other",
+"answer": "9",
+"source": "gsm8k"
+},
+"dev-0714": {
+"family": "gsm8k_or_other",
+"answer": "315",
+"source": "gsm8k"
+},
+"dev-0715": {
+"family": "gsm8k_or_other",
+"answer": "300",
+"source": "gsm8k"
+},
+"dev-0716": {
+"family": "gsm8k_or_other",
+"answer": "4",
+"source": "gsm8k"
+},
+"dev-0717": {
+"family": "gsm8k_or_other",
+"answer": "5",
+"source": "gsm8k"
+},
+"dev-0718": {
+"family": "gsm8k_or_other",
+"answer": "110",
+"source": "gsm8k"
+},
+"dev-0719": {
+"family": "gsm8k_or_other",
+"answer": "160",
+"source": "gsm8k"
+},
+"dev-0720": {
+"family": "gsm8k_or_other",
+"answer": "72",
+"source": "gsm8k"
+},
+"dev-0721": {
+"family": "aime",
+"answer": "3200",
+"source": "gsm8k"
+},
+"dev-0722": {
+"family": "gsm8k_or_other",
+"answer": "100",
+"source": "gsm8k"
+},
+"dev-0723": {
+"family": "gsm8k_or_other",
+"answer": "64",
+"source": "gsm8k"
+},
+"dev-0724": {
+"family": "gsm8k_or_other",
+"answer": "621",
+"source": "gsm8k"
+},
+"dev-0725": {
+"family": "gsm8k_or_other",
+"answer": "21",
+"source": "gsm8k"
+},
+"dev-0726": {
+"family": "gsm8k_or_other",
+"answer": "64",
+"source": "gsm8k"
+},
+"dev-0727": {
+"family": "gsm8k_or_other",
+"answer": "35",
+"source": "gsm8k"
+},
+"dev-0728": {
+"family": "gsm8k_or_other",
+"answer": "20",
+"source": "gsm8k"
+},
+"dev-0729": {
+"family": "aime",
+"answer": "7",
+"source": "gsm8k"
+},
+"dev-0730": {
+"family": "gsm8k_or_other",
+"answer": "5",
+"source": "gsm8k"
+},
+"dev-0731": {
+"family": "gsm8k_or_other",
+"answer": "560",
+"source": "gsm8k"
+},
+"dev-0732": {
+"family": "aime",
+"answer": "220",
+"source": "gsm8k"
+},
+"dev-0733": {
+"family": "gsm8k_or_other",
+"answer": "10",
+"source": "gsm8k"
+},
+"dev-0734": {
+"family": "gsm8k_or_other",
+"answer": "26",
+"source": "gsm8k"
+},
+"dev-0735": {
+"family": "gsm8k_or_other",
+"answer": "104",
+"source": "gsm8k"
+},
+"dev-0736": {
+"family": "aime",
+"answer": "26",
+"source": "gsm8k"
+},
+"dev-0737": {
+"family": "gsm8k_or_other",
+"answer": "168",
+"source": "gsm8k"
+},
+"dev-0738": {
+"family": "aime",
+"answer": "1375",
+"source": "gsm8k"
+},
+"dev-0739": {
+"family": "aime",
+"answer": "4",
+"source": "gsm8k"
+},
+"dev-0740": {
+"family": "aime",
+"answer": "4",
+"source": "gsm8k"
+},
+"dev-0741": {
+"family": "gsm8k_or_other",
+"answer": "16",
+"source": "gsm8k"
+},
+"dev-0742": {
+"family": "aime",
+"answer": "5",
+"source": "gsm8k"
+},
+"dev-0743": {
+"family": "gsm8k_or_other",
+"answer": "40",
+"source": "gsm8k"
+},
+"dev-0744": {
+"family": "gsm8k_or_other",
+"answer": "40",
+"source": "gsm8k"
+},
+"dev-0745": {
+"family": "aime",
+"answer": "6",
+"source": "gsm8k"
+},
+"dev-0746": {
+"family": "aime",
+"answer": "251",
+"source": "gsm8k"
+},
+"dev-0747": {
+"family": "aime",
+"answer": "9",
+"source": "gsm8k"
+},
+"dev-0748": {
+"family": "gsm8k_or_other",
+"answer": "4",
+"source": "gsm8k"
+},
+"dev-0749": {
+"family": "gsm8k_or_other",
+"answer": "144",
+"source": "gsm8k"
+},
+"dev-0750": {
+"family": "gsm8k_or_other",
+"answer": "48",
+"source": "gsm8k"
+},
+"dev-0751": {
+"family": "gsm8k_or_other",
+"answer": "250",
+"source": "gsm8k"
+},
+"dev-0752": {
+"family": "gsm8k_or_other",
+"answer": "100",
+"source": "gsm8k"
+},
+"dev-0753": {
+"family": "gsm8k_or_other",
+"answer": "4",
+"source": "gsm8k"
+},
+"dev-0754": {
+"family": "gsm8k_or_other",
+"answer": "72",
+"source": "gsm8k"
+},
+"dev-0755": {
+"family": "aime",
+"answer": "18",
+"source": "gsm8k"
+},
+"dev-0756": {
+"family": "gsm8k_or_other",
+"answer": "20",
+"source": "gsm8k"
+},
+"dev-0757": {
+"family": "aime",
+"answer": "350",
+"source": "gsm8k"
+},
+"train-0003": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0008": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0013": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0015": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0016": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0019": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0024": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0026": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0037": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0052": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0069": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0071": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0080": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0084": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0088": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0097": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0100": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0107": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0110": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0114": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0116": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0124": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0127": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0133": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0142": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0145": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0146": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0156": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0160": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0161": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0163": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0197": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0201": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0203": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0204": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0209": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0216": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0217": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0220": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0222": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0231": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0241": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0252": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0261": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0266": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0268": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0270": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0273": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0275": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0276": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0281": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0284": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0285": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0286": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0295": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0297": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0302": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0307": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0320": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0331": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0341": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0346": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0358": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0360": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0368": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0375": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0382": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0383": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0389": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0390": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0396": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0412": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0415": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0422": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0424": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0446": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0447": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0457": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0463": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0467": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0474": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0484": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0486": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0488": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0491": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0492": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0496": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0503": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0508": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0514": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0517": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0519": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0522": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0532": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0537": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0538": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0541": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0548": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0557": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0565": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0583": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0587": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0589": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0598": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0600": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0612": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0615": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0616": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0619": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0624": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0628": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0632": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0638": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0639": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0641": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0644": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0646": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0653": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0661": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0664": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0667": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0669": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0673": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0674": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0680": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0686": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0687": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0688": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0694": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0697": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0711": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0720": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0725": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0726": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0729": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0735": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0739": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0740": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0751": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0752": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0758": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0775": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0783": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0791": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0793": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0795": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0798": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0801": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0804": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0805": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0808": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0809": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0814": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0815": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0818": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0819": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0821": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0822": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0823": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0828": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0967": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0968": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0969": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0970": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0971": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0972": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0973": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0974": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0975": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0976": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0977": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0978": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0979": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0980": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0981": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0982": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0983": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0984": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0985": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0986": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0987": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0988": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-0989": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0990": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0991": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0992": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0993": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0994": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-0995": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-0996": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0997": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0998": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0999": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1000": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1001": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1002": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1003": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1004": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1005": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1006": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1007": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1008": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1009": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1010": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1011": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1012": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1013": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1014": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1015": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1016": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1017": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1018": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1019": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1020": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1021": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1022": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1023": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1024": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1025": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1026": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1027": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1028": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1029": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1030": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1031": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1032": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1033": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1034": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1035": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1036": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1037": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1038": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1039": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1040": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1041": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1042": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1043": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1044": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1045": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1046": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1047": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1048": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1049": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1050": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1051": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1052": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1053": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1054": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1055": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1056": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1057": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1058": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1059": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1060": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1061": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1062": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1063": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1064": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1065": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1066": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1067": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1068": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1069": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1070": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1071": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1072": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1073": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1074": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1075": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1076": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1077": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1078": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1079": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1080": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1081": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1082": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1083": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1084": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1085": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1086": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1087": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1088": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1089": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1090": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1091": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1092": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1093": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1094": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1095": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1096": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1097": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1098": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1099": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1100": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1101": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1102": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1103": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1104": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1105": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1106": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1107": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1108": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1109": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1110": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1111": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1112": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1113": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1114": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1115": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1116": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1117": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1118": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1119": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1120": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1121": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"train-1122": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1123": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1124": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-1125": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1126": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"train-1127": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"train-1128": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0003": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0004": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0006": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0014": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0018": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0033": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0047": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0050": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0058": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0076": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0088": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0094": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0096": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0098": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0103": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0107": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0119": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0122": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0124": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0127": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0136": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0138": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0143": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0150": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0154": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0159": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0160": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0173": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0175": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0179": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0201": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0208": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0211": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0212": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0213": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0214": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0221": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0231": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0232": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0238": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0239": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0241": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0242": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0252": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0255": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0258": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0261": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0263": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0274": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0278": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0282": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0290": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0292": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0300": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0303": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0306": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0311": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0314": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0316": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0317": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0322": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0332": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0333": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0337": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0343": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0347": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0349": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0353": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0356": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0366": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0370": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0371": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0373": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0381": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0385": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0389": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0393": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0405": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0406": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0410": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0484": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0485": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0486": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0487": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0488": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0489": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0490": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0491": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0492": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0493": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0494": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0495": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0496": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0497": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0498": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0499": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0500": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0501": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0502": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0503": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0504": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0505": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0506": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0507": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0508": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0509": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0510": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0511": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0512": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0513": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0514": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0515": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0516": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0517": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0518": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0519": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0520": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0521": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0522": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0523": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0524": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0525": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0526": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0527": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0528": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0529": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0530": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0531": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0532": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0533": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0534": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0535": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0536": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0537": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0538": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0539": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0540": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0541": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0542": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0543": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0544": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0545": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0546": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0547": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0548": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0549": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0550": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0551": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0552": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0553": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0554": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0555": {
+"family": "belebele",
+"answer": "A",
+"source": "belebele"
+},
+"dev-0556": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0557": {
+"family": "belebele",
+"answer": "B",
+"source": "belebele"
+},
+"dev-0558": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0559": {
+"family": "belebele",
+"answer": "D",
+"source": "belebele"
+},
+"dev-0560": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0561": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0562": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0563": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"dev-0564": {
+"family": "belebele",
+"answer": "C",
+"source": "belebele"
+},
+"train-0002": {
+"family": "code",
+"answer": "'mty'",
+"source": "cruxeval-output",
+"check": "f('mTYWLMwbLRVOqNEf.oLsYkZORKE[Ko[{n') == 'mty'"
+},
+"train-0005": {
+"family": "code",
+"answer": "False",
+"source": "cruxeval-output",
+"check": "f(\"---123-4\") == False"
+},
+"train-0029": {
+"family": "code",
+"answer": "'no'",
+"source": "cruxeval-output",
+"check": "f(\"2two programmers\") == 'no'"
+},
+"train-0031": {
+"family": "code",
+"answer": "''",
+"source": "cruxeval-output",
+"check": "f('shivajimonto6', '6') == ''"
+},
+"train-0042": {
+"family": "code",
+"answer": "'SzHjifnzo'",
+"source": "cruxeval-output",
+"check": "f('SzHjifnzog') == 'SzHjifnzo'"
+},
+"train-0049": {
+"family": "code",
+"answer": "'!klcd!ma:ri', '!'",
+"source": "cruxeval-input",
+"check": "f('!klcd!ma:ri', '!') == '!klcd!ma:ri'"
+},
+"train-0050": {
+"family": "code",
+"answer": "{1: 2, 3: 4, 5: 6, 7: 8, 9: 10}, 1",
+"source": "cruxeval-input",
+"check": "f({1: 2, 3: 4, 5: 6, 7: 8, 9: 10}, 1) == {1: 2, 3: 4, 5: 6, 7: 8, 10: 9}"
+},
+"train-0056": {
+"family": "code",
+"answer": "'udbs l'",
+"source": "cruxeval-output",
+"check": "f('undbs l', 1) == 'udbs l'"
+},
+"train-0058": {
+"family": "code",
+"answer": "[1, 1, 1, 1]",
+"source": "cruxeval-input",
+"check": "f([1, 1, 1, 1]) == [1, 1, 1, 1]"
+},
+"train-0060": {
+"family": "code",
+"answer": "'s7 6s 1ss', [1, 3, 6, 1, 2]",
+"source": "cruxeval-input",
+"check": "f('s7 6s 1ss', [1, 3, 6, 1, 2]) == ['7', '6', '1', '7', ' ']"
+},
+"train-0063": {
+"family": "code",
+"answer": "'lwwer case'",
+"source": "cruxeval-output",
+"check": "f('upper case', 'lower case') == 'lwwer case'"
+},
+"train-0075": {
+"family": "code",
+"answer": "'ruam'",
+"source": "cruxeval-input",
+"check": "f('ruam') == 'ruamNHIB'"
+},
+"train-0087": {
+"family": "code",
+"answer": "False",
+"source": "cruxeval-output",
+"check": "f('Ohno') == False"
+},
+"train-0091": {
+"family": "code",
+"answer": "0, ['aaa', 'bbb']",
+"source": "cruxeval-input",
+"check": "f(0, ['aaa', 'bbb']) == {}"
+},
+"train-0102": {
+"family": "code",
+"answer": "'UppEr'",
+"source": "cruxeval-output",
+"check": "f('UppEr', 0) == 'UppEr'"
+},
+"train-0125": {
+"family": "code",
+"answer": "('TEXT', 'CODE')",
+"source": "cruxeval-output",
+"check": "f({'TEXT': 7, 'CODE': 3}, 7, 3) == ('TEXT', 'CODE')"
+},
+"train-0128": {
+"family": "code",
+"answer": "[1, 9, 4]",
+"source": "cruxeval-output",
+"check": "f([[1, 9, 4], [83, 0, 5], [9, 6, 100]], 1) == [1, 9, 4]"
+},
+"train-0129": {
+"family": "code",
+"answer": "'ellod!p.nkyp.exa.bi.y.hain'",
+"source": "cruxeval-output",
+"check": "f('ellod!p.nkyp.exa.bi.y.hain', '.n.in.ha.y') == 'ellod!p.nkyp.exa.bi.y.hain'"
+},
+"train-0136": {
+"family": "code",
+"answer": "'RES'",
+"source": "cruxeval-output",
+"check": "f('String matching is a big part of RexEx library.') == 'RES'"
+},
+"train-0141": {
+"family": "code",
+"answer": "[1, 1, 1, 1]",
+"source": "cruxeval-output",
+"check": "f([1, 1, 1, 1]) == [1, 1, 1, 1]"
+},
+"train-0150": {
+"family": "code",
+"answer": "[0, 2, 1, 2, 6, 2, 6, 3, 0]",
+"source": "cruxeval-input",
+"check": "f([0, 2, 1, 2, 6, 2, 6, 3, 0]) == [0, 2, 2]"
+},
+"train-0155": {
+"family": "code",
+"answer": "0",
+"source": "cruxeval-output",
+"check": "f([5, -3, 3, 2], 2) == 0"
+},
+"train-0158": {
+"family": "code",
+"answer": "'2,4,2,0,'",
+"source": "cruxeval-output",
+"check": "f((32332, 23543, 132323, 33300), ',') == '2,4,2,0,'"
+},
+"train-0165": {
+"family": "code",
+"answer": "'zjegiymjc', 'j', 2",
+"source": "cruxeval-input",
+"check": "f('zjegiymjc', 'j', 2) == -1"
+},
+"train-0169": {
+"family": "code",
+"answer": "[1, 7, -1, -3]",
+"source": "cruxeval-input",
+"check": "f([1, 7, -1, -3]) == [-3, 1, 7, -1]"
+},
+"train-0173": {
+"family": "code",
+"answer": "'abc', 8",
+"source": "cruxeval-input",
+"check": "f('abc', 8) == 'zzzzzabc'"
+},
+"train-0174": {
+"family": "code",
+"answer": "'ertubwi', 'p', 5",
+"source": "cruxeval-input",
+"check": "f('ertubwi', 'p', 5) == 'ertubwi'"
+},
+"train-0176": {
+"family": "code",
+"answer": "[-7, 3, 1, -1, -1, 0, 4], 6",
+"source": "cruxeval-input",
+"check": "f([-7, 3, 1, -1, -1, 0, 4], 6) == 4"
+},
+"train-0185": {
+"family": "code",
+"answer": "\"h,e,l,l,o,wo,r,ld,\"",
+"source": "cruxeval-input",
+"check": "f(\"h,e,l,l,o,wo,r,ld,\") == 'h,e,l,l,o,wo,r,ld'"
+},
+"train-0192": {
+"family": "code",
+"answer": "'wslh0762m934'",
+"source": "cruxeval-output",
+"check": "f('439m2670hlsw', 3) == 'wslh0762m934'"
+},
+"train-0196": {
+"family": "code",
+"answer": "'undbs l', 1",
+"source": "cruxeval-input",
+"check": "f('undbs l', 1) == 'udbs l'"
+},
+"train-0202": {
+"family": "code",
+"answer": "['4', '4']",
+"source": "cruxeval-output",
+"check": "f(44) == ['4', '4']"
+},
+"train-0206": {
+"family": "code",
+"answer": "[2, 0, 6, 2, 1, 7, 1, 2, 6, 0, 2]",
+"source": "cruxeval-output",
+"check": "f([7, 1, 2, 6, 0, 2]) == [2, 0, 6, 2, 1, 7, 1, 2, 6, 0, 2]"
+},
+"train-0208": {
+"family": "code",
+"answer": "{}",
+"source": "cruxeval-output",
+"check": "f({}) == {}"
+},
+"train-0212": {
+"family": "code",
+"answer": "'seiq d'",
+"source": "cruxeval-output",
+"check": "f(\"seiq7229 d27\") == 'seiq d'"
+},
+"train-0214": {
+"family": "code",
+"answer": "'sfdellos'",
+"source": "cruxeval-output",
+"check": "f('asfdellos', 'Ta') == 'sfdellos'"
+},
+"train-0219": {
+"family": "code",
+"answer": "[\"a\", \"b\", \"c\"]",
+"source": "cruxeval-input",
+"check": "f([\"a\", \"b\", \"c\"]) == ['a', 'b', 'c']"
+},
+"train-0225": {
+"family": "code",
+"answer": "'spider'",
+"source": "cruxeval-output",
+"check": "f('spider', 'ed') == 'spider'"
+},
+"train-0232": {
+"family": "code",
+"answer": "'102'",
+"source": "cruxeval-input",
+"check": "f('102') == False"
+},
+"train-0246": {
+"family": "code",
+"answer": "8",
+"source": "cruxeval-output",
+"check": "f('eeuseeeoehasa') == 8"
+},
+"train-0247": {
+"family": "code",
+"answer": "'spider', 'ed'",
+"source": "cruxeval-input",
+"check": "f('spider', 'ed') == 'spider'"
+},
+"train-0248": {
+"family": "code",
+"answer": "'abc', 1",
+"source": "cruxeval-input",
+"check": "f('abc', 1) == ''"
+},
+"train-0267": {
+"family": "code",
+"answer": "[]",
+"source": "cruxeval-output",
+"check": "f(['Sydney', 'Hong Kong', 'Melbourne', 'Sao Paolo', 'Istanbul', 'Boston'], 'Somewhere ') == []"
+},
+"train-0274": {
+"family": "code",
+"answer": "['pear', 'banana', 'pear']",
+"source": "cruxeval-output",
+"check": "f(['apple', 'apple', 'pear', 'banana', 'pear', 'orange', 'orange']) == ['pear', 'banana', 'pear']"
+},
+"train-0292": {
+"family": "code",
+"answer": "\"145\\n\\n12fjkjg\"",
+"source": "cruxeval-input",
+"check": "f(\"145\\n\\n12fjkjg\") == 3"
+},
+"train-0294": {
+"family": "code",
+"answer": "{}",
+"source": "cruxeval-output",
+"check": "f({}) == {}"
+},
+"train-0296": {
+"family": "code",
+"answer": "[1, 1, 1, 1, 1]",
+"source": "cruxeval-output",
+"check": "f(\"x--y-z-5-C\") == [1, 1, 1, 1, 1]"
+},
+"train-0304": {
+"family": "code",
+"answer": "[5, -3, 3, 2], 2",
+"source": "cruxeval-input",
+"check": "f([5, -3, 3, 2], 2) == 0"
+},
+"train-0315": {
+"family": "code",
+"answer": "['b', 'i', 'r', 'o', 's', 'j', 'v', 'p']",
+"source": "cruxeval-input",
+"check": "f(['b', 'i', 'r', 'o', 's', 'j', 'v', 'p']) == 'yes'"
+},
+"train-0325": {
+"family": "code",
+"answer": "'h,e,l,l,o,wo,r,ld'",
+"source": "cruxeval-output",
+"check": "f(\"h,e,l,l,o,wo,r,ld,\") == 'h,e,l,l,o,wo,r,ld'"
+},
+"train-0330": {
+"family": "code",
+"answer": "1",
+"source": "cruxeval-output",
+"check": "f([-1, 12, -6, -2], -1) == 1"
+},
+"train-0333": {
+"family": "code",
+"answer": "2",
+"source": "cruxeval-output",
+"check": "f(\"dp ef1 gh2\") == 2"
+},
+"train-0342": {
+"family": "code",
+"answer": "'eat!'",
+"source": "cruxeval-input",
+"check": "f('eat!') == 'e!t!'"
+},
+"train-0347": {
+"family": "code",
+"answer": "'0aabbaa0b', 'a'",
+"source": "cruxeval-input",
+"check": "f('0aabbaa0b', 'a') == '0aabbaa0b'"
+},
+"train-0351": {
+"family": "code",
+"answer": "[0]",
+"source": "cruxeval-output",
+"check": "f([]) == [0]"
+},
+"train-0355": {
+"family": "code",
+"answer": "'a', 'a'",
+"source": "cruxeval-input",
+"check": "f('a', 'a') == ' '"
+},
+"train-0369": {
+"family": "code",
+"answer": "[2, 4, 6, 8]",
+"source": "cruxeval-output",
+"check": "f((1, 2, 3, 4, 5, 6, 7, 8)) == [2, 4, 6, 8]"
+},
+"train-0376": {
+"family": "code",
+"answer": "True",
+"source": "cruxeval-output",
+"check": "f(\"x\") == True"
+},
+"train-0377": {
+"family": "code",
+"answer": "False",
+"source": "cruxeval-output",
+"check": "f(\"54882\") == False"
+},
+"train-0380": {
+"family": "code",
+"answer": "[1]",
+"source": "cruxeval-input",
+"check": "f([1]) == [1]"
+},
+"train-0392": {
+"family": "code",
+"answer": "'No such key!'",
+"source": "cruxeval-output",
+"check": "f(dict(did=0), 'u') == 'No such key!'"
+},
+"train-0405": {
+"family": "code",
+"answer": "['a', 'b', 'c']",
+"source": "cruxeval-output",
+"check": "f([\"a\", \"b\", \"c\"]) == ['a', 'b', 'c']"
+},
+"train-0411": {
+"family": "code",
+"answer": "['7', '6', '1', '7', ' ']",
+"source": "cruxeval-output",
+"check": "f('s7 6s 1ss', [1, 3, 6, 1, 2]) == ['7', '6', '1', '7', ' ']"
+},
+"train-0414": {
+"family": "code",
+"answer": "6,8,8",
+"source": "cruxeval-input",
+"check": "f(6,8,8) == '6,8,8'"
+},
+"train-0425": {
+"family": "code",
+"answer": "'Xzd'",
+"source": "cruxeval-output",
+"check": "f('xzd') == 'Xzd'"
+},
+"train-0427": {
+"family": "code",
+"answer": "(0, 'xxxxxxxxxxxxxxxxxx')",
+"source": "cruxeval-output",
+"check": "f('DSUWeqExTQdCMGpqur', 'a', 'x') == (0, 'xxxxxxxxxxxxxxxxxx')"
+},
+"train-0428": {
+"family": "code",
+"answer": "'||a'",
+"source": "cruxeval-output",
+"check": "f(\"\\ta\", 3) == '||a'"
+},
+"train-0440": {
+"family": "code",
+"answer": "[1, 2, 3, 8]",
+"source": "cruxeval-output",
+"check": "f([1, 2, 3], 8, 5) == [1, 2, 3, 8]"
+},
+"train-0459": {
+"family": "code",
+"answer": "[2, 3, 4, 6, -2]",
+"source": "cruxeval-input",
+"check": "f([2, 3, 4, 6, -2]) == [2, 3, 3, 4, 6, -2]"
+},
+"train-0460": {
+"family": "code",
+"answer": "{'Iron Man': 4, 'Captain America': 3, 'Black Panther': 0,'Thor': 1, 'Ant-Man': 6}, 'Iron Man'",
+"source": "cruxeval-input",
+"check": "f({'Iron Man': 4, 'Captain America': 3, 'Black Panther': 0,'Thor': 1, 'Ant-Man': 6}, 'Iron Man') == 'Iron Man'"
+},
+"train-0487": {
+"family": "code",
+"answer": "[2], 0, 2",
+"source": "cruxeval-input",
+"check": "f([2], 0, 2) == [2, 1, 2]"
+},
+"train-0490": {
+"family": "code",
+"answer": "'Fu,ux zfujijabji pfu.'",
+"source": "cruxeval-input",
+"check": "f('Fu,ux zfujijabji pfu.') == 'Fu,Ux Zfujijabji Pfu.'"
+},
+"train-0493": {
+"family": "code",
+"answer": "\"HI\"",
+"source": "cruxeval-input",
+"check": "f(\"HI\") == {'h': 1, 'i': 1}"
+},
+"train-0499": {
+"family": "code",
+"answer": "[3, 6, 4, -2, 5]",
+"source": "cruxeval-input",
+"check": "f([3, 6, 4, -2, 5]) == [6, 4, -2, 6, 4, -2]"
+},
+"train-0500": {
+"family": "code",
+"answer": "'quack'",
+"source": "cruxeval-output",
+"check": "f([2, 5, 1, 7, 9, 3]) == 'quack'"
+},
+"train-0531": {
+"family": "code",
+"answer": "['Sydney', 'Hong Kong', 'Melbourne', 'Sao Paolo', 'Istanbul', 'Boston'], 'Somewhere '",
+"source": "cruxeval-input",
+"check": "f(['Sydney', 'Hong Kong', 'Melbourne', 'Sao Paolo', 'Istanbul', 'Boston'], 'Somewhere ') == []"
+},
+"train-0533": {
+"family": "code",
+"answer": "'bfreratrrbdbzagbretaredtroefcoiqrrneaosf'.split('-'), 'n'",
+"source": "cruxeval-input",
+"check": "f('bfreratrrbdbzagbretaredtroefcoiqrrneaosf'.split('-'), 'n') == 2"
+},
+"train-0549": {
+"family": "code",
+"answer": "'pichiwa'",
+"source": "cruxeval-output",
+"check": "f('pi wa', 'chi') == 'pichiwa'"
+},
+"train-0556": {
+"family": "code",
+"answer": "'5000   $'",
+"source": "cruxeval-output",
+"check": "f(\"25000   $\") == '5000   $'"
+},
+"train-0573": {
+"family": "code",
+"answer": "'n'",
+"source": "cruxeval-output",
+"check": "f('pn', 'p') == 'n'"
+},
+"train-0574": {
+"family": "code",
+"answer": "[5, 8]",
+"source": "cruxeval-input",
+"check": "f([5, 8]) == True"
+},
+"train-0586": {
+"family": "code",
+"answer": "{3: 'A3', 1: 'A1', 2: 'A2'}",
+"source": "cruxeval-output",
+"check": "f({ 3: 'A3', 1: 'A1', 2: 'A2' }) == {3: 'A3', 1: 'A1', 2: 'A2'}"
+},
+"train-0606": {
+"family": "code",
+"answer": "\"591237865\"",
+"source": "cruxeval-input",
+"check": "f(\"591237865\") == 0"
+},
+"train-0607": {
+"family": "code",
+"answer": "{'X': ['X', 'Y']}",
+"source": "cruxeval-output",
+"check": "f({'X': ['x', 'y']}) == {'X': ['X', 'Y']}"
+},
+"train-0613": {
+"family": "code",
+"answer": "\"\"",
+"source": "cruxeval-input",
+"check": "f(\"\") == ''"
+},
+"train-0618": {
+"family": "code",
+"answer": "dict(did=0), 'u'",
+"source": "cruxeval-input",
+"check": "f(dict(did=0), 'u') == 'No such key!'"
+},
+"train-0620": {
+"family": "code",
+"answer": "'asfdellos', 'Ta'",
+"source": "cruxeval-input",
+"check": "f('asfdellos', 'Ta') == 'sfdellos'"
+},
+"train-0636": {
+"family": "code",
+"answer": "\" 99 777\"",
+"source": "cruxeval-input",
+"check": "f(\" 99 777\") == 'tuple'"
+},
+"train-0643": {
+"family": "code",
+"answer": "'800'",
+"source": "cruxeval-output",
+"check": "f('800') == '800'"
+},
+"train-0647": {
+"family": "code",
+"answer": "\"54882\"",
+"source": "cruxeval-input",
+"check": "f(\"54882\") == False"
+},
+"train-0648": {
+"family": "code",
+"answer": "'19', 5",
+"source": "cruxeval-input",
+"check": "f('19', 5) == '00019'"
+},
+"train-0651": {
+"family": "code",
+"answer": "'[CHARRUNNERS]Do you know who the other was? [NEGMENDS]', '[CHARRUNNERS]'",
+"source": "cruxeval-input",
+"check": "f('[CHARRUNNERS]Do you know who the other was? [NEGMENDS]', '[CHARRUNNERS]') == 'Do you know who the other was? [NEGMENDS]'"
+},
+"train-0652": {
+"family": "code",
+"answer": "'*  There  Hello'",
+"source": "cruxeval-output",
+"check": "f('Hello There', '*') == '*  There  Hello'"
+},
+"train-0657": {
+"family": "code",
+"answer": "[2, 1, 2, 3, 1, 6, 3, 8]",
+"source": "cruxeval-input",
+"check": "f([2, 1, 2, 3, 1, 6, 3, 8]) == []"
+},
+"train-0660": {
+"family": "code",
+"answer": "'E wrestled evil until upperfeat', 'e'",
+"source": "cruxeval-input",
+"check": "f('E wrestled evil until upperfeat', 'e') == 'E wrestled evil until upperfeat'"
+},
+"train-0663": {
+"family": "code",
+"answer": "[1, 2, 3, 4, 5]",
+"source": "cruxeval-input",
+"check": "f([1, 2, 3, 4, 5]) == [10, 8, 6, 4, 2]"
+},
+"train-0668": {
+"family": "code",
+"answer": "[0, 4, 5, 6], [13, 23, -5, 0]",
+"source": "cruxeval-input",
+"check": "f([0, 4, 5, 6], [13, 23, -5, 0]) == 6"
+},
+"train-0690": {
+"family": "code",
+"answer": "\"Jaafodsfa SOdofj AoaFjIs  JAFasIdfSa1\"",
+"source": "cruxeval-input",
+"check": "f(\"Jaafodsfa SOdofj AoaFjIs  JAFasIdfSa1\") == 'JAAFODSFA SODOFJ AOAFJIS  JAFASIDFSA1'"
+},
+"train-0692": {
+"family": "code",
+"answer": "'/CL44     '",
+"source": "cruxeval-input",
+"check": "f('/CL44     ') == ['', ':', 'CL44     ']"
+},
+"train-0701": {
+"family": "code",
+"answer": "'Because it intrigues them'",
+"source": "cruxeval-input",
+"check": "f('Because it intrigues them') == 'Because it intrigues them'"
+},
+"train-0707": {
+"family": "code",
+"answer": "'2nm_28in'",
+"source": "cruxeval-output",
+"check": "f(\"2nm_28in\", \"nm\") == '2nm_28in'"
+},
+"train-0709": {
+"family": "code",
+"answer": "True",
+"source": "cruxeval-output",
+"check": "f('abc', 'e') == True"
+},
+"train-0716": {
+"family": "code",
+"answer": "'aaQwQwQwbbQwQwQwccQwQwQwde'",
+"source": "cruxeval-output",
+"check": "f('aaXXXXbbXXXXccXXXXde', 'QW') == 'aaQwQwQwbbQwQwQwccQwQwQwde'"
+},
+"train-0728": {
+"family": "code",
+"answer": "'{{{{}}}}'",
+"source": "cruxeval-output",
+"check": "f(\"{{{{}}}}\", {}) == '{{{{}}}}'"
+},
+"train-0744": {
+"family": "code",
+"answer": "'sowpf'",
+"source": "cruxeval-output",
+"check": "f('sowpf', -7) == 'sowpf'"
+},
+"train-0750": {
+"family": "code",
+"answer": "3",
+"source": "cruxeval-output",
+"check": "f('so456') == 3"
+},
+"train-0753": {
+"family": "code",
+"answer": "'=xtanp|sugv?z', 3, 6",
+"source": "cruxeval-input",
+"check": "f('=xtanp|sugv?z', 3, 6) == True"
+},
+"train-0759": {
+"family": "code",
+"answer": "[[1, 2, 3], [], [1, 2, 3]]",
+"source": "cruxeval-input",
+"check": "f([[1, 2, 3], [], [1, 2, 3]]) == [[1, 2, 3], [], [1, 2, 3]]"
+},
+"train-0762": {
+"family": "code",
+"answer": "['sdfs', 'drcr', '2e'], ['sdfs', 'dr2c', 'QWERTY'], 0",
+"source": "cruxeval-input",
+"check": "f(['sdfs', 'drcr', '2e'], ['sdfs', 'dr2c', 'QWERTY'], 0) == ['sdfs', 'drcr', '2e']"
+},
+"train-0773": {
+"family": "code",
+"answer": "\"aboba 212 has 0 digits\"",
+"source": "cruxeval-input",
+"check": "f(\"aboba 212 has 0 digits\") == 1"
+},
+"train-0774": {
+"family": "code",
+"answer": "'staovk', 'k'",
+"source": "cruxeval-input",
+"check": "f('staovk', 'k') == 'staovk'"
+},
+"train-0787": {
+"family": "code",
+"answer": "[3]",
+"source": "cruxeval-output",
+"check": "f(\"010100\", \"010\") == [3]"
+},
+"train-0790": {
+"family": "code",
+"answer": "{}",
+"source": "cruxeval-input",
+"check": "f({}) == {}"
+},
+"train-0792": {
+"family": "code",
+"answer": "[5, 4, 3, 2, 1, 0], 3",
+"source": "cruxeval-input",
+"check": "f([5, 4, 3, 2, 1, 0], 3) == [3, 5, 4, 3, 2, 1, 0]"
+},
+"train-0812": {
+"family": "code",
+"answer": "{'f': 1, 's': 1, 'a': 1}",
+"source": "cruxeval-output",
+"check": "f(\"FSA\") == {'f': 1, 's': 1, 'a': 1}"
+},
+"train-0813": {
+"family": "code",
+"answer": "'mnmnj krupa...##!@#!@#$$@##'",
+"source": "cruxeval-output",
+"check": "f('mnmnj krupa...##!@#!@#$$@##', '@') == 'mnmnj krupa...##!@#!@#$$@##'"
+},
+"train-0825": {
+"family": "code",
+"answer": "'spain', 'b', 4",
+"source": "cruxeval-input",
+"check": "f('spain', 'b', 4) == 'spaib'"
+},
+"train-0827": {
+"family": "code",
+"answer": "['sharron', 'Savannah', 'Mike Cherokee']",
+"source": "cruxeval-input",
+"check": "f(['sharron', 'Savannah', 'Mike Cherokee']) == 2"
+},
+"train-0836": {
+"family": "code",
+"answer": "'372359'",
+"source": "cruxeval-output",
+"check": "f(372359) == '372359'"
+},
+"train-1129": {
+"family": "code",
+"answer": "[]",
+"source": "cruxeval-input",
+"check": "f([]) == []"
+},
+"train-1130": {
+"family": "code",
+"answer": "'sowpf', -7",
+"source": "cruxeval-input",
+"check": "f('sowpf', -7) == 'sowpf'"
+},
+"train-1131": {
+"family": "code",
+"answer": "{'X': ['x', 'y']}",
+"source": "cruxeval-input",
+"check": "f({'X': ['x', 'y']}) == {'X': ['X', 'Y']}"
+},
+"train-1132": {
+"family": "code",
+"answer": "'800'",
+"source": "cruxeval-input",
+"check": "f('800') == '800'"
+},
+"train-1133": {
+"family": "code",
+"answer": "372359",
+"source": "cruxeval-input",
+"check": "f(372359) == '372359'"
+},
+"train-1134": {
+"family": "code",
+"answer": "\"2two programmers\"",
+"source": "cruxeval-input",
+"check": "f(\"2two programmers\") == 'no'"
+},
+"train-1135": {
+"family": "code",
+"answer": "'xzd'",
+"source": "cruxeval-input",
+"check": "f('xzd') == 'Xzd'"
+},
+"train-1136": {
+"family": "code",
+"answer": "{ 4: 'a' }",
+"source": "cruxeval-input",
+"check": "f({ 4: 'a' }) == [4]"
+},
+"train-1137": {
+"family": "code",
+"answer": "[2, 5, 1, 7, 9, 3]",
+"source": "cruxeval-input",
+"check": "f([2, 5, 1, 7, 9, 3]) == 'quack'"
+},
+"train-1138": {
+"family": "code",
+"answer": "' vup a zwwo oihee amuwuuw! ', 'a', 'u'",
+"source": "cruxeval-input",
+"check": "f(' vup a zwwo oihee amuwuuw! ', 'a', 'u') == ' vap a zwwo oihee amawaaw! '"
+},
+"train-1139": {
+"family": "code",
+"answer": "\"x\"",
+"source": "cruxeval-input",
+"check": "f(\"x\") == True"
+},
+"train-1140": {
+"family": "code",
+"answer": "'234rtccde', 'e'",
+"source": "cruxeval-input",
+"check": "f('234rtccde', 'e') == 1"
+},
+"train-1141": {
+"family": "code",
+"answer": "\"acbced\"",
+"source": "cruxeval-input",
+"check": "f(\"acbced\") == 'aCbCed'"
+},
+"train-1142": {
+"family": "code",
+"answer": "'mnmnj krupa...##!@#!@#$$@##', '@'",
+"source": "cruxeval-input",
+"check": "f('mnmnj krupa...##!@#!@#$$@##', '@') == 'mnmnj krupa...##!@#!@#$$@##'"
+},
+"train-1143": {
+"family": "code",
+"answer": "'upper case', 'lower case'",
+"source": "cruxeval-input",
+"check": "f('upper case', 'lower case') == 'lwwer case'"
+},
+"train-1144": {
+"family": "code",
+"answer": "\"dp ef1 gh2\"",
+"source": "cruxeval-input",
+"check": "f(\"dp ef1 gh2\") == 2"
+},
+"train-1145": {
+"family": "code",
+"answer": "['91', '16', '6r', '5r', 'egr', '', 'f', 'q1f', '-2']",
+"source": "cruxeval-input",
+"check": "f(['91', '16', '6r', '5r', 'egr', '', 'f', 'q1f', '-2']) == [182, 32]"
+},
+"train-1146": {
+"family": "code",
+"answer": "(1, 2, 3, 4, 5, 6, 7, 8)",
+"source": "cruxeval-input",
+"check": "f((1, 2, 3, 4, 5, 6, 7, 8)) == [2, 4, 6, 8]"
+},
+"train-1147": {
+"family": "code",
+"answer": "{}",
+"source": "cruxeval-input",
+"check": "f({}) == {}"
+},
+"train-1148": {
+"family": "code",
+"answer": "[[1, 9, 4], [83, 0, 5], [9, 6, 100]], 1",
+"source": "cruxeval-input",
+"check": "f([[1, 9, 4], [83, 0, 5], [9, 6, 100]], 1) == [1, 9, 4]"
+},
+"train-1149": {
+"family": "code",
+"answer": "\"\\ta\", 3",
+"source": "cruxeval-input",
+"check": "f(\"\\ta\", 3) == '||a'"
+},
+"train-1150": {
+"family": "code",
+"answer": "'xxxarmmarxx'",
+"source": "cruxeval-input",
+"check": "f('xxxarmmarxx') == 'xxxarmm ar xx'"
+},
+"train-1151": {
+"family": "code",
+"answer": "\"25000   $\"",
+"source": "cruxeval-input",
+"check": "f(\"25000   $\") == '5000   $'"
+},
+"train-1152": {
+"family": "code",
+"answer": "'l\\nl', 2",
+"source": "cruxeval-input",
+"check": "f('l\\nl', 2) == 'l \\nl '"
+},
+"train-1153": {
+"family": "code",
+"answer": "(32332, 23543, 132323, 33300), ','",
+"source": "cruxeval-input",
+"check": "f((32332, 23543, 132323, 33300), ',') == '2,4,2,0,'"
+},
+"train-1154": {
+"family": "code",
+"answer": "'CJU', 'BFS', 'WBYDZPVES', 'Y'",
+"source": "cruxeval-input",
+"check": "f('CJU', 'BFS', 'WBYDZPVES', 'Y') == 'BFS'"
+},
+"train-1155": {
+"family": "code",
+"answer": "\"x--y-z-5-C\"",
+"source": "cruxeval-input",
+"check": "f(\"x--y-z-5-C\") == [1, 1, 1, 1, 1]"
+},
+"train-1156": {
+"family": "code",
+"answer": "'aa+++bb', '+', 1",
+"source": "cruxeval-input",
+"check": "f('aa+++bb', '+', 1) == 'aa++___bb'"
+},
+"train-1157": {
+"family": "code",
+"answer": "'String matching is a big part of RexEx library.'",
+"source": "cruxeval-input",
+"check": "f('String matching is a big part of RexEx library.') == 'RES'"
+},
+"train-1158": {
+"family": "code",
+"answer": "\"qqqqq\", \"qqq\"",
+"source": "cruxeval-input",
+"check": "f(\"qqqqq\", \"qqq\") == 'qqqqq'"
+},
+"train-1159": {
+"family": "code",
+"answer": "\"010100\", \"010\"",
+"source": "cruxeval-input",
+"check": "f(\"010100\", \"010\") == [3]"
+},
+"train-1160": {
+"family": "code",
+"answer": "'Ohno'",
+"source": "cruxeval-input",
+"check": "f('Ohno') == False"
+},
+"train-1161": {
+"family": "code",
+"answer": "\"seiq7229 d27\"",
+"source": "cruxeval-input",
+"check": "f(\"seiq7229 d27\") == 'seiq d'"
+},
+"train-1162": {
+"family": "code",
+"answer": "'aaXXXXbbXXXXccXXXXde', 'QW'",
+"source": "cruxeval-input",
+"check": "f('aaXXXXbbXXXXccXXXXde', 'QW') == 'aaQwQwQwbbQwQwQwccQwQwQwde'"
+},
+"train-1163": {
+"family": "code",
+"answer": "'Hello There', '*'",
+"source": "cruxeval-input",
+"check": "f('Hello There', '*') == '*  There  Hello'"
+},
+"train-1164": {
+"family": "code",
+"answer": "['apple', 'apple', 'pear', 'banana', 'pear', 'orange', 'orange']",
+"source": "cruxeval-input",
+"check": "f(['apple', 'apple', 'pear', 'banana', 'pear', 'orange', 'orange']) == ['pear', 'banana', 'pear']"
+},
+"train-1165": {
+"family": "code",
+"answer": "'qpfi jzm', 'j'",
+"source": "cruxeval-input",
+"check": "f('qpfi jzm', 'j') == 'jqjfj zm'"
+},
+"train-1166": {
+"family": "code",
+"answer": "'eeuseeeoehasa'",
+"source": "cruxeval-input",
+"check": "f('eeuseeeoehasa') == 8"
+},
+"train-1167": {
+"family": "code",
+"answer": "'980jio80jic kld094398IIl '",
+"source": "cruxeval-input",
+"check": "f('980jio80jic kld094398IIl ') == 'jiojickldl'"
+},
+"train-1168": {
+"family": "code",
+"answer": "{ 3: 'A3', 1: 'A1', 2: 'A2' }",
+"source": "cruxeval-input",
+"check": "f({ 3: 'A3', 1: 'A1', 2: 'A2' }) == {3: 'A3', 1: 'A1', 2: 'A2'}"
+},
+"train-1169": {
+"family": "code",
+"answer": "{}",
+"source": "cruxeval-input",
+"check": "f({}) == {}"
+},
+"train-1170": {
+"family": "code",
+"answer": "[1, 2, 3], 8, 5",
+"source": "cruxeval-input",
+"check": "f([1, 2, 3], 8, 5) == [1, 2, 3, 8]"
+},
+"train-1171": {
+"family": "code",
+"answer": "{}, {'desciduous': 2}",
+"source": "cruxeval-input",
+"check": "f({}, {'desciduous': 2}) == {'desciduous': 2}"
+},
+"train-1172": {
+"family": "code",
+"answer": "'pi wa', 'chi'",
+"source": "cruxeval-input",
+"check": "f('pi wa', 'chi') == 'pichiwa'"
+},
+"train-1173": {
+"family": "code",
+"answer": "44",
+"source": "cruxeval-input",
+"check": "f(44) == ['4', '4']"
+},
+"train-1174": {
+"family": "code",
+"answer": "\"{{{{}}}}\", {}",
+"source": "cruxeval-input",
+"check": "f(\"{{{{}}}}\", {}) == '{{{{}}}}'"
+},
+"train-1175": {
+"family": "code",
+"answer": "[-1, 12, -6, -2], -1",
+"source": "cruxeval-input",
+"check": "f([-1, 12, -6, -2], -1) == 1"
+},
+"train-1176": {
+"family": "code",
+"answer": "'wrsch)xjmb8', 'c'",
+"source": "cruxeval-input",
+"check": "f('wrsch)xjmb8', 'c') == False"
+},
+"train-1177": {
+"family": "code",
+"answer": "\"FSA\"",
+"source": "cruxeval-input",
+"check": "f(\"FSA\") == {'f': 1, 's': 1, 'a': 1}"
+},
+"train-1178": {
+"family": "code",
+"answer": "[]",
+"source": "cruxeval-input",
+"check": "f([]) == [0]"
+},
+"train-1179": {
+"family": "code",
+"answer": "\"2nm_28in\", \"nm\"",
+"source": "cruxeval-input",
+"check": "f(\"2nm_28in\", \"nm\") == '2nm_28in'"
+},
+"train-1180": {
+"family": "code",
+"answer": "('ct', 'c', 'ca'), {'ca': 'cx'}",
+"source": "cruxeval-input",
+"check": "f(('ct', 'c', 'ca'), {'ca': 'cx'}) == {'ct': '', 'c': '', 'ca': 'cx'}"
+},
+"train-1181": {
+"family": "code",
+"answer": "'SzHjifnzog'",
+"source": "cruxeval-input",
+"check": "f('SzHjifnzog') == 'SzHjifnzo'"
+},
+"train-1182": {
+"family": "code",
+"answer": "'UppEr', 0",
+"source": "cruxeval-input",
+"check": "f('UppEr', 0) == 'UppEr'"
+},
+"train-1183": {
+"family": "code",
+"answer": "[2, 0, 1, 9999, 3, -5]",
+"source": "cruxeval-input",
+"check": "f([2, 0, 1, 9999, 3, -5]) == [-5, 3, 9999, 1, 0, 2]"
+},
+"train-1184": {
+"family": "code",
+"answer": "'DSUWeqExTQdCMGpqur', 'a', 'x'",
+"source": "cruxeval-input",
+"check": "f('DSUWeqExTQdCMGpqur', 'a', 'x') == (0, 'xxxxxxxxxxxxxxxxxx')"
+},
+"train-1185": {
+"family": "code",
+"answer": "{'TEXT': 7, 'CODE': 3}, 7, 3",
+"source": "cruxeval-input",
+"check": "f({'TEXT': 7, 'CODE': 3}, 7, 3) == ('TEXT', 'CODE')"
+},
+"train-1186": {
+"family": "code",
+"answer": "\"---123-4\"",
+"source": "cruxeval-input",
+"check": "f(\"---123-4\") == False"
+},
+"train-1187": {
+"family": "code",
+"answer": "\"a\\nbc\\n\\nd\\nef\", 5",
+"source": "cruxeval-input",
+"check": "f(\"a\\nbc\\n\\nd\\nef\", 5) == '  a  \\n  bc \\n     \\n  d  \\n  ef '"
+},
+"train-1188": {
+"family": "code",
+"answer": "'ellod!p.nkyp.exa.bi.y.hain', '.n.in.ha.y'",
+"source": "cruxeval-input",
+"check": "f('ellod!p.nkyp.exa.bi.y.hain', '.n.in.ha.y') == 'ellod!p.nkyp.exa.bi.y.hain'"
+},
+"train-1189": {
+"family": "code",
+"answer": "'pn', 'p'",
+"source": "cruxeval-input",
+"check": "f('pn', 'p') == 'n'"
+},
+"train-1190": {
+"family": "code",
+"answer": "'so456'",
+"source": "cruxeval-input",
+"check": "f('so456') == 3"
+},
+"train-1191": {
+"family": "code",
+"answer": "['sdfs', 'drcr', '2e']",
+"source": "cruxeval-output",
+"check": "f(['sdfs', 'drcr', '2e'], ['sdfs', 'dr2c', 'QWERTY'], 0) == ['sdfs', 'drcr', '2e']"
+},
+"train-1192": {
+"family": "code",
+"answer": "[]",
+"source": "cruxeval-output",
+"check": "f([]) == []"
+},
+"train-1193": {
+"family": "code",
+"answer": "'spaib'",
+"source": "cruxeval-output",
+"check": "f('spain', 'b', 4) == 'spaib'"
+},
+"train-1194": {
+"family": "code",
+"answer": "[4]",
+"source": "cruxeval-output",
+"check": "f({ 4: 'a' }) == [4]"
+},
+"train-1195": {
+"family": "code",
+"answer": "' vap a zwwo oihee amawaaw! '",
+"source": "cruxeval-output",
+"check": "f(' vup a zwwo oihee amuwuuw! ', 'a', 'u') == ' vap a zwwo oihee amawaaw! '"
+},
+"train-1196": {
+"family": "code",
+"answer": "1",
+"source": "cruxeval-output",
+"check": "f('234rtccde', 'e') == 1"
+},
+"train-1197": {
+"family": "code",
+"answer": "''",
+"source": "cruxeval-output",
+"check": "f(\"\") == ''"
+},
+"train-1198": {
+"family": "code",
+"answer": "'aCbCed'",
+"source": "cruxeval-output",
+"check": "f(\"acbced\") == 'aCbCed'"
+},
+"train-1199": {
+"family": "code",
+"answer": "'0aabbaa0b'",
+"source": "cruxeval-output",
+"check": "f('0aabbaa0b', 'a') == '0aabbaa0b'"
+},
+"train-1200": {
+"family": "code",
+"answer": "2",
+"source": "cruxeval-output",
+"check": "f('bfreratrrbdbzagbretaredtroefcoiqrrneaosf'.split('-'), 'n') == 2"
+},
+"train-1201": {
+"family": "code",
+"answer": "True",
+"source": "cruxeval-output",
+"check": "f([5, 8]) == True"
+},
+"train-1202": {
+"family": "code",
+"answer": "6",
+"source": "cruxeval-output",
+"check": "f([0, 4, 5, 6], [13, 23, -5, 0]) == 6"
+},
+"train-1203": {
+"family": "code",
+"answer": "'tuple'",
+"source": "cruxeval-output",
+"check": "f(\" 99 777\") == 'tuple'"
+},
+"train-1204": {
+"family": "code",
+"answer": "[182, 32]",
+"source": "cruxeval-output",
+"check": "f(['91', '16', '6r', '5r', 'egr', '', 'f', 'q1f', '-2']) == [182, 32]"
+},
+"train-1206": {
+"family": "code",
+"answer": "0",
+"source": "cruxeval-output",
+"check": "f(\"591237865\") == 0"
+},
+"train-1207": {
+"family": "code",
+"answer": "' '",
+"source": "cruxeval-output",
+"check": "f('a', 'a') == ' '"
+},
+"train-1208": {
+"family": "code",
+"answer": "'Fu,Ux Zfujijabji Pfu.'",
+"source": "cruxeval-output",
+"check": "f('Fu,ux zfujijabji pfu.') == 'Fu,Ux Zfujijabji Pfu.'"
+},
+"train-1209": {
+"family": "code",
+"answer": "'xxxarmm ar xx'",
+"source": "cruxeval-output",
+"check": "f('xxxarmmarxx') == 'xxxarmm ar xx'"
+},
+"train-1210": {
+"family": "code",
+"answer": "False",
+"source": "cruxeval-output",
+"check": "f('102') == False"
+},
+"train-1211": {
+"family": "code",
+"answer": "2",
+"source": "cruxeval-output",
+"check": "f(['sharron', 'Savannah', 'Mike Cherokee']) == 2"
+},
+"train-1212": {
+"family": "code",
+"answer": "'l \\nl '",
+"source": "cruxeval-output",
+"check": "f('l\\nl', 2) == 'l \\nl '"
+},
+"train-1213": {
+"family": "code",
+"answer": "'BFS'",
+"source": "cruxeval-output",
+"check": "f('CJU', 'BFS', 'WBYDZPVES', 'Y') == 'BFS'"
+},
+"train-1214": {
+"family": "code",
+"answer": "[3, 5, 4, 3, 2, 1, 0]",
+"source": "cruxeval-output",
+"check": "f([5, 4, 3, 2, 1, 0], 3) == [3, 5, 4, 3, 2, 1, 0]"
+},
+"train-1215": {
+"family": "code",
+"answer": "'!klcd!ma:ri'",
+"source": "cruxeval-output",
+"check": "f('!klcd!ma:ri', '!') == '!klcd!ma:ri'"
+},
+"train-1216": {
+"family": "code",
+"answer": "'aa++___bb'",
+"source": "cruxeval-output",
+"check": "f('aa+++bb', '+', 1) == 'aa++___bb'"
+},
+"train-1217": {
+"family": "code",
+"answer": "'Do you know who the other was? [NEGMENDS]'",
+"source": "cruxeval-output",
+"check": "f('[CHARRUNNERS]Do you know who the other was? [NEGMENDS]', '[CHARRUNNERS]') == 'Do you know who the other was? [NEGMENDS]'"
+},
+"train-1218": {
+"family": "code",
+"answer": "'Because it intrigues them'",
+"source": "cruxeval-output",
+"check": "f('Because it intrigues them') == 'Because it intrigues them'"
+},
+"train-1219": {
+"family": "code",
+"answer": "'qqqqq'",
+"source": "cruxeval-output",
+"check": "f(\"qqqqq\", \"qqq\") == 'qqqqq'"
+},
+"train-1220": {
+"family": "code",
+"answer": "{1: 2, 3: 4, 5: 6, 7: 8, 10: 9}",
+"source": "cruxeval-output",
+"check": "f({1: 2, 3: 4, 5: 6, 7: 8, 9: 10}, 1) == {1: 2, 3: 4, 5: 6, 7: 8, 10: 9}"
+},
+"train-1221": {
+"family": "code",
+"answer": "''",
+"source": "cruxeval-output",
+"check": "f('abc', 1) == ''"
+},
+"train-1222": {
+"family": "code",
+"answer": "3",
+"source": "cruxeval-output",
+"check": "f(\"145\\n\\n12fjkjg\") == 3"
+},
+"train-1223": {
+"family": "code",
+"answer": "'ruamNHIB'",
+"source": "cruxeval-output",
+"check": "f('ruam') == 'ruamNHIB'"
+},
+"train-1224": {
+"family": "code",
+"answer": "'jqjfj zm'",
+"source": "cruxeval-output",
+"check": "f('qpfi jzm', 'j') == 'jqjfj zm'"
+},
+"train-1225": {
+"family": "code",
+"answer": "'zzzzzabc'",
+"source": "cruxeval-output",
+"check": "f('abc', 8) == 'zzzzzabc'"
+},
+"train-1226": {
+"family": "code",
+"answer": "'jiojickldl'",
+"source": "cruxeval-output",
+"check": "f('980jio80jic kld094398IIl ') == 'jiojickldl'"
+},
+"train-1227": {
+"family": "code",
+"answer": "'JAAFODSFA SODOFJ AOAFJIS  JAFASIDFSA1'",
+"source": "cruxeval-output",
+"check": "f(\"Jaafodsfa SOdofj AoaFjIs  JAFasIdfSa1\") == 'JAAFODSFA SODOFJ AOAFJIS  JAFASIDFSA1'"
+},
+"train-1228": {
+"family": "code",
+"answer": "[2, 3, 3, 4, 6, -2]",
+"source": "cruxeval-output",
+"check": "f([2, 3, 4, 6, -2]) == [2, 3, 3, 4, 6, -2]"
+},
+"train-1229": {
+"family": "code",
+"answer": "[1]",
+"source": "cruxeval-output",
+"check": "f([1]) == [1]"
+},
+"train-1230": {
+"family": "code",
+"answer": "'ertubwi'",
+"source": "cruxeval-output",
+"check": "f('ertubwi', 'p', 5) == 'ertubwi'"
+},
+"train-1231": {
+"family": "code",
+"answer": "[0, 2, 2]",
+"source": "cruxeval-output",
+"check": "f([0, 2, 1, 2, 6, 2, 6, 3, 0]) == [0, 2, 2]"
+},
+"train-1232": {
+"family": "code",
+"answer": "{'desciduous': 2}",
+"source": "cruxeval-output",
+"check": "f({}, {'desciduous': 2}) == {'desciduous': 2}"
+},
+"train-1233": {
+"family": "code",
+"answer": "[[1, 2, 3], [], [1, 2, 3]]",
+"source": "cruxeval-output",
+"check": "f([[1, 2, 3], [], [1, 2, 3]]) == [[1, 2, 3], [], [1, 2, 3]]"
+},
+"train-1234": {
+"family": "code",
+"answer": "[2, 1, 2]",
+"source": "cruxeval-output",
+"check": "f([2], 0, 2) == [2, 1, 2]"
+},
+"train-1235": {
+"family": "code",
+"answer": "False",
+"source": "cruxeval-output",
+"check": "f('wrsch)xjmb8', 'c') == False"
+},
+"train-1236": {
+"family": "code",
+"answer": "'yes'",
+"source": "cruxeval-output",
+"check": "f(['b', 'i', 'r', 'o', 's', 'j', 'v', 'p']) == 'yes'"
+},
+"train-1237": {
+"family": "code",
+"answer": "'Iron Man'",
+"source": "cruxeval-output",
+"check": "f({'Iron Man': 4, 'Captain America': 3, 'Black Panther': 0,'Thor': 1, 'Ant-Man': 6}, 'Iron Man') == 'Iron Man'"
+},
+"train-1238": {
+"family": "code",
+"answer": "[]",
+"source": "cruxeval-output",
+"check": "f([2, 1, 2, 3, 1, 6, 3, 8]) == []"
+},
+"train-1239": {
+"family": "code",
+"answer": "'e!t!'",
+"source": "cruxeval-output",
+"check": "f('eat!') == 'e!t!'"
+},
+"train-1240": {
+"family": "code",
+"answer": "{'ct': '', 'c': '', 'ca': 'cx'}",
+"source": "cruxeval-output",
+"check": "f(('ct', 'c', 'ca'), {'ca': 'cx'}) == {'ct': '', 'c': '', 'ca': 'cx'}"
+},
+"train-1241": {
+"family": "code",
+"answer": "{}",
+"source": "cruxeval-output",
+"check": "f(0, ['aaa', 'bbb']) == {}"
+},
+"train-1242": {
+"family": "code",
+"answer": "True",
+"source": "cruxeval-output",
+"check": "f('=xtanp|sugv?z', 3, 6) == True"
+},
+"train-1243": {
+"family": "code",
+"answer": "'00019'",
+"source": "cruxeval-output",
+"check": "f('19', 5) == '00019'"
+},
+"train-1244": {
+"family": "code",
+"answer": "[-5, 3, 9999, 1, 0, 2]",
+"source": "cruxeval-output",
+"check": "f([2, 0, 1, 9999, 3, -5]) == [-5, 3, 9999, 1, 0, 2]"
+},
+"train-1245": {
+"family": "code",
+"answer": "'  a  \\n  bc \\n     \\n  d  \\n  ef '",
+"source": "cruxeval-output",
+"check": "f(\"a\\nbc\\n\\nd\\nef\", 5) == '  a  \\n  bc \\n     \\n  d  \\n  ef '"
+},
+"train-1246": {
+"family": "code",
+"answer": "'E wrestled evil until upperfeat'",
+"source": "cruxeval-output",
+"check": "f('E wrestled evil until upperfeat', 'e') == 'E wrestled evil until upperfeat'"
+},
+"train-1247": {
+"family": "code",
+"answer": "'6,8,8'",
+"source": "cruxeval-output",
+"check": "f(6,8,8) == '6,8,8'"
+},
+"train-1248": {
+"family": "code",
+"answer": "-1",
+"source": "cruxeval-output",
+"check": "f('zjegiymjc', 'j', 2) == -1"
+},
+"train-1249": {
+"family": "code",
+"answer": "{'h': 1, 'i': 1}",
+"source": "cruxeval-output",
+"check": "f(\"HI\") == {'h': 1, 'i': 1}"
+},
+"dev-0002": {
+"family": "code",
+"answer": "''",
+"source": "cruxeval-input",
+"check": "f('') == ''"
+},
+"dev-0015": {
+"family": "code",
+"answer": "[89, 43, 17, 14, 8, 4]",
+"source": "cruxeval-output",
+"check": "f([4, 8, 17, 89, 43, 14]) == [89, 43, 17, 14, 8, 4]"
+},
+"dev-0028": {
+"family": "code",
+"answer": "'llomnrpc', 'x'",
+"source": "cruxeval-input",
+"check": "f('llomnrpc', 'x') == 'xllomnrpc'"
+},
+"dev-0032": {
+"family": "code",
+"answer": "\"if (x) {y = 1;} else {z = 1;}\"",
+"source": "cruxeval-input",
+"check": "f(\"if (x) {y = 1;} else {z = 1;}\") == 'i f (x) {y = 1;} else {z = 1;}'"
+},
+"dev-0051": {
+"family": "code",
+"answer": "[7, 1, 2, 6, 0, 2]",
+"source": "cruxeval-input",
+"check": "f([7, 1, 2, 6, 0, 2]) == [2, 0, 6, 2, 1, 7, 1, 2, 6, 0, 2]"
+},
+"dev-0066": {
+"family": "code",
+"answer": "1",
+"source": "cruxeval-output",
+"check": "f(\"aboba 212 has 0 digits\") == 1"
+},
+"dev-0078": {
+"family": "code",
+"answer": "['a', 'b'], ['car', 'dog']",
+"source": "cruxeval-input",
+"check": "f(['a', 'b'], ['car', 'dog']) == {'a': ['car', 'dog'], 'b': ['car', 'dog']}"
+},
+"dev-0092": {
+"family": "code",
+"answer": "'staovk'",
+"source": "cruxeval-output",
+"check": "f('staovk', 'k') == 'staovk'"
+},
+"dev-0093": {
+"family": "code",
+"answer": "'Nuva?dlfuyjys'",
+"source": "cruxeval-input",
+"check": "f('Nuva?dlfuyjys') == 'Nuva?dlfuyjys'"
+},
+"dev-0110": {
+"family": "code",
+"answer": "'abc', 'e'",
+"source": "cruxeval-input",
+"check": "f('abc', 'e') == True"
+},
+"dev-0111": {
+"family": "code",
+"answer": "{0: 5}",
+"source": "cruxeval-output",
+"check": "f({0: 0, 1: 0, 2: 0, 3: 0, 4: 0}) == {0: 5}"
+},
+"dev-0113": {
+"family": "code",
+"answer": "'nada'",
+"source": "cruxeval-output",
+"check": "f(\"\") == 'nada'"
+},
+"dev-0114": {
+"family": "code",
+"answer": "'{0}, {0}!!!', ['R', None]",
+"source": "cruxeval-input",
+"check": "f('{0}, {0}!!!', ['R', None]) == 'R, R!!!'"
+},
+"dev-0116": {
+"family": "code",
+"answer": "{}",
+"source": "cruxeval-output",
+"check": "f({}) == {}"
+},
+"dev-0117": {
+"family": "code",
+"answer": "'h grateful k', ' '",
+"source": "cruxeval-input",
+"check": "f('h grateful k', ' ') == 'h / g r a t e f u l   k'"
+},
+"dev-0118": {
+"family": "code",
+"answer": "'\\\\foo', '\\\\'",
+"source": "cruxeval-input",
+"check": "f('\\\\foo', '\\\\') == '\\\\foo'"
+},
+"dev-0130": {
+"family": "code",
+"answer": "False",
+"source": "cruxeval-output",
+"check": "f('qwbnjrxs', ['jr', 'b', 'r', 'qw']) == False"
+},
+"dev-0131": {
+"family": "code",
+"answer": "'hymi', 'hymifulhxhzpnyihyf'",
+"source": "cruxeval-input",
+"check": "f('hymi', 'hymifulhxhzpnyihyf') == 'hymi'"
+},
+"dev-0137": {
+"family": "code",
+"answer": "[1, 3, -1, 1, -2, 6]",
+"source": "cruxeval-input",
+"check": "f([1, 3, -1, 1, -2, 6]) == [1, 1, 1, 1, 1, 1, 1, 3, -1, 1, -2, 6]"
+},
+"dev-0157": {
+"family": "code",
+"answer": "'mTYWLMwbLRVOqNEf.oLsYkZORKE[Ko[{n'",
+"source": "cruxeval-input",
+"check": "f('mTYWLMwbLRVOqNEf.oLsYkZORKE[Ko[{n') == 'mty'"
+},
+"dev-0158": {
+"family": "code",
+"answer": "'Join us in Hungary'",
+"source": "cruxeval-output",
+"check": "f(\"Join us in Hungary\", 4) == 'Join us in Hungary'"
+},
+"dev-0170": {
+"family": "code",
+"answer": "[10, 8, 6, 4, 2]",
+"source": "cruxeval-output",
+"check": "f([1, 2, 3, 4, 5]) == [10, 8, 6, 4, 2]"
+},
+"dev-0177": {
+"family": "code",
+"answer": "['', ':', 'CL44     ']",
+"source": "cruxeval-output",
+"check": "f('/CL44     ') == ['', ':', 'CL44     ']"
+},
+"dev-0178": {
+"family": "code",
+"answer": "'Chris requires  ride to the irport on Fridy.'",
+"source": "cruxeval-output",
+"check": "f('Chris requires a ride to the airport on Friday.', 'a') == 'Chris requires  ride to the irport on Fridy.'"
+},
+"dev-0180": {
+"family": "code",
+"answer": "\"12ab23xy\"",
+"source": "cruxeval-input",
+"check": "f(\"12ab23xy\") == ['1', '2', 'a', 'b', '3', 'x', 'y']"
+},
+"dev-0184": {
+"family": "code",
+"answer": "{5: 1, 'abc': 2, 'defghi': 2, 87.29: 3}",
+"source": "cruxeval-input",
+"check": "f({5: 1, 'abc': 2, 'defghi': 2, 87.29: 3}) == [(87.29, 3), ('defghi', 2), ('abc', 2), (5, 1)]"
+},
+"dev-0185": {
+"family": "code",
+"answer": "[395, 666, 7, 4]",
+"source": "cruxeval-output",
+"check": "f([[395, 666, 7, 4], [], [4223, 111]]) == [395, 666, 7, 4]"
+},
+"dev-0188": {
+"family": "code",
+"answer": "[]",
+"source": "cruxeval-output",
+"check": "f([]) == []"
+},
+"dev-0189": {
+"family": "code",
+"answer": "'439m2670hlsw', 3",
+"source": "cruxeval-input",
+"check": "f('439m2670hlsw', 3) == 'wslh0762m934'"
+},
+"dev-0196": {
+"family": "code",
+"answer": "'-----\\t\\n\\tth\\n-----'",
+"source": "cruxeval-input",
+"check": "f('-----\\t\\n\\tth\\n-----') == '-----'"
+},
+"dev-0198": {
+"family": "code",
+"answer": "{'a': 42, 'b': 1337, 'c': -1, 'd': 5}",
+"source": "cruxeval-input",
+"check": "f({'a': 42, 'b': 1337, 'c': -1, 'd': 5}) == {'a': 42, 'b': 1337, 'c': -1, 'd': 5}"
+},
+"dev-0202": {
+"family": "code",
+"answer": "'Permission Is Granted'",
+"source": "cruxeval-output",
+"check": "f(\"PermissioN is GRANTed\") == 'Permission Is Granted'"
+},
+"dev-0205": {
+"family": "code",
+"answer": "'.........magazine........'",
+"source": "cruxeval-output",
+"check": "f('magazine', 25, '.') == '.........magazine........'"
+},
+"dev-0224": {
+"family": "code",
+"answer": "{'disface': 9, 'cam': 7, 'mforce': 5}",
+"source": "cruxeval-output",
+"check": "f({'disface': 9, 'cam': 7}, {'mforce': 5}) == {'disface': 9, 'cam': 7, 'mforce': 5}"
+},
+"dev-0244": {
+"family": "code",
+"answer": "'--4/0-209'",
+"source": "cruxeval-input",
+"check": "f('--4/0-209') == ''"
+},
+"dev-0250": {
+"family": "code",
+"answer": "\"cA\"",
+"source": "cruxeval-input",
+"check": "f(\"cA\") == 'cA'"
+},
+"dev-0264": {
+"family": "code",
+"answer": "{}",
+"source": "cruxeval-input",
+"check": "f({}) == {1: False, 2: 0}"
+},
+"dev-0270": {
+"family": "code",
+"answer": "1",
+"source": "cruxeval-output",
+"check": "f([6, 8, 2, 5, 3, 1, 9, 7], 6) == 1"
+},
+"dev-0272": {
+"family": "code",
+"answer": "'', 'abc'",
+"source": "cruxeval-input",
+"check": "f('', 'abc') == -1"
+},
+"dev-0281": {
+"family": "code",
+"answer": "[]",
+"source": "cruxeval-output",
+"check": "f([]) == []"
+},
+"dev-0283": {
+"family": "code",
+"answer": "\"d khqw whi fwi bbn 41\"",
+"source": "cruxeval-input",
+"check": "f(\"d khqw whi fwi bbn 41\") == '-'"
+},
+"dev-0285": {
+"family": "code",
+"answer": "'fubarbaz'",
+"source": "cruxeval-output",
+"check": "f(\"fubarbaz\") == 'fubarbaz'"
+},
+"dev-0288": {
+"family": "code",
+"answer": "{'wise king': 'north', 'young king': 'north'}",
+"source": "cruxeval-output",
+"check": "f(['wise king', 'young king'], '') == {'wise king': 'north', 'young king': 'north'}"
+},
+"dev-0293": {
+"family": "code",
+"answer": "['9', '+', '+', '+']",
+"source": "cruxeval-output",
+"check": "f(['r', '9']) == ['9', '+', '+', '+']"
+},
+"dev-0294": {
+"family": "code",
+"answer": "2",
+"source": "cruxeval-output",
+"check": "f(\"breakfast\", \"e\") == 2"
+},
+"dev-0295": {
+"family": "code",
+"answer": "[[1, 1, 1, 1]]",
+"source": "cruxeval-output",
+"check": "f([[1, 1, 1, 1]]) == [[1, 1, 1, 1]]"
+},
+"dev-0297": {
+"family": "code",
+"answer": "[-3, 1, 7, -1]",
+"source": "cruxeval-output",
+"check": "f([1, 7, -1, -3]) == [-3, 1, 7, -1]"
+},
+"dev-0309": {
+"family": "code",
+"answer": "[6, 4, -2, 6, 4, -2]",
+"source": "cruxeval-output",
+"check": "f([3, 6, 4, -2, 5]) == [6, 4, -2, 6, 4, -2]"
+},
+"dev-0312": {
+"family": "code",
+"answer": "[-70, 20, 9, 1, 1]",
+"source": "cruxeval-output",
+"check": "f([-70, 20, 9, 1]) == [-70, 20, 9, 1, 1]"
+},
+"dev-0323": {
+"family": "code",
+"answer": "'148'",
+"source": "cruxeval-input",
+"check": "f('148') == \"148: b'148'\""
+},
+"dev-0327": {
+"family": "code",
+"answer": "[0, 6, '1', '2', 0]",
+"source": "cruxeval-input",
+"check": "f([0, 6, '1', '2', 0]) == [0, 6, 1, 2, 0]"
+},
+"dev-0328": {
+"family": "code",
+"answer": "'px|||||cznyf'",
+"source": "cruxeval-output",
+"check": "f('pxcznyf') == 'px|||||cznyf'"
+},
+"dev-0335": {
+"family": "code",
+"answer": "'shivajimonto6', '6'",
+"source": "cruxeval-input",
+"check": "f('shivajimonto6', '6') == ''"
+},
+"dev-0339": {
+"family": "code",
+"answer": "{}, 'hbd'",
+"source": "cruxeval-input",
+"check": "f({}, 'hbd') == 'hbd'"
+},
+"dev-0369": {
+"family": "code",
+"answer": "[1, -9, 7, 2, 6, -3, 3]",
+"source": "cruxeval-output",
+"check": "f([1, -9, 7, 2, 6, -3, 3]) == [1, -9, 7, 2, 6, -3, 3]"
+},
+"dev-0376": {
+"family": "code",
+"answer": "4",
+"source": "cruxeval-output",
+"check": "f([-7, 3, 1, -1, -1, 0, 4], 6) == 4"
+},
+"dev-0383": {
+"family": "code",
+"answer": "{1: 2, 2: 4, 3: 3}, 3",
+"source": "cruxeval-input",
+"check": "f({1: 2, 2: 4, 3: 3}, 3) == {1: 2, 2: 4}"
+},
+"dev-0391": {
+"family": "code",
+"answer": "\"breakfast\", \"e\"",
+"source": "cruxeval-input",
+"check": "f(\"breakfast\", \"e\") == 2"
+},
+"dev-0399": {
+"family": "code",
+"answer": "'hosu', 'o'",
+"source": "cruxeval-input",
+"check": "f('hosu', 'o') == 'hosu'"
+},
+"dev-0415": {
+"family": "code",
+"answer": "''",
+"source": "cruxeval-output",
+"check": "f('', 'mi', 'siast') == ''"
+},
+"dev-0565": {
+"family": "code",
+"answer": "[]",
+"source": "cruxeval-input",
+"check": "f([]) == []"
+},
+"dev-0566": {
+"family": "code",
+"answer": "{\"lorem ipsum\" : 12, \"dolor\" : 23}, [\"lorem ipsum\", \"dolor\"]",
+"source": "cruxeval-input",
+"check": "f({\"lorem ipsum\" : 12, \"dolor\" : 23}, [\"lorem ipsum\", \"dolor\"]) == {'lorem ipsum': 12, 'dolor': 23}"
+},
+"dev-0567": {
+"family": "code",
+"answer": "[6, 8, 2, 5, 3, 1, 9, 7], 6",
+"source": "cruxeval-input",
+"check": "f([6, 8, 2, 5, 3, 1, 9, 7], 6) == 1"
+},
+"dev-0568": {
+"family": "code",
+"answer": "'magazine', 25, '.'",
+"source": "cruxeval-input",
+"check": "f('magazine', 25, '.') == '.........magazine........'"
+},
+"dev-0569": {
+"family": "code",
+"answer": "[4, 8, 17, 89, 43, 14]",
+"source": "cruxeval-input",
+"check": "f([4, 8, 17, 89, 43, 14]) == [89, 43, 17, 14, 8, 4]"
+},
+"dev-0570": {
+"family": "code",
+"answer": "'bbbbr'",
+"source": "cruxeval-input",
+"check": "f('bbbbr') == False"
+},
+"dev-0571": {
+"family": "code",
+"answer": "'zbzquiuqnmfkx', 'mk'",
+"source": "cruxeval-input",
+"check": "f('zbzquiuqnmfkx', 'mk') == 'zbzquiuqnmfkx'"
+},
+"dev-0572": {
+"family": "code",
+"answer": "['r', '9']",
+"source": "cruxeval-input",
+"check": "f(['r', '9']) == ['9', '+', '+', '+']"
+},
+"dev-0573": {
+"family": "code",
+"answer": "['wise king', 'young king'], ''",
+"source": "cruxeval-input",
+"check": "f(['wise king', 'young king'], '') == {'wise king': 'north', 'young king': 'north'}"
+},
+"dev-0574": {
+"family": "code",
+"answer": "\"PermissioN is GRANTed\"",
+"source": "cruxeval-input",
+"check": "f(\"PermissioN is GRANTed\") == 'Permission Is Granted'"
+},
+"dev-0575": {
+"family": "code",
+"answer": "[[1, 1, 1, 1]]",
+"source": "cruxeval-input",
+"check": "f([[1, 1, 1, 1]]) == [[1, 1, 1, 1]]"
+},
+"dev-0576": {
+"family": "code",
+"answer": "\"fubarbaz\"",
+"source": "cruxeval-input",
+"check": "f(\"fubarbaz\") == 'fubarbaz'"
+},
+"dev-0577": {
+"family": "code",
+"answer": "'qwbnjrxs', ['jr', 'b', 'r', 'qw']",
+"source": "cruxeval-input",
+"check": "f('qwbnjrxs', ['jr', 'b', 'r', 'qw']) == False"
+},
+"dev-0578": {
+"family": "code",
+"answer": "[[395, 666, 7, 4], [], [4223, 111]]",
+"source": "cruxeval-input",
+"check": "f([[395, 666, 7, 4], [], [4223, 111]]) == [395, 666, 7, 4]"
+},
+"dev-0579": {
+"family": "code",
+"answer": "{'disface': 9, 'cam': 7}, {'mforce': 5}",
+"source": "cruxeval-input",
+"check": "f({'disface': 9, 'cam': 7}, {'mforce': 5}) == {'disface': 9, 'cam': 7, 'mforce': 5}"
+},
+"dev-0580": {
+"family": "code",
+"answer": "[1, -9, 7, 2, 6, -3, 3]",
+"source": "cruxeval-input",
+"check": "f([1, -9, 7, 2, 6, -3, 3]) == [1, -9, 7, 2, 6, -3, 3]"
+},
+"dev-0581": {
+"family": "code",
+"answer": "\"\"",
+"source": "cruxeval-input",
+"check": "f(\"\") == 'nada'"
+},
+"dev-0582": {
+"family": "code",
+"answer": "[44, 34, 23, 82, 24, 11, 63, 99], 4, 15",
+"source": "cruxeval-input",
+"check": "f([44, 34, 23, 82, 24, 11, 63, 99], 4, 15) == [44, 34, 23, 82, 15, 24, 11, 63, 99]"
+},
+"dev-0583": {
+"family": "code",
+"answer": "[-70, 20, 9, 1]",
+"source": "cruxeval-input",
+"check": "f([-70, 20, 9, 1]) == [-70, 20, 9, 1, 1]"
+},
+"dev-0584": {
+"family": "code",
+"answer": "{0: 0, 1: 0, 2: 0, 3: 0, 4: 0}",
+"source": "cruxeval-input",
+"check": "f({0: 0, 1: 0, 2: 0, 3: 0, 4: 0}) == {0: 5}"
+},
+"dev-0585": {
+"family": "code",
+"answer": "'a', 19",
+"source": "cruxeval-input",
+"check": "f('a', 19) == '*'"
+},
+"dev-0586": {
+"family": "code",
+"answer": "\"Join us in Hungary\", 4",
+"source": "cruxeval-input",
+"check": "f(\"Join us in Hungary\", 4) == 'Join us in Hungary'"
+},
+"dev-0587": {
+"family": "code",
+"answer": "'Chris requires a ride to the airport on Friday.', 'a'",
+"source": "cruxeval-input",
+"check": "f('Chris requires a ride to the airport on Friday.', 'a') == 'Chris requires  ride to the irport on Fridy.'"
+},
+"dev-0588": {
+"family": "code",
+"answer": "'pxcznyf'",
+"source": "cruxeval-input",
+"check": "f('pxcznyf') == 'px|||||cznyf'"
+},
+"dev-0589": {
+"family": "code",
+"answer": "\"echo hello!!! nice!\"",
+"source": "cruxeval-input",
+"check": "f(\"echo hello!!! nice!\") == ['echo']"
+},
+"dev-0590": {
+"family": "code",
+"answer": "[]",
+"source": "cruxeval-input",
+"check": "f([]) == []"
+},
+"dev-0591": {
+"family": "code",
+"answer": "[1, 2, 3]",
+"source": "cruxeval-input",
+"check": "f([1, 2, 3]) == [1, 2, 3]"
+},
+"dev-0592": {
+"family": "code",
+"answer": "'', 'mi', 'siast'",
+"source": "cruxeval-input",
+"check": "f('', 'mi', 'siast') == ''"
+},
+"dev-0593": {
+"family": "code",
+"answer": "'h / g r a t e f u l   k'",
+"source": "cruxeval-output",
+"check": "f('h grateful k', ' ') == 'h / g r a t e f u l   k'"
+},
+"dev-0594": {
+"family": "code",
+"answer": "'-'",
+"source": "cruxeval-output",
+"check": "f(\"d khqw whi fwi bbn 41\") == '-'"
+},
+"dev-0595": {
+"family": "code",
+"answer": "'-----'",
+"source": "cruxeval-output",
+"check": "f('-----\\t\\n\\tth\\n-----') == '-----'"
+},
+"dev-0596": {
+"family": "code",
+"answer": "'Nuva?dlfuyjys'",
+"source": "cruxeval-output",
+"check": "f('Nuva?dlfuyjys') == 'Nuva?dlfuyjys'"
+},
+"dev-0597": {
+"family": "code",
+"answer": "{'lorem ipsum': 12, 'dolor': 23}",
+"source": "cruxeval-output",
+"check": "f({\"lorem ipsum\" : 12, \"dolor\" : 23}, [\"lorem ipsum\", \"dolor\"]) == {'lorem ipsum': 12, 'dolor': 23}"
+},
+"dev-0598": {
+"family": "code",
+"answer": "[(87.29, 3), ('defghi', 2), ('abc', 2), (5, 1)]",
+"source": "cruxeval-output",
+"check": "f({5: 1, 'abc': 2, 'defghi': 2, 87.29: 3}) == [(87.29, 3), ('defghi', 2), ('abc', 2), (5, 1)]"
+},
+"dev-0599": {
+"family": "code",
+"answer": "False",
+"source": "cruxeval-output",
+"check": "f('bbbbr') == False"
+},
+"dev-0600": {
+"family": "code",
+"answer": "''",
+"source": "cruxeval-output",
+"check": "f('--4/0-209') == ''"
+},
+"dev-0601": {
+"family": "code",
+"answer": "'zbzquiuqnmfkx'",
+"source": "cruxeval-output",
+"check": "f('zbzquiuqnmfkx', 'mk') == 'zbzquiuqnmfkx'"
+},
+"dev-0602": {
+"family": "code",
+"answer": "'hbd'",
+"source": "cruxeval-output",
+"check": "f({}, 'hbd') == 'hbd'"
+},
+"dev-0603": {
+"family": "code",
+"answer": "'xllomnrpc'",
+"source": "cruxeval-output",
+"check": "f('llomnrpc', 'x') == 'xllomnrpc'"
+},
+"dev-0604": {
+"family": "code",
+"answer": "[1, 1, 1, 1, 1, 1, 1, 3, -1, 1, -2, 6]",
+"source": "cruxeval-output",
+"check": "f([1, 3, -1, 1, -2, 6]) == [1, 1, 1, 1, 1, 1, 1, 3, -1, 1, -2, 6]"
+},
+"dev-0605": {
+"family": "code",
+"answer": "'i f (x) {y = 1;} else {z = 1;}'",
+"source": "cruxeval-output",
+"check": "f(\"if (x) {y = 1;} else {z = 1;}\") == 'i f (x) {y = 1;} else {z = 1;}'"
+},
+"dev-0606": {
+"family": "code",
+"answer": "{'a': 42, 'b': 1337, 'c': -1, 'd': 5}",
+"source": "cruxeval-output",
+"check": "f({'a': 42, 'b': 1337, 'c': -1, 'd': 5}) == {'a': 42, 'b': 1337, 'c': -1, 'd': 5}"
+},
+"dev-0607": {
+"family": "code",
+"answer": "''",
+"source": "cruxeval-output",
+"check": "f('') == ''"
+},
+"dev-0608": {
+"family": "code",
+"answer": "['1', '2', 'a', 'b', '3', 'x', 'y']",
+"source": "cruxeval-output",
+"check": "f(\"12ab23xy\") == ['1', '2', 'a', 'b', '3', 'x', 'y']"
+},
+"dev-0609": {
+"family": "code",
+"answer": "'cA'",
+"source": "cruxeval-output",
+"check": "f(\"cA\") == 'cA'"
+},
+"dev-0610": {
+"family": "code",
+"answer": "{1: 2, 2: 4}",
+"source": "cruxeval-output",
+"check": "f({1: 2, 2: 4, 3: 3}, 3) == {1: 2, 2: 4}"
+},
+"dev-0611": {
+"family": "code",
+"answer": "[44, 34, 23, 82, 15, 24, 11, 63, 99]",
+"source": "cruxeval-output",
+"check": "f([44, 34, 23, 82, 24, 11, 63, 99], 4, 15) == [44, 34, 23, 82, 15, 24, 11, 63, 99]"
+},
+"dev-0612": {
+"family": "code",
+"answer": "'*'",
+"source": "cruxeval-output",
+"check": "f('a', 19) == '*'"
+},
+"dev-0613": {
+"family": "code",
+"answer": "['echo']",
+"source": "cruxeval-output",
+"check": "f(\"echo hello!!! nice!\") == ['echo']"
+},
+"dev-0614": {
+"family": "code",
+"answer": "-1",
+"source": "cruxeval-output",
+"check": "f('', 'abc') == -1"
+},
+"dev-0615": {
+"family": "code",
+"answer": "'R, R!!!'",
+"source": "cruxeval-output",
+"check": "f('{0}, {0}!!!', ['R', None]) == 'R, R!!!'"
+},
+"dev-0616": {
+"family": "code",
+"answer": "[1, 2, 3]",
+"source": "cruxeval-output",
+"check": "f([1, 2, 3]) == [1, 2, 3]"
+},
+"dev-0617": {
+"family": "code",
+"answer": "\"148: b'148'\"",
+"source": "cruxeval-output",
+"check": "f('148') == \"148: b'148'\""
+},
+"dev-0618": {
+"family": "code",
+"answer": "'\\\\foo'",
+"source": "cruxeval-output",
+"check": "f('\\\\foo', '\\\\') == '\\\\foo'"
+},
+"dev-0619": {
+"family": "code",
+"answer": "{1: False, 2: 0}",
+"source": "cruxeval-output",
+"check": "f({}) == {1: False, 2: 0}"
+},
+"dev-0620": {
+"family": "code",
+"answer": "[0, 6, 1, 2, 0]",
+"source": "cruxeval-output",
+"check": "f([0, 6, '1', '2', 0]) == [0, 6, 1, 2, 0]"
+},
+"dev-0621": {
+"family": "code",
+"answer": "'hymi'",
+"source": "cruxeval-output",
+"check": "f('hymi', 'hymifulhxhzpnyihyf') == 'hymi'"
+},
+"dev-0622": {
+"family": "code",
+"answer": "'hosu'",
+"source": "cruxeval-output",
+"check": "f('hosu', 'o') == 'hosu'"
+},
+"dev-0623": {
+"family": "code",
+"answer": "{'a': ['car', 'dog'], 'b': ['car', 'dog']}",
+"source": "cruxeval-output",
+"check": "f(['a', 'b'], ['car', 'dog']) == {'a': ['car', 'dog'], 'b': ['car', 'dog']}"
+},
+"train-0067": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0004": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0059": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0065": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0066": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0072": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0105": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0115": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0126": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0178": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0182": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0227": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0279": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0310": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0311": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0319": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0321": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0324": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0326": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0327": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0352": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0370": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0371": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0373": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0385": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0387": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0399": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0402": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0404": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0433": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0441": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0458": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0464": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0494": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0527": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0540": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0563": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0570": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0577": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0629": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0670": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0671": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0679": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0683": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0695": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0710": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0718": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0747": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0754": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0767": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0797": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0820": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0830": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-0832": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1678": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1680": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1682": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1683": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1684": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1685": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1686": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1687": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1688": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1691": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1692": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1693": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1695": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1697": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1700": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1701": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1702": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1703": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1704": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1706": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1707": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1708": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1710": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1711": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1712": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1713": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1715": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1716": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1717": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1718": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1719": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1720": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1721": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1722": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1723": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1726": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1728": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1729": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1730": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1731": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1732": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1733": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1734": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1735": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1740": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1741": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1742": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1743": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1744": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1745": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1748": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1749": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1751": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1752": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1753": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-1755": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1756": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1758": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1759": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"train-1760": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0042": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0044": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0046": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0053": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0055": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0062": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0070": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0086": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0146": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0168": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0182": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0186": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0192": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0197": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0225": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0257": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0259": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0320": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0341": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0361": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0386": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0396": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0397": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0407": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0408": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0839": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0840": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0841": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0842": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0843": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0846": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0847": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0848": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0850": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0853": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0854": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0856": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0858": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0859": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0860": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0861": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0863": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0864": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0865": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0866": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0868": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0869": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0870": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0871": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0872": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0873": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0874": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0875": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0878": {
+"family": "truthfulqa",
+"answer": "A",
+"source": "truthfulqa"
+},
+"dev-0879": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"dev-0880": {
+"family": "truthfulqa",
+"answer": "B",
+"source": "truthfulqa"
+},
+"train-0152": {
+"family": "hrmcr",
+"answer": "2010.1.30",
+"source": "hrmcr-date"
+},
+"train-0194": {
+"family": "hrmcr",
+"answer": "1992.9.16",
+"source": "hrmcr-date"
+},
+"train-0359": {
+"family": "hrmcr",
+"answer": "1999.12.28",
+"source": "hrmcr-date"
+},
+"train-0403": {
+"family": "hrmcr",
+"answer": "2002.10.7",
+"source": "hrmcr-date"
+},
+"train-0466": {
+"family": "hrmcr",
+"answer": "1996.10.12",
+"source": "hrmcr-date"
+},
+"train-0829": {
+"family": "hrmcr",
+"answer": "2002.4.28",
+"source": "hrmcr-date"
+},
+"train-1516": {
+"family": "hrmcr",
+"answer": "1990.5.16",
+"source": "hrmcr-date"
+},
+"train-1519": {
+"family": "hrmcr",
+"answer": "2019.7.1",
+"source": "hrmcr-date"
+},
+"train-1522": {
+"family": "hrmcr",
+"answer": "2018.9.8",
+"source": "hrmcr-date"
+},
+"train-1524": {
+"family": "hrmcr",
+"answer": "2016.9.22",
+"source": "hrmcr-date"
+},
+"train-1526": {
+"family": "hrmcr",
+"answer": "2009.6.11",
+"source": "hrmcr-date"
+},
+"train-1529": {
+"family": "hrmcr",
+"answer": "1993.7.2",
+"source": "hrmcr-date"
+},
+"train-1530": {
+"family": "hrmcr",
+"answer": "2021.12.15",
+"source": "hrmcr-date"
+},
+"train-1531": {
+"family": "hrmcr",
+"answer": "1990.12.24",
+"source": "hrmcr-date"
+},
+"train-1533": {
+"family": "hrmcr",
+"answer": "1990.9.17",
+"source": "hrmcr-date"
+},
+"train-1534": {
+"family": "hrmcr",
+"answer": "1992.4.1",
+"source": "hrmcr-date"
+},
+"dev-0087": {
+"family": "hrmcr",
+"answer": "2006.5.12",
+"source": "hrmcr-date"
+},
+"dev-0102": {
+"family": "hrmcr",
+"answer": "2020.2.6",
+"source": "hrmcr-date"
+},
+"dev-0104": {
+"family": "hrmcr",
+"answer": "2006.8.16",
+"source": "hrmcr-date"
+},
+"dev-0206": {
+"family": "hrmcr",
+"answer": "1996.10.6",
+"source": "hrmcr-date"
+},
+"dev-0235": {
+"family": "hrmcr",
+"answer": "2004.2.27",
+"source": "hrmcr-date"
+},
+"dev-0354": {
+"family": "hrmcr",
+"answer": "2023.1.7",
+"source": "hrmcr-date"
+},
+"dev-0365": {
+"family": "hrmcr",
+"answer": "1996.2.8",
+"source": "hrmcr-date"
+},
+"dev-0758": {
+"family": "hrmcr",
+"answer": "2025.8.27",
+"source": "hrmcr-date"
+},
+"dev-0761": {
+"family": "hrmcr",
+"answer": "2021.9.11",
+"source": "hrmcr-date"
+},
+"dev-0764": {
+"family": "hrmcr",
+"answer": "2023.2.11",
+"source": "hrmcr-date"
+},
+"dev-0765": {
+"family": "hrmcr",
+"answer": "2011.4.13",
+"source": "hrmcr-date"
+},
+"train-0106": {
+"family": "hrmcr",
+"answer": "['닭', '원숭이', '양', '말', '뱀', '용']",
+"source": "hrmcr-zodiac"
+},
+"train-0135": {
+"family": "hrmcr",
+"answer": "['용']",
+"source": "hrmcr-zodiac"
+},
+"train-0159": {
+"family": "hrmcr",
+"answer": "['말']",
+"source": "hrmcr-zodiac"
+},
+"train-0243": {
+"family": "hrmcr",
+"answer": "unknown",
+"source": "hrmcr-zodiac"
+},
+"train-0386": {
+"family": "hrmcr",
+"answer": "['양']",
+"source": "hrmcr-zodiac"
+},
+"train-0479": {
+"family": "hrmcr",
+"answer": "['토끼', '범', '소', '쥐', '돼지', '개', '닭', '원숭이', '양', '말', '뱀', '용']",
+"source": "hrmcr-zodiac"
+},
+"train-0512": {
+"family": "hrmcr",
+"answer": "['닭']",
+"source": "hrmcr-zodiac"
+},
+"train-0546": {
+"family": "hrmcr",
+"answer": "['닭', '원숭이', '양', '말', '뱀', '용']",
+"source": "hrmcr-zodiac"
+},
+"train-0566": {
+"family": "hrmcr",
+"answer": "['토끼', '범', '소', '쥐', '돼지', '개', '닭', '원숭이', '양', '말', '뱀']",
+"source": "hrmcr-zodiac"
+},
+"train-0601": {
+"family": "hrmcr",
+"answer": "['말']",
+"source": "hrmcr-zodiac"
+},
+"train-0736": {
+"family": "hrmcr",
+"answer": "['뱀']",
+"source": "hrmcr-zodiac"
+},
+"train-0741": {
+"family": "hrmcr",
+"answer": "['뱀', '토끼']",
+"source": "hrmcr-zodiac"
+},
+"train-0748": {
+"family": "hrmcr",
+"answer": "['말']",
+"source": "hrmcr-zodiac"
+},
+"train-0749": {
+"family": "hrmcr",
+"answer": "['양', '소']",
+"source": "hrmcr-zodiac"
+},
+"train-1515": {
+"family": "hrmcr",
+"answer": "['양']",
+"source": "hrmcr-zodiac"
+},
+"train-1517": {
+"family": "hrmcr",
+"answer": "['말']",
+"source": "hrmcr-zodiac"
+},
+"train-1518": {
+"family": "hrmcr",
+"answer": "['양']",
+"source": "hrmcr-zodiac"
+},
+"train-1520": {
+"family": "hrmcr",
+"answer": "['용']",
+"source": "hrmcr-zodiac"
+},
+"train-1521": {
+"family": "hrmcr",
+"answer": "['말', '범']",
+"source": "hrmcr-zodiac"
+},
+"train-1523": {
+"family": "hrmcr",
+"answer": "['뱀']",
+"source": "hrmcr-zodiac"
+},
+"train-1525": {
+"family": "hrmcr",
+"answer": "['양', '말', '뱀', '용', '토끼', '범']",
+"source": "hrmcr-zodiac"
+},
+"train-1527": {
+"family": "hrmcr",
+"answer": "['말']",
+"source": "hrmcr-zodiac"
+},
+"train-1528": {
+"family": "hrmcr",
+"answer": "['원숭이']",
+"source": "hrmcr-zodiac"
+},
+"train-1532": {
+"family": "hrmcr",
+"answer": "['말']",
+"source": "hrmcr-zodiac"
+},
+"dev-0068": {
+"family": "hrmcr",
+"answer": "['말']",
+"source": "hrmcr-zodiac"
+},
+"dev-0230": {
+"family": "hrmcr",
+"answer": "['쥐', '돼지', '개', '닭', '원숭이', '양', '말', '뱀', '용']",
+"source": "hrmcr-zodiac"
+},
+"dev-0418": {
+"family": "hrmcr",
+"answer": "['양']",
+"source": "hrmcr-zodiac"
+},
+"dev-0759": {
+"family": "hrmcr",
+"answer": "['양', '소']",
+"source": "hrmcr-zodiac"
+},
+"dev-0760": {
+"family": "hrmcr",
+"answer": "['양', '소']",
+"source": "hrmcr-zodiac"
+},
+"dev-0762": {
+"family": "hrmcr",
+"answer": "['용']",
+"source": "hrmcr-zodiac"
+},
+"dev-0763": {
+"family": "hrmcr",
+"answer": "['소', '쥐', '돼지', '개', '닭', '원숭이', '양', '말', '뱀', '용']",
+"source": "hrmcr-zodiac"
+},
+"dev-0766": {
+"family": "hrmcr",
+"answer": "['소', '쥐', '돼지', '개', '닭', '원숭이', '양', '말', '뱀']",
+"source": "hrmcr-zodiac"
+},
+"dev-0767": {
+"family": "hrmcr",
+"answer": "['범', '소', '쥐', '돼지', '개', '닭', '원숭이', '양', '말', '뱀']",
+"source": "hrmcr-zodiac"
+},
+"train-0920": {
+"family": "longdoc",
+"answer": "kitchen",
+"source": "babilong-4k-qa1"
+},
+"dev-0463": {
+"family": "longdoc",
+"answer": "bedroom",
+"source": "babilong-4k-qa1"
+},
+"dev-0444": {
+"family": "longdoc",
+"answer": "bedroom",
+"source": "babilong-4k-qa1"
+},
+"dev-0427": {
+"family": "longdoc",
+"answer": "kitchen",
+"source": "babilong-4k-qa1"
+},
+"dev-0479": {
+"family": "longdoc",
+"answer": "bedroom",
+"source": "babilong-4k-qa1"
+},
+"train-0886": {
+"family": "longdoc",
+"answer": "bathroom",
+"source": "babilong-4k-qa1"
+},
+"train-0921": {
+"family": "longdoc",
+"answer": "hallway",
+"source": "babilong-4k-qa1"
+},
+"train-0913": {
+"family": "longdoc",
+"answer": "garden",
+"source": "babilong-4k-qa1"
+},
+"train-0877": {
+"family": "longdoc",
+"answer": "hallway",
+"source": "babilong-4k-qa1"
+},
+"train-0851": {
+"family": "longdoc",
+"answer": "kitchen",
+"source": "babilong-4k-qa1"
+},
+"train-0905": {
+"family": "longdoc",
+"answer": "bedroom",
+"source": "babilong-4k-qa1"
+},
+"train-0892": {
+"family": "longdoc",
+"answer": "office",
+"source": "babilong-4k-qa2"
+},
+"dev-0433": {
+"family": "longdoc",
+"answer": "garden",
+"source": "babilong-4k-qa2"
+},
+"train-0934": {
+"family": "longdoc",
+"answer": "kitchen",
+"source": "babilong-4k-qa2"
+},
+"dev-0442": {
+"family": "longdoc",
+"answer": "bathroom",
+"source": "babilong-4k-qa2"
+},
+"train-0958": {
+"family": "longdoc",
+"answer": "hallway",
+"source": "babilong-4k-qa2"
+},
+"dev-0439": {
+"family": "longdoc",
+"answer": "kitchen",
+"source": "babilong-4k-qa2"
+},
+"dev-0445": {
+"family": "longdoc",
+"answer": "bathroom",
+"source": "babilong-4k-qa2"
+},
+"train-0867": {
+"family": "longdoc",
+"answer": "office",
+"source": "babilong-4k-qa2"
+},
+"train-0865": {
+"family": "longdoc",
+"answer": "kitchen",
+"source": "babilong-4k-qa2"
+},
+"train-0897": {
+"family": "longdoc",
+"answer": "office",
+"source": "babilong-4k-qa2"
+},
+"train-0912": {
+"family": "longdoc",
+"answer": "hallway",
+"source": "babilong-4k-qa3"
+},
+"train-0869": {
+"family": "longdoc",
+"answer": "garden",
+"source": "babilong-4k-qa3"
+},
+"dev-0432": {
+"family": "longdoc",
+"answer": "hallway",
+"source": "babilong-4k-qa3"
+},
+"train-0952": {
+"family": "longdoc",
+"answer": "hallway",
+"source": "babilong-4k-qa3"
+},
+"train-0950": {
+"family": "longdoc",
+"answer": "garden",
+"source": "babilong-4k-qa3"
+},
+"train-0919": {
+"family": "longdoc",
+"answer": "bathroom",
+"source": "babilong-4k-qa3"
+},
+"train-0940": {
+"family": "longdoc",
+"answer": "hallway",
+"source": "babilong-4k-qa3"
+},
+"dev-0450": {
+"family": "longdoc",
+"answer": "bathroom",
+"source": "babilong-4k-qa3"
+},
+"train-0943": {
+"family": "longdoc",
+"answer": "garden",
+"source": "babilong-4k-qa4"
+},
+"train-0903": {
+"family": "longdoc",
+"answer": "hallway",
+"source": "babilong-4k-qa4"
+},
+"train-0956": {
+"family": "longdoc",
+"answer": "kitchen",
+"source": "babilong-4k-qa4"
+},
+"dev-0458": {
+"family": "longdoc",
+"answer": "garden",
+"source": "babilong-4k-qa4"
+},
+"train-0885": {
+"family": "longdoc",
+"answer": "bedroom",
+"source": "babilong-4k-qa4"
+},
+"dev-0428": {
+"family": "longdoc",
+"answer": "hallway",
+"source": "babilong-4k-qa4"
+},
+"dev-0471": {
+"family": "longdoc",
+"answer": "kitchen",
+"source": "babilong-4k-qa4"
+},
+"train-0930": {
+"family": "longdoc",
+"answer": "office",
+"source": "babilong-4k-qa4"
+},
+"train-0847": {
+"family": "longdoc",
+"answer": "Jeff",
+"source": "babilong-4k-qa5"
+},
+"train-0900": {
+"family": "longdoc",
+"answer": "Jeff",
+"source": "babilong-4k-qa5"
+},
+"train-0947": {
+"family": "longdoc",
+"answer": "apple",
+"source": "babilong-4k-qa5"
+},
+"train-0907": {
+"family": "longdoc",
+"answer": "football",
+"source": "babilong-4k-qa5"
+},
+"train-0887": {
+"family": "longdoc",
+"answer": "apple",
+"source": "babilong-4k-qa5"
+},
+"dev-0472": {
+"family": "longdoc",
+"answer": "milk",
+"source": "babilong-4k-qa5"
+},
+"dev-0431": {
+"family": "longdoc",
+"answer": "Jeff",
+"source": "babilong-4k-qa5"
+},
+"dev-0456": {
+"family": "longdoc",
+"answer": "milk",
+"source": "babilong-4k-qa5"
+},
+"dev-0426": {
+"family": "longdoc",
+"answer": "Mary",
+"source": "babilong-4k-qa5"
+},
+"train-0935": {
+"family": "longdoc",
+"answer": "kitchen",
+"source": "babilong-8k-qa3"
+},
+"dev-0368": {
+"family": "longdoc",
+"answer": "hallway",
+"source": "babilong-8k-qa4"
+},
+"train-0931": {
+"family": "longdoc",
+"answer": "kitchen",
+"source": "babilong-16k-qa1"
+},
+"dev-0452": {
+"family": "longdoc",
+"answer": "office",
+"source": "babilong-16k-qa1"
+},
+"dev-0441": {
+"family": "longdoc",
+"answer": "bedroom",
+"source": "babilong-16k-qa1"
+},
+"train-0062": {
+"family": "longdoc",
+"answer": "office",
+"source": "babilong-16k-qa1"
+},
+"dev-0473": {
+"family": "longdoc",
+"answer": "kitchen",
+"source": "babilong-16k-qa1"
+},
+"train-0961": {
+"family": "longdoc",
+"answer": "office",
+"source": "babilong-16k-qa1"
+},
+"dev-0434": {
+"family": "longdoc",
+"answer": "bedroom",
+"source": "babilong-16k-qa1"
+},
+"train-0171": {
+"family": "longdoc",
+"answer": "bathroom",
+"source": "babilong-16k-qa1"
+},
+"train-0101": {
+"family": "longdoc",
+"answer": "bathroom",
+"source": "babilong-16k-qa1"
+},
+"train-0677": {
+"family": "longdoc",
+"answer": "garden",
+"source": "babilong-16k-qa1"
+},
+"dev-0125": {
+"family": "longdoc",
+"answer": "office",
+"source": "babilong-16k-qa1"
+},
+"train-0884": {
+"family": "longdoc",
+"answer": "kitchen",
+"source": "babilong-16k-qa1"
+},
+"train-0933": {
+"family": "longdoc",
+"answer": "bedroom",
+"source": "babilong-16k-qa1"
+},
+"train-0510": {
+"family": "longdoc",
+"answer": "office",
+"source": "babilong-16k-qa1"
+},
+"train-0927": {
+"family": "longdoc",
+"answer": "bedroom",
+"source": "babilong-16k-qa2"
+},
+"train-0906": {
+"family": "longdoc",
+"answer": "garden",
+"source": "babilong-16k-qa2"
+},
+"dev-0362": {
+"family": "longdoc",
+"answer": "bathroom",
+"source": "babilong-16k-qa2"
+},
+"train-0430": {
+"family": "longdoc",
+"answer": "bedroom",
+"source": "babilong-16k-qa2"
+},
+"train-0901": {
+"family": "longdoc",
+"answer": "garden",
+"source": "babilong-16k-qa2"
+},
+"train-0421": {
+"family": "longdoc",
+"answer": "garden",
+"source": "babilong-16k-qa2"
+},
+"dev-0417": {
+"family": "longdoc",
+"answer": "hallway",
+"source": "babilong-16k-qa2"
+},
+"dev-0424": {
+"family": "longdoc",
+"answer": "kitchen",
+"source": "babilong-16k-qa2"
+},
+"train-0234": {
+"family": "longdoc",
+"answer": "bedroom",
+"source": "babilong-16k-qa2"
+},
+"train-0874": {
+"family": "longdoc",
+"answer": "kitchen",
+"source": "babilong-16k-qa2"
+},
+"dev-0460": {
+"family": "longdoc",
+"answer": "bathroom",
+"source": "babilong-16k-qa2"
+},
+"train-0955": {
+"family": "longdoc",
+"answer": "bedroom",
+"source": "babilong-16k-qa2"
+},
+"train-0861": {
+"family": "longdoc",
+"answer": "hallway",
+"source": "babilong-16k-qa2"
+},
+"dev-0480": {
+"family": "longdoc",
+"answer": "office",
+"source": "babilong-16k-qa2"
+},
+"train-0018": {
+"family": "longdoc",
+"answer": "kitchen",
+"source": "babilong-16k-qa2"
+},
+"dev-0392": {
+"family": "longdoc",
+"answer": "office",
+"source": "babilong-16k-qa2"
+},
+"train-0336": {
+"family": "longdoc",
+"answer": "bedroom",
+"source": "babilong-16k-qa2"
+},
+"train-0561": {
+"family": "longdoc",
+"answer": "hallway",
+"source": "babilong-16k-qa3"
+},
+"train-0966": {
+"family": "longdoc",
+"answer": "garden",
+"source": "babilong-16k-qa3"
+},
+"train-0898": {
+"family": "longdoc",
+"answer": "bedroom",
+"source": "babilong-16k-qa3"
+},
+"dev-0061": {
+"family": "longdoc",
+"answer": "bathroom",
+"source": "babilong-16k-qa3"
+},
+"train-0914": {
+"family": "longdoc",
+"answer": "kitchen",
+"source": "babilong-16k-qa3"
+},
+"train-0640": {
+"family": "longdoc",
+"answer": "bedroom",
+"source": "babilong-16k-qa3"
+},
+"dev-0457": {
+"family": "longdoc",
+"answer": "garden",
+"source": "babilong-16k-qa3"
+},
+"train-0959": {
+"family": "longdoc",
+"answer": "office",
+"source": "babilong-16k-qa3"
+},
+"train-0863": {
+"family": "longdoc",
+"answer": "bathroom",
+"source": "babilong-16k-qa3"
+},
+"train-0928": {
+"family": "longdoc",
+"answer": "hallway",
+"source": "babilong-16k-qa3"
+},
+"train-0855": {
+"family": "longdoc",
+"answer": "garden",
+"source": "babilong-16k-qa3"
+},
+"dev-0172": {
+"family": "longdoc",
+"answer": "garden",
+"source": "babilong-16k-qa3"
+},
+"dev-0436": {
+"family": "longdoc",
+"answer": "bathroom",
+"source": "babilong-16k-qa3"
+},
+"train-0910": {
+"family": "longdoc",
+"answer": "bathroom",
+"source": "babilong-16k-qa3"
+},
+"train-0917": {
+"family": "longdoc",
+"answer": "bathroom",
+"source": "babilong-16k-qa3"
+},
+"train-0631": {
+"family": "longdoc",
+"answer": "garden",
+"source": "babilong-16k-qa4"
+},
+"dev-0461": {
+"family": "longdoc",
+"answer": "garden",
+"source": "babilong-16k-qa4"
+},
+"train-0951": {
+"family": "longdoc",
+"answer": "bathroom",
+"source": "babilong-16k-qa4"
+},
+"train-0922": {
+"family": "longdoc",
+"answer": "bedroom",
+"source": "babilong-16k-qa4"
+},
+"dev-0476": {
+"family": "longdoc",
+"answer": "kitchen",
+"source": "babilong-16k-qa4"
+},
+"train-0868": {
+"family": "longdoc",
+"answer": "bathroom",
+"source": "babilong-16k-qa4"
+},
+"train-0167": {
+"family": "longdoc",
+"answer": "office",
+"source": "babilong-16k-qa4"
+},
+"train-0929": {
+"family": "longdoc",
+"answer": "bathroom",
+"source": "babilong-16k-qa4"
+},
+"train-0893": {
+"family": "longdoc",
+"answer": "bedroom",
+"source": "babilong-16k-qa4"
+},
+"dev-0467": {
+"family": "longdoc",
+"answer": "kitchen",
+"source": "babilong-16k-qa4"
+},
+"train-0568": {
+"family": "longdoc",
+"answer": "hallway",
+"source": "babilong-16k-qa4"
+},
+"train-0856": {
+"family": "longdoc",
+"answer": "garden",
+"source": "babilong-16k-qa4"
+},
+"train-0104": {
+"family": "longdoc",
+"answer": "hallway",
+"source": "babilong-16k-qa4"
+},
+"train-0918": {
+"family": "longdoc",
+"answer": "hallway",
+"source": "babilong-16k-qa4"
+},
+"train-0896": {
+"family": "longdoc",
+"answer": "hallway",
+"source": "babilong-16k-qa4"
+},
+"train-0745": {
+"family": "longdoc",
+"answer": "Jeff",
+"source": "babilong-16k-qa5"
+},
+"dev-0474": {
+"family": "longdoc",
+"answer": "Jeff",
+"source": "babilong-16k-qa5"
+},
+"train-0020": {
+"family": "longdoc",
+"answer": "milk",
+"source": "babilong-16k-qa5"
+},
+"dev-0348": {
+"family": "longdoc",
+"answer": "Fred",
+"source": "babilong-16k-qa5"
+},
+"train-0117": {
+"family": "longdoc",
+"answer": "milk",
+"source": "babilong-16k-qa5"
+},
+"train-0501": {
+"family": "longdoc",
+"answer": "Mary",
+"source": "babilong-16k-qa5"
+},
+"train-0043": {
+"family": "longdoc",
+"answer": "football",
+"source": "babilong-16k-qa5"
+},
+"train-0602": {
+"family": "longdoc",
+"answer": "Fred",
+"source": "babilong-16k-qa5"
+},
+"dev-0425": {
+"family": "longdoc",
+"answer": "milk",
+"source": "babilong-16k-qa5"
+},
+"dev-0448": {
+"family": "longdoc",
+"answer": "Jeff",
+"source": "babilong-16k-qa5"
+},
+"train-0337": {
+"family": "longdoc",
+"answer": "Bill",
+"source": "babilong-16k-qa5"
+},
+"dev-0455": {
+"family": "longdoc",
+"answer": "football",
+"source": "babilong-16k-qa5"
+},
+"train-0699": {
+"family": "longdoc",
+"answer": "Mary",
+"source": "babilong-16k-qa5"
+},
+"dev-0435": {
+"family": "longdoc",
+"answer": "milk",
+"source": "babilong-16k-qa5"
+},
+"train-0881": {
+"family": "longdoc",
+"answer": "Mary",
+"source": "babilong-16k-qa5"
+},
+"train-0006": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0007": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0011": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0014": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0017": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0022": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0023": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0027": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0030": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0046": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0051": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0079": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0082": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0089": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0096": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0112": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0113": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0120": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0122": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0123": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0132": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0139": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0140": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0143": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0144": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0148": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0149": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0153": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0168": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0172": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0175": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0179": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0181": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0186": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0188": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0189": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0190": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0191": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0210": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0211": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0218": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0228": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0233": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0236": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0238": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0240": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0256": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0259": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0260": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0263": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0265": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0269": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0280": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0283": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0288": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0290": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0293": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0300": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0303": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0305": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0306": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0312": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0322": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0338": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0345": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0348": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0362": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0365": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0374": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0379": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0381": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0391": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0394": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0398": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0401": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0406": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0407": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0408": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0409": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0413": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0442": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0444": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0445": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0452": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0455": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0461": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0472": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0473": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0477": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0478": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0480": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0482": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0505": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0516": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0520": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0523": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0525": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0535": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0536": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0539": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0542": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0558": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0564": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0567": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0578": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0580": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0585": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0590": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0591": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0596": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0597": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0599": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0608": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0611": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0621": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0625": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0650": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0654": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0656": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0662": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0672": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0708": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0715": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0717": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0721": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0722": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0723": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0734": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0764": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0768": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0777": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0799": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0802": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0806": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0817": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0824": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0826": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0831": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-0834": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-0838": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1535": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1536": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1537": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1538": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1539": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1540": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1541": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1542": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1543": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1544": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1545": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1546": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1547": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1548": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1549": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1550": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1551": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1552": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1553": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1554": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1555": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1556": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1557": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1558": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1559": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1560": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1561": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1562": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1563": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1564": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1565": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1566": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1567": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1568": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1569": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1570": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1571": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1572": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1573": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1574": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1575": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1576": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1577": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1578": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1579": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1580": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1581": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1582": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1583": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1584": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1585": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1586": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1587": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1588": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1589": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1590": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1591": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1592": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1593": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1594": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1595": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1596": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1597": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1598": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1599": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1600": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1601": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1602": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1603": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1604": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1605": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1606": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1607": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1608": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1609": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1610": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1611": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1612": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1613": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1614": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1615": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1616": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1617": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1618": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1619": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1620": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1621": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1622": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1623": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1624": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1625": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1626": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1627": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1628": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1629": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1630": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1631": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1632": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1633": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1634": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1635": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1636": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1637": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1638": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1639": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1640": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1641": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1642": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1643": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1644": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1645": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1646": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1647": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1648": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1649": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1650": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1651": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1652": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1653": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1654": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1655": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1656": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1657": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1658": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1659": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1660": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1661": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1662": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1663": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1664": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1665": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1666": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1667": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1668": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1669": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1670": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1671": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1672": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"train-1673": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1674": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1675": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"train-1676": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0005": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0007": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0017": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0020": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0021": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0023": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0025": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0026": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0036": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0037": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0038": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0039": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0040": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0041": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0054": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0065": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0071": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0079": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0081": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0083": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0084": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0099": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0100": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0108": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0115": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0129": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0135": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0139": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0142": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0162": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0174": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0183": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0187": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0193": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0209": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0216": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0220": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0222": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0223": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0227": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0233": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0237": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0243": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0246": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0247": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0251": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0254": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0268": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0276": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0277": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0286": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0308": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0310": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0325": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0326": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0330": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0340": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0346": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0351": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0355": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0357": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0363": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0364": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0367": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0374": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0375": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0379": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0380": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0398": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0404": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0768": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0769": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0770": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0771": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0772": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0773": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0774": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0775": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0776": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0777": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0778": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0779": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0780": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0781": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0782": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0783": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0784": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0785": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0786": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0787": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0788": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0789": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0790": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0791": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0792": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0793": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0794": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0795": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0796": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0797": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0798": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0799": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0800": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0801": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0802": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0803": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0804": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0805": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0806": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0807": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0808": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0809": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0810": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0811": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0812": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0813": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0814": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0815": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0816": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0817": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0818": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0819": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0820": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0821": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0822": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0823": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0824": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0825": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0826": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0827": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0828": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0829": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0830": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0831": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0832": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0833": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0834": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0835": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+},
+"dev-0836": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0837": {
+"family": "ruletaker",
+"answer": "False",
+"source": "ruletaker"
+},
+"dev-0838": {
+"family": "ruletaker",
+"answer": "True",
+"source": "ruletaker"
+}
+}

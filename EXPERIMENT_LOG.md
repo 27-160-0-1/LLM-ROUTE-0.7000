@@ -452,6 +452,30 @@ SPDX-License-Identifier: Apache-2.0
   +0.004~0.007뿐인데 초과확률은 절벽 → **위험 감수는 어떤 수준에서도
   손해**. 현재 값이 상단 최적이며 검토 방향은 하향(보험)뿐
 
+### E40. 라벨 보존 텍스트 증강 (로컬, 2026-08-17) ❌ 기각
+- 질문: fold-train 문항마다 부모 라벨(score·cost)을 물려받는 교란 사본 K개
+  (단어 드롭아웃·구간 삭제·크롭·오타, 1~2개 합성)를 추가 학습하면 CV EV가
+  얼마나 움직이나. `experiments/e40_text_augment.py`, E27/E39와 동일 중첩
+  CV + 880×400 부트스트랩, β=0.25 랭크 헤드. 사본은 hold-out에 절대 미포함,
+  내부 OOF·kNN 자기제외는 부모 그룹 단위(라벨 누수 차단)
+- 축: K∈{1,2,4,8} × 적용 위치 {ridge만 / ridge+GBM / ridge+GBM+kNN 색인} ×
+  강도 {light/mid/heavy}, 확인 시드 7/17/23
+- 결과(가중 EV, 기준선 s7 0.6969 / s17 0.6968 / s23 0.6980, 3시드 평균 0.6972):
+  ridge만 mid K1 0.6963 / K2 0.6954 / **K4 0.6984** / K8 0.6968;
+  K4 ridge 3시드 0.6984/0.6973/0.6981 = 평균 **0.6979 (+0.0007)**;
+  K4 light 0.6984 / heavy 0.6908(fast 0.6465로 붕괴);
+  ridge+GBM K1 0.6962 / K2 0.6952 / K4 0.6929;
+  +kNN 색인 K1 0.6943 / K2 0.6954 / K4 **0.6899**
+- 진단: 메타 OOF RMSE — ridge만은 기준선과 동일(score .384/.358/.305), GBM에
+  사본 투입 시 score RMSE 악화(.386~.396), kNN 색인 투입 시 사본이 이웃 자리를
+  차지해 premium 안전계수가 0.80 하한까지 밀림
+- 해석: (1) K에 대해 비단봉(K1·K2 하락, K4 상승, K8 복귀)이라 프로젝트
+  규약상 노이즈 판정, 3시드 평균 +0.0007도 시드 분산(0.0012) 이내. (2) GBM·
+  kNN은 사본에 강하게 손해 — 사본은 새 정보가 아니라 같은 라벨의 재표본이라
+  트리·이웃 가중치만 왜곡. (3) 강한 교란은 fast tier를 직접 붕괴시킴.
+  **prompt-only 문제에서 텍스트 교란 증강은 라벨 정보를 늘리지 못한다** —
+  데이터로 올리려면 새 문항+새 outcome(A.X 실제 라벨)이어야 함. 미채택
+
 ### 오라클 상한 측정 (참고 기록, 2026-08-16)
 - 방법: 완벽한 점수·비용 예측을 가정하고 동일 할당기·부트스트랩(880×400,
   시드 7)으로 tier별 EV 상한 산출
@@ -483,3 +507,85 @@ SPDX-License-Identifier: Apache-2.0
 - 결론: 이후 "성능"으로 인용할 수치는 CV EV(0.6982) 또는 이번 held-out
   dev(0.7000)뿐이다. "dev 0.7286" 계열은 어디서 보이든 in-sample 참고치로만
   취급한다
+
+### E41. A.X-3.1-Light 자체 라벨링 파이프라인 (2026-08-18, 착수 — Colab 실행 대기)
+- 배경: E40 결론("데이터로 올리려면 새 문항+새 outcome이어야 함")과 오라클 격차의
+  대부분이 fast tier(light-vs-mid)에 있다는 점에서 light 라벨을 직접 생성. 로컬
+  RTX 2050(4GB, Q4_K_M 부분 오프로드)은 2.5 tok/s라 규모 불가 → Colab L4/A100 vLLM
+- 구성(`colab-label/`): `build_pool.py`(고정 공개 출처에서 주최측 템플릿 그대로
+  신규 문항 렌더링; `--verify`로 gsm8k 333/belebele 483/cruxeval 360/truthfulqa 243/
+  babilong 240/hrmcr 60/ruletaker 96 공개 문항 정확 재현 확인 → 템플릿 정합),
+  pool 6,961(gsm8k-train 2,500·cruxeval 1,240·ruletaker-train 1,498·truthfulqa 766·
+  babilong 500·belebele 417·hrmcr 40; DM-math는 참조 풀 미재현으로 제외), pilot =
+  gold 보유 공개 1,951문항(주최 라벨 포함, 일치율 측정용); `judge.py`(boxed/Answer/
+  정답/마지막 숫자·글자·리터럴·HRMCR 날짜/띠); `run_labels.py`(vLLM, raw 프롬프트,
+  n=4, 재개 가능, pilot 리포트); `label_colab.ipynb`; `ingest_labels.py`(→
+  `data/aux/light-labels.v1.json` + family별 보정표); `experiments/e41_aux_light.py`
+  (E40 하니스, aux는 light score/logcost 열에만 가중 W로 투입, 누수 그룹—같은
+  지문/코드/질문/문맥—은 hold-out fold에서 제외, SCOREONLY 옵션)
+- 하니스 기준선(E41 W=0, s7): **0.6980** (E27 계열 0.6982와 정합; E40 로그의
+  0.6969는 그 스크립트의 기준선). mock aux 70행으로 코드 경로 검증 완료(0.6980)
+- 로컬 pilot 최종(2026-08-18, `tools/pilot_local_light.py`, Q4_K_M 부분 오프로드
+  3 tok/s, T=0.7, n=2, max 1024; longdoc 15개는 ctx 4096 초과로 제외; 요약
+  `reports/pilot_light_{raw,instr}_summary.md`):
+  - raw 프롬프트(80문항): 이진 일치 0.80 / 상관 0.66 — code 0.53·ruletaker 0.40이
+    끌어내림(모델이 답 형식 없이 장황). 출력 길이 수학 0.22~0.56×, belebele 4.1×,
+    code 6.6×, 상관 0.11 → 주최측은 family별 답 형식 지시문 사용이 확실
+  - **지시문 부착(105문항)**: 이진 일치 **0.876** / 상관 0.76. family별 일치:
+    aime 1.00 · gsm8k 1.00 · belebele 0.93 · hrmcr 0.93 · ruletaker 0.93 ·
+    truthfulqa 0.87 · **code 0.47**. 입력 토큰 차이 +3~+35(지시문 길이 재현),
+    code만 +219(주최측 few-shot). 출력 길이 비율(우리/주최): 추론 family
+    0.47~0.53×(aime .47 gsm8k .49 hrmcr .53, IQR 좁음), truthfulqa 0.33×,
+    ruletaker 0.81×, belebele 2.3×, code 7.6× → 길이는 재현 불가(family 상수배는
+    가능). code 불일치는 우리 답이 맞는데 주최 0점인 문항 5/15(dev-0565·train-1214·
+    dev-0297·train-1225·dev-0270) — 주최측 코드 프로토콜(few-shot·답만·판정기)
+    차이이지 모델 차이가 아님
+  - 판정: 점수 라벨은 code 제외 6 family에서 재현 가능(≥0.85), 비용 라벨은 불가
+    → Colab 라벨링은 **지시문 모드(`--instruct v1`)** 로, aux는 점수 열 우선
+    (`SCOREONLY=1`, 길이는 family 보정 후 별도 실험). 노트북 ③을 raw+v1 두 번
+    돌려 within.25 높은 쪽을 pool에 쓰도록 수정, `ingest_labels.py`는 (온도,
+    지시문) 키로 분리. 로컬 처리량(3 tok/s)으로는 pool 6,961 불가 → Colab 필수
+- 판정 기준(사전 고정): Colab pilot within.25 ≥ 0.85 & outlen corr ≥ 0.8 → pool
+  투입, < 0.75 → 중단. 채택 여부는 E41 3시드 CV(+0.0012 이상, 단봉)로만 결정
+
+### E42. 출처 부가정보 특징 (parse 57 + lookup 10, 메타 GBM 입력) ❌ parse 기각 / lookup 노이즈
+- 방법: `experiments/e42_features.py` — parse(런타임 정규식: ruletaker 규칙/사실/부정
+  수, cruxeval 모드·루프·문자열 연산, babilong 질문 유형·bAbI 문장 수, belebele/
+  truthfulqa 길이, DM-math 모듈 키워드, HRMCR 유형), lookup(공개 출처 내용 해시
+  조회: gsm8k 풀이 단계·연산 수·답 크기, ruletaker 깊이, truthfulqa 카테고리;
+  0.6MB). 메타 GBM 입력에 추가, lookup은 학습 시 50% 마스킹 + hold-out을 "조회
+  있음/없음" 이중 평가. `e42_sideinfo.py MODE MASK SEED`, 기준선 s7 0.6980
+- 결과(s7): **parse 0.6873 / both 0.6838 / lookup 0.6985(+0.0005; 조회 없음 0.6836→
+  both 기준, lookup 단독은 조회 유무 무관)**. 헤드 분리: parse→score 헤드만 0.6890,
+  cost 헤드만 0.6940, rank 헤드만 0.6980(무영향)
+- 진단(`e42_diag.py`, 예측 덤프): parse는 메타 OOF RMSE를 전 열에서 개선(score
+  .3838/.3580/.3061→.3810/.3557/.2962, think logcost .6457→.6335)했는데도 EV가
+  급락. 전체 2,640에서 fast 안전계수 0.97 고정 시 none은 실제 비용비 1.183, parse_
+  score는 1.203(같은 업그레이드 수 1,202~1,208), 실제 점수 0.6622→0.6616 —
+  개선된 점수 예측이 고르는 업그레이드 대상이 **비용이 과소예측된 문항 쪽으로
+  이동**(선택 유발 비용 편향)해 부트스트랩 초과확률이 커지고 안전계수가 그리드
+  하한(0.92/0.80)으로 밀림. 확장 그리드(0.70~1.0)로 재최적화해도 0.6910 < 0.6983
+- 해석: E32/E36과 같은 교훈의 재확인 — 이 과제에선 한계 예측 정확도(RMSE)가 아니라
+  "업그레이드 대상의 비용 꼬리"가 EV를 지배하며, 점수 헤드만 좋아지면 오히려
+  손해. lookup 3시드: s7 0.6985/0.6980, s17 0.6965/0.6974, s23 0.6984/0.6980
+  (처리/기준선) → 평균 ±0.0000, 노이즈. 비공개셋이 같은 출처에서 나올 때만
+  발동하는 특징이기도 함 → **E42 전체 미채택**. 교훈: 다음 특징 실험은 RMSE가
+  아니라 "업그레이드 대상의 실제/예측 비용비"를 함께 봐야 하며, 점수 헤드 개선은
+  비용 헤드의 동반 개선(또는 선택 편향 보정) 없이는 EV를 깎는다
+
+### E41 진행 기록 — Colab L4 pilot (2026-08-18)
+- 인프라: Colab L4 24GB, vLLM 0.27.1(torch cu130; Colab 기본 torchaudio/torchvision cu128과 충돌
+  → 제거 후 torchvision cu130 재설치). bf16 7B는 KV 여유 ~5GB뿐 → `--kv-dtype fp8
+  --max-model-len 8192`(16k babilong 78문항 스킵), 128문항 배치 ~4분
+- **raw 프롬프트 pilot(1,152문항 중간)**: within.25 0.53, belebele 0.50/ruletaker 0.34로 불일치.
+  주최측 input_tokens − 우리 프롬프트 토큰이 family별 상수(수학 24, truthfulqa 29, hrmcr 33,
+  belebele 42, longdoc 46, ruletaker 66, **code 221/259**)이고 belebele/ruletaker/code/longdoc
+  출력이 6~15토큰으로 짧음 → **주최측은 family별 형식 제한 지시문을 붙였음**. code는 CRUXEval
+  공식 프롬프트(2-shot, [ANSWER] 태그)로 재구성하니 토큰 수가 259/213으로 정확히/거의 일치
+- **지시문 v1 서브셋 pilot(family당 40)**: within.25 **0.863**, 이진 일치 0.897, 점수 상관 0.807,
+  in-len 차 +8, 출력길이 상관 0.60. family별 within.25: gsm8k 0.97 / aime 0.90 / code 0.90
+  (outlen 0.94) / longdoc 0.88 / belebele 0.85 / truthfulqa 0.85 / hrmcr 1.00 / **ruletaker 0.55
+  (상관 −0.03)**. ruletaker 지시문 변형 3종(v2 0.47, v3 0.58, v4 0.67)도 불일치 — 주최측은 6~7
+  토큰 출력으로 0.78을 얻는데 우리는 no-CoT 0.55~0.62, 문항 단위 상관 0. 원인 미상 → aux에서
+  ruletaker 제외(E41 `AUX_FAMS` 기본값)
+- 본 실행: full pilot(v1, n=4) → pool(v1, n=2) 순차. 로컬 pilot(Q4)·llama-server 종료

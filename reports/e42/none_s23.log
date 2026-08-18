@@ -1,0 +1,10 @@
+[e42 none mask=0.5 s23] features for 2640 rows in 117s | side parse 0 lookup 0
+[e42 none mask=0.5 s23] fold 0 pub_fit=2126 aux_used=0 202s
+[e42 none mask=0.5 s23] fold 1 pub_fit=2109 aux_used=0 175s
+[e42 none mask=0.5 s23] fold 2 pub_fit=2093 aux_used=0 116s
+[e42 none mask=0.5 s23] fold 3 pub_fit=2111 aux_used=0 183s
+[e42 none mask=0.5 s23] fold 4 pub_fit=2121 aux_used=0 126s
+[e42 none mask=0.5 s23] meta OOF rmse score 0.3838/0.3580/0.3061 logcost 0.5012/0.3991/0.6457
+[e42 none mask=0.5 s23] prod OOF rmse light score 0.3907 logcost 0.5902
+[e42 none mask=0.5 s23] RESULT[nominal] weighted EV 0.6980 score 0.6975 | fast 0.6621@0.96; balanced 0.6947@0.89; premium 0.7491@0.86
+[e42 none mask=0.5 s23] DONE

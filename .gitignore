@@ -33,3 +33,15 @@ dist/
 
 # build outputs
 /build/
+
+# self-labeling: regenerable bundle + local pilot/server logs
+/colab-label/bundle/
+/colab-label/router_label_bundle.zip
+/colab-label/out/
+/reports/llama_server.*
+/reports/pilot_chain*.log
+/reports/pilot_chain.*
+/reports/pilot_light*.log
+/reports/pilot_light*.err
+/reports/pilot_light.instruct-partial.bak.json
+/reports/e42/*.npz
