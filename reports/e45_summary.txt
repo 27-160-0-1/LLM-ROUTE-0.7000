@@ -1,0 +1,7 @@
+cand0 (deployed E43): 3-seed mean 0.7019, alt-split 0.7008
+e45: mean 0.7020 (+0.0001) seeds [0.7029, 0.7008, 0.7022] | alt-split 0.7018 (+0.0010) -> noise/reject
+   exp {"ridge_alpha": 10.0, "knn_k": 16, "sel_lambda": 0.0}
+   cfg {"legacy_w": 0.9, "fam_w": 0.15, "conf_scale": 0.2, "gain_alpha_fast": 0.5, "gain_alpha_balanced": 0.5, "gain_alpha_premium": 0.5, "rank_beta_fast": 0.5, "rank_beta_balanced": 0.5, "rank_beta_premium": 0.4, "blend_fast": 0.6, "blend_balanced": 0.4, "blend_premium": 0.3}
+e46: mean 0.7022 (+0.0003) seeds [0.7028, 0.7013, 0.7026] | alt-split 0.7011 (+0.0003) -> noise/reject
+   exp {"ridge_alpha": 10.0, "knn_k": 16, "sel_lambda": 0.5}
+   cfg {"legacy_w": 0.9, "fam_w": 0.15, "conf_scale": 0.2, "gain_alpha_fast": 0.5, "gain_alpha_balanced": 0.5, "gain_alpha_premium": 0.5, "rank_beta_fast": 0.5, "rank_beta_balanced": 0.5, "rank_beta_premium": 0.4, "blend_fast": 0.6, "blend_balanced": 0.4, "blend_premium": 0.3}
