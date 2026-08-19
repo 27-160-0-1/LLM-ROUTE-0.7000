@@ -1,60 +1,60 @@
 {
   "candidate_scores": {
-    "alpha=30,blend=0.75,limit=1000000": "0.703522727273"
+    "alpha=10,blend=0.9,limit=1000000": "0.701448863636"
   },
   "feature_dimension": 16414,
   "gpu_fit_diagnostics": [
     {
       "backend": "gpu",
       "chunks": 4,
-      "iterations": 41,
+      "iterations": 58,
       "label": "score-ax31-light",
-      "residual_norm": 20.551392345381274,
+      "residual_norm": 19.568110465965383,
       "solver": "cupyx-lsmr",
       "stop_code": 2
     },
     {
       "backend": "gpu",
       "chunks": 4,
-      "iterations": 40,
+      "iterations": 60,
       "label": "score-ax31",
-      "residual_norm": 19.31043980689622,
+      "residual_norm": 18.313212391750156,
       "solver": "cupyx-lsmr",
       "stop_code": 2
     },
     {
       "backend": "gpu",
       "chunks": 4,
-      "iterations": 40,
+      "iterations": 58,
       "label": "score-axk1-think",
-      "residual_norm": 16.41158814481102,
+      "residual_norm": 15.625386077973072,
       "solver": "cupyx-lsmr",
       "stop_code": 2
     },
     {
       "backend": "gpu",
       "chunks": 4,
-      "iterations": 43,
+      "iterations": 61,
       "label": "log-cost-ax31-light",
-      "residual_norm": 31.918494269831385,
+      "residual_norm": 28.90397202452152,
       "solver": "cupyx-lsmr",
       "stop_code": 2
     },
     {
       "backend": "gpu",
       "chunks": 4,
-      "iterations": 44,
+      "iterations": 61,
       "label": "log-cost-ax31",
-      "residual_norm": 26.092243359392675,
+      "residual_norm": 23.41000633027182,
       "solver": "cupyx-lsmr",
       "stop_code": 2
     },
     {
       "backend": "gpu",
       "chunks": 4,
-      "iterations": 43,
+      "iterations": 60,
       "label": "log-cost-axk1-think",
-      "residual_norm": 37.47554637810031,
+      "residual_norm": 34.50765669158044,
       "solver": "cupyx-lsmr",
       "stop_code": 2
     }
@@ -63,10 +63,10 @@
   "train_nnz": 2478581,
   "training_summary": {
     "alpha_candidates": [
-      30.0
+      10.0
     ],
     "blend_weight_candidates": [
-      0.75
+      0.9
     ],
     "content_features_only": true,
     "context_limit_candidates": [
@@ -82,10 +82,10 @@
       "premium": 0.92
     },
     "learned_context_limit_chars": 1000000,
-    "legacy_blend_weight": 0.75,
+    "legacy_blend_weight": 0.9,
     "num_dev_episodes": 880,
     "num_train_episodes": 2640,
-    "ridge_alpha": 30.0,
+    "ridge_alpha": 10.0,
     "solver": "cupyx-lsmr",
     "train_input_sha256": "786d6e7e091e4f6404ebad2e3f4f0d6062bc60b85152043d9372ae954af8cc80",
     "train_outcomes_sha256": "c1a6673318cd72aa700f0c75d5c1c2c844f5af7c58943006fa954511bb2f510b",
@@ -94,46 +94,46 @@
   },
   "validation_safety_calibration": {
     "balanced": {
-      "actual_budget_ratio": "1.823200092755",
+      "actual_budget_ratio": "1.916736162046",
       "guard_ratio": 0.96,
       "model_counts": {
-        "ax31": 514,
-        "ax31-light": 321,
-        "axk1-think": 45
+        "ax31": 465,
+        "ax31-light": 358,
+        "axk1-think": 57
       },
-      "predicted_budget_ratio": 1.7324934860674268,
-      "safety_ratio": 0.8666666666666667,
-      "tier_score": "0.703977272727"
+      "predicted_budget_ratio": 1.7918097809397509,
+      "safety_ratio": 0.9,
+      "tier_score": "0.705681818182"
     },
     "fast": {
-      "actual_budget_ratio": "1.224508332215",
+      "actual_budget_ratio": "1.224364891766",
       "guard_ratio": 0.98,
       "model_counts": {
-        "ax31": 346,
-        "ax31-light": 534,
-        "axk1-think": 0
+        "ax31": 330,
+        "ax31-light": 549,
+        "axk1-think": 1
       },
-      "predicted_budget_ratio": 1.180858605243001,
-      "safety_ratio": 0.9450000000000001,
-      "tier_score": "0.670454545455"
+      "predicted_budget_ratio": 1.1745915118872554,
+      "safety_ratio": 0.9400000000000001,
+      "tier_score": "0.665909090909"
     },
     "premium": {
-      "actual_budget_ratio": "3.661276574441",
+      "actual_budget_ratio": "3.664895172305",
       "guard_ratio": 0.92,
       "model_counts": {
-        "ax31": 472,
-        "ax31-light": 239,
-        "axk1-think": 169
+        "ax31": 442,
+        "ax31-light": 263,
+        "axk1-think": 175
       },
-      "predicted_budget_ratio": 3.4310942909709956,
+      "predicted_budget_ratio": 3.438293705051697,
       "safety_ratio": 0.8625,
-      "tier_score": "0.747159090909"
+      "tier_score": "0.744602272727"
     }
   },
   "validation_score": {
     "challenge_id": "ossp-2026-llm-router-challenge",
-    "final_score": "0.703522727273",
-    "final_weighted_points_total": "619.1",
+    "final_score": "0.701448863636",
+    "final_weighted_points_total": "617.275",
     "policy_id": "ossp-2026-prompt-router-v1",
     "policy_sha256": "7c892c423da5fa762e7e1a93b9fa071be51e259b65d2b63a5ba434c4342d7a8e",
     "report_type": "prompt-only-routing-final-score",
@@ -151,103 +151,103 @@
         "budget_limit": "8.762856",
         "budget_multiplier": "2",
         "budget_passed": true,
-        "budget_ratio": "1.823200092755",
+        "budget_ratio": "1.916736162046",
         "challenge_id": "ossp-2026-llm-router-challenge",
         "cost_unit": "credits",
         "light_baseline_cost": "4.381428",
         "model_counts": {
-          "ax31": 514,
-          "ax31-light": 321,
-          "axk1-think": 45
-        },
-        "near_budget": false,
-        "num_episodes": 880,
-        "over_budget_zero_applied": false,
-        "policy_id": "ossp-2026-prompt-router-v1",
-        "policy_sha256": "7c892c423da5fa762e7e1a93b9fa071be51e259b65d2b63a5ba434c4342d7a8e",
-        "quality_points_total": "619.5",
-        "quality_score": "0.703977272727",
-        "report_type": "prompt-only-routing-tier-score",
-        "schema_version": 1,
-        "score_decimal_places": 12,
-        "score_rounding": "ROUND_HALF_EVEN",
-        "selected_generations": 2006,
-        "selected_input_tokens": 2112670,
-        "selected_output_tokens": 642688,
-        "split": "dev",
-        "tier": "balanced",
-        "tier_points_total": "619.5",
-        "tier_score": "0.703977272727",
-        "token_unit": 1000000,
-        "total_cost": "7.988219936"
-      },
-      "fast": {
-        "budget_limit": "5.476785",
-        "budget_multiplier": "1.25",
-        "budget_passed": true,
-        "budget_ratio": "1.224508332215",
-        "challenge_id": "ossp-2026-llm-router-challenge",
-        "cost_unit": "credits",
-        "light_baseline_cost": "4.381428",
-        "model_counts": {
-          "ax31": 346,
-          "ax31-light": 534,
-          "axk1-think": 0
+          "ax31": 465,
+          "ax31-light": 358,
+          "axk1-think": 57
         },
         "near_budget": true,
         "num_episodes": 880,
         "over_budget_zero_applied": false,
         "policy_id": "ossp-2026-prompt-router-v1",
         "policy_sha256": "7c892c423da5fa762e7e1a93b9fa071be51e259b65d2b63a5ba434c4342d7a8e",
-        "quality_points_total": "590",
-        "quality_score": "0.670454545455",
+        "quality_points_total": "621",
+        "quality_score": "0.705681818182",
         "report_type": "prompt-only-routing-tier-score",
         "schema_version": 1,
         "score_decimal_places": 12,
         "score_rounding": "ROUND_HALF_EVEN",
         "selected_generations": 2006,
-        "selected_input_tokens": 2114218,
-        "selected_output_tokens": 586488,
+        "selected_input_tokens": 2112932,
+        "selected_output_tokens": 656689,
+        "split": "dev",
+        "tier": "balanced",
+        "tier_points_total": "621",
+        "tier_score": "0.705681818182",
+        "token_unit": 1000000,
+        "total_cost": "8.398041489"
+      },
+      "fast": {
+        "budget_limit": "5.476785",
+        "budget_multiplier": "1.25",
+        "budget_passed": true,
+        "budget_ratio": "1.224364891766",
+        "challenge_id": "ossp-2026-llm-router-challenge",
+        "cost_unit": "credits",
+        "light_baseline_cost": "4.381428",
+        "model_counts": {
+          "ax31": 330,
+          "ax31-light": 549,
+          "axk1-think": 1
+        },
+        "near_budget": true,
+        "num_episodes": 880,
+        "over_budget_zero_applied": false,
+        "policy_id": "ossp-2026-prompt-router-v1",
+        "policy_sha256": "7c892c423da5fa762e7e1a93b9fa071be51e259b65d2b63a5ba434c4342d7a8e",
+        "quality_points_total": "586",
+        "quality_score": "0.665909090909",
+        "report_type": "prompt-only-routing-tier-score",
+        "schema_version": 1,
+        "score_decimal_places": 12,
+        "score_rounding": "ROUND_HALF_EVEN",
+        "selected_generations": 2006,
+        "selected_input_tokens": 2114346,
+        "selected_output_tokens": 587158,
         "split": "dev",
         "tier": "fast",
-        "tier_points_total": "590",
-        "tier_score": "0.670454545455",
+        "tier_points_total": "586",
+        "tier_score": "0.665909090909",
         "token_unit": 1000000,
-        "total_cost": "5.365095093"
+        "total_cost": "5.364466619"
       },
       "premium": {
         "budget_limit": "17.525712",
         "budget_multiplier": "4",
         "budget_passed": true,
-        "budget_ratio": "3.661276574441",
+        "budget_ratio": "3.664895172305",
         "challenge_id": "ossp-2026-llm-router-challenge",
         "cost_unit": "credits",
         "light_baseline_cost": "4.381428",
         "model_counts": {
-          "ax31": 472,
-          "ax31-light": 239,
-          "axk1-think": 169
+          "ax31": 442,
+          "ax31-light": 263,
+          "axk1-think": 175
         },
         "near_budget": false,
         "num_episodes": 880,
         "over_budget_zero_applied": false,
         "policy_id": "ossp-2026-prompt-router-v1",
         "policy_sha256": "7c892c423da5fa762e7e1a93b9fa071be51e259b65d2b63a5ba434c4342d7a8e",
-        "quality_points_total": "657.5",
-        "quality_score": "0.747159090909",
+        "quality_points_total": "655.25",
+        "quality_score": "0.744602272727",
         "report_type": "prompt-only-routing-tier-score",
         "schema_version": 1,
         "score_decimal_places": 12,
         "score_rounding": "ROUND_HALF_EVEN",
         "selected_generations": 2006,
-        "selected_input_tokens": 2109974,
-        "selected_output_tokens": 898867,
+        "selected_input_tokens": 2109780,
+        "selected_output_tokens": 898239,
         "split": "dev",
         "tier": "premium",
-        "tier_points_total": "657.5",
-        "tier_score": "0.747159090909",
+        "tier_points_total": "655.25",
+        "tier_score": "0.744602272727",
         "token_unit": 1000000,
-        "total_cost": "16.041619699"
+        "total_cost": "16.057474325"
       }
     }
   }

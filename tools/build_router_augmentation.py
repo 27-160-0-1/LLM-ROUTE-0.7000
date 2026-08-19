@@ -29,8 +29,9 @@ from ossp_router.protocol import (
     load_outcomes,
 )
 
-FAMILY_BLEND_WEIGHT = 0.3
-KNN_CONF_SCALE = 0.4
+import os as _os
+FAMILY_BLEND_WEIGHT = float(_os.environ.get("ROUTER_FAM_W", 0.3))       # E43 override hook
+KNN_CONF_SCALE = float(_os.environ.get("ROUTER_CONF_SCALE", 0.4))       # E43 override hook
 MIN_FAMILY_ROWS = 8
 VALUE_DECIMALS = 5
 GUARD_RATIOS = {"fast": 0.98, "balanced": 0.96, "premium": 0.92}

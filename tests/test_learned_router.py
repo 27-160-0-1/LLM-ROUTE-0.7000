@@ -28,7 +28,7 @@ class LearnedRouterTest(unittest.TestCase):
             any(name == "cupy" or name.startswith("cupy.") for name in sys.modules)
         )
         self.assertEqual(16414, self.artifact.dimension)
-        self.assertEqual(0.75, self.artifact.legacy_blend_weight)
+        self.assertEqual(0.9, self.artifact.legacy_blend_weight)
 
     def test_prompt_and_messages_are_supported(self) -> None:
         batch = parse_input(

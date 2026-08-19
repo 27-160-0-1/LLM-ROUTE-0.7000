@@ -33,7 +33,10 @@ from ossp_router.protocol import (
     load_outcomes,
 )
 
-BLEND_WEIGHTS = {"fast": 0.6, "balanced": 0.3, "premium": 0.45}
+import os as _os
+BLEND_WEIGHTS = {"fast": float(_os.environ.get("ROUTER_BLEND_FAST", 0.6)),
+                 "balanced": float(_os.environ.get("ROUTER_BLEND_BALANCED", 0.3)),
+                 "premium": float(_os.environ.get("ROUTER_BLEND_PREMIUM", 0.45))}   # E43 override hooks
 GBM_PARAMS = dict(
     max_iter=300,
     learning_rate=0.06,
@@ -46,11 +49,13 @@ GBM_PARAMS = dict(
 )
 OOF_FOLDS = 5
 OOF_SEED = 0
-RIDGE_ALPHA = 30.0
-SAFETY_RATIOS = {"fast": 0.98, "balanced": 0.89, "premium": 0.88}
-GAIN_ALPHA = 0.5
+RIDGE_ALPHA = float(_os.environ.get("ROUTER_RIDGE_ALPHA", 30.0))
+SAFETY_RATIOS = {"fast": float(_os.environ.get("ROUTER_SAFETY_FAST", 0.98)),
+                 "balanced": float(_os.environ.get("ROUTER_SAFETY_BALANCED", 0.89)),
+                 "premium": float(_os.environ.get("ROUTER_SAFETY_PREMIUM", 0.88))}
+GAIN_ALPHA = float(_os.environ.get("ROUTER_GAIN_ALPHA", 0.5))
 ORDINAL_THRESHOLDS = (0.25, 0.5, 0.75, 1.0)
-RANK_BETA = 0.25
+RANK_BETA = float(_os.environ.get("ROUTER_RANK_BETA", 0.25))
 RANK_LUT_NODES = 65
 RANK_FLOOR_QUANTILE = 0.05
 

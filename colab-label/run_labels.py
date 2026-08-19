@@ -229,6 +229,53 @@ class HfEngine:
         return res
 
 
+class LlamaCppEngine:
+    """llama-server (OpenAI-compatible HTTP) engine for CPU/partial-GPU boxes. Concurrency = --workers."""
+
+    def __init__(self, server="http://127.0.0.1:8080", workers=2, ctx_per_slot=2048):
+        import urllib.request
+        self.server = server.rstrip("/")
+        self.workers = workers
+        self.ctx = ctx_per_slot
+        self._req = urllib.request
+
+    def _one(self, prompt, n, temperature, top_p, max_tokens):
+        import json as _json
+        body = {"model": "local", "messages": [{"role": "user", "content": prompt}], "temperature": temperature,
+                "top_p": top_p, "n": n, "max_tokens": max_tokens}
+        req = self._req.Request(f"{self.server}/v1/chat/completions", data=_json.dumps(body).encode(),
+                                headers={"Content-Type": "application/json"})
+        try:
+            with self._req.urlopen(req, timeout=900) as r:
+                data = _json.load(r)
+        except Exception as exc:  # over-long prompt for the slot context, server error, ...
+            return None
+        gens = [{"text": c["message"]["content"], "tokens": None, "finish": c.get("finish_reason")} for c in data["choices"]]
+        usage = data.get("usage", {})
+        comp = usage.get("completion_tokens")
+        per = (comp / max(len(gens), 1)) if comp is not None else 0
+        for g in gens:
+            g["tokens"] = per
+        return (usage.get("prompt_tokens", 0), gens)
+
+    def _many(self, prompt, n, temperature, top_p, max_tokens):
+        """n independent single-sample requests (keeps one slot per request; needed on tiny GPUs)."""
+        outs = [self._one(prompt, 1, temperature, top_p, max_tokens) for _ in range(n)]
+        outs = [o for o in outs if o is not None]
+        if not outs:
+            return None
+        return (outs[0][0], [g for o in outs for g in o[1]])
+
+    def generate(self, prompts, n, temperature, top_p, max_tokens):
+        from concurrent.futures import ThreadPoolExecutor
+        # crude length guard: ~4 chars/token; leave room for generation
+        budget_chars = (self.ctx - min(max_tokens, 1024)) * 3
+        with ThreadPoolExecutor(self.workers) as ex:
+            futs = [ex.submit(self._many, p, n, temperature, top_p, max_tokens) if len(p) < budget_chars else None
+                    for p in prompts]
+            return [f.result() if f is not None else None for f in futs]
+
+
 class MockEngine:
     """Smoke-test engine: echoes the gold answer half the time. No GPU needed."""
 
@@ -339,7 +386,10 @@ def main() -> int:
     ap.add_argument("--bundle", type=Path, default=HERE / "bundle")
     ap.add_argument("--out", type=Path, default=HERE / "out")
     ap.add_argument("--model", default=DEFAULT_MODEL)
-    ap.add_argument("--engine", choices=["vllm", "hf", "mock"], default="vllm")
+    ap.add_argument("--engine", choices=["vllm", "hf", "llamacpp", "mock"], default="vllm")
+    ap.add_argument("--server", default="http://127.0.0.1:8080", help="llamacpp engine: llama-server URL")
+    ap.add_argument("--workers", type=int, default=2, help="llamacpp engine: concurrent requests (slots / n)")
+    ap.add_argument("--ctx-per-slot", type=int, default=2048, help="llamacpp engine: per-slot context for the length guard")
     ap.add_argument("--temps", default="0.7", help="pilot temperatures, comma-separated")
     ap.add_argument("--temp", type=float, default=None, help="pool temperature (default: first of --temps)")
     ap.add_argument("--n", type=int, default=4)
@@ -366,6 +416,8 @@ def main() -> int:
         engine = VllmEngine(args.model, args.max_model_len, args.gpu_util, args.dtype, args.quant, args.kv_dtype)
     elif args.engine == "hf":
         engine = HfEngine(args.model, args.load_8bit)
+    elif args.engine == "llamacpp":
+        engine = LlamaCppEngine(args.server, args.workers, args.ctx_per_slot)
     else:
         engine = MockEngine({})
     temps = [float(x) for x in args.temps.split(",")]

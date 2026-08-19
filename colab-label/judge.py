@@ -83,13 +83,37 @@ def _lit_eq(a: str, b: str) -> bool:
         return re.sub(r"\s+", "", a) == re.sub(r"\s+", "", b)
 
 
-def _run_check(code: str, inp: str, out: str) -> bool:
-    """Execute the CRUXEval function on a candidate input and compare with the expected output literal."""
+_CHECK_SNIPPET = chr(10).join([
+    "import sys, json, ast",
+    "d = json.load(sys.stdin)",
+    "env = {}",
+    "exec('import string, math, re, itertools, collections' + chr(10) + d['code'], env)",
+    "def _args(inp):",
+    "    try:",
+    "        return ast.literal_eval('(' + inp + ',)')",
+    "    except Exception:",
+    "        return (ast.literal_eval(inp),)",
+    "try:",
+    "    ok = env['f'](*_args(d['inp'])) == ast.literal_eval(d['out'])",
+    "except Exception:",
+    "    ok = False",
+    "print('1' if ok else '0')",
+])
+
+
+def _run_check(code: str, inp: str, out: str, timeout: float = 3.0) -> bool:
+    """Execute the CRUXEval function on a candidate input in a throw-away subprocess with a hard
+    timeout (a wrong candidate can send the function into an infinite loop) and compare the result
+    with the expected output literal."""
+    import json as _json
+    import subprocess
+    import sys
     try:
-        env: dict = {}
-        exec("import string, math, re, itertools, collections" + chr(10) + code, env)  # noqa: S102 (build-time judge only)
-        return env["f"](*_as_args(inp)) == ast.literal_eval(out)
-    except Exception:
+        r = subprocess.run([sys.executable, "-c", _CHECK_SNIPPET],
+                           input=_json.dumps({"code": code, "inp": inp, "out": out}),
+                           capture_output=True, text=True, timeout=timeout)
+        return r.stdout.strip() == "1"
+    except Exception:  # timeout (child is killed) or spawn failure
         return False
 
 

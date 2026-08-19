@@ -589,3 +589,38 @@ SPDX-License-Identifier: Apache-2.0
   토큰 출력으로 0.78을 얻는데 우리는 no-CoT 0.55~0.62, 문항 단위 상관 0. 원인 미상 → aux에서
   ruletaker 제외(E41 `AUX_FAMS` 기본값)
 - 본 실행: full pilot(v1, n=4) → pool(v1, n=2) 순차. 로컬 pilot(Q4)·llama-server 종료
+
+### E41 결과 — 자체 라벨(bf16, 지시문 v1) 투입 ❌ 기각 (2026-08-19)
+- Colab(A100/L4) 본 실행: pilot 1,873문항 within.25 **0.820** / 이진 일치 0.860 / 점수 상관
+  0.726 (gsm8k 0.96, aime 0.91, longdoc 0.89, code 0.87, truthfulqa 0.86, belebele 0.83,
+  ruletaker 0.63), 출력길이 상관 0.43. pool 6,718 라벨(8k 초과 longdoc 243 스킵) →
+  `data/aux/light-labels.v1.json` + family별 보정표. code 채점기의 무한루프 hang을 서브프로세스
+  타임아웃으로 수정(`judge._run_check`)
+- CV(E41 하니스, Colab sklearn 기준선 s7 **0.6972**; 로컬 0.6980과 0.0008 차): aux 5,212행
+  (ruletaker·잘린 응답 제외) W=0.5 — ridge(점수+비용) **0.6956(−0.0016)** / ridge+GBM
+  0.6976(+0.0004) / ridge+GBM 점수만 0.6977(+0.0005). light 점수 OOF RMSE .3907→.3902(변화 없음),
+  logcost .5902→.5954(비용 라벨은 오히려 악화 — belebele 0.27×·truthfulqa 0.71× 길이 불일치)
+- 해석: 주최측 라벨과 82%만 일치하는 라벨 5천 개는 광범위 특징 하에서 light 예측을 개선하지
+  못함(E40 결론 "라벨 정보가 늘어야 한다"는 맞았지만, 재현 라벨의 노이즈가 이득을 상쇄).
+  로컬 IQ3_XS GPU 라벨(belebele/code/truthfulqa/hrmcr 1,576행, `colab-label/out_cpu/`)은
+  품질이 더 낮아 미평가. **우선순위 1 종료. 배포본 E27 유지**
+- 남은 선택지: E39 premium 안전계수 보험(.82) 결정, 규칙상 허용된다면 mid(A.X-3.1 34B) 라벨링은
+  Colab A100에서 가능하나 light 결과로 볼 때 기대 이득 낮음
+
+### E43. 공동 하이퍼파라미터 탐색 (Colab CPU, 2026-08-19) ✅ 채택 후보 — held-out +0.0019
+- 방법: `experiments/e43_joint_sweep.py` — 특징 1회 계산, (ridge α × GBM 설정) 11개 "비싼" 조합의
+  5-fold 산출물 캐시 → 배포 조합과 최선 조합 각각에서 후처리 상수 8개(LEGACY_W·FAM_W·kNN conf·
+  GAIN_ALPHA·RANK_BETA·tier blend 3) 좌표하강 2라운드(880×200 부트스트랩, 단봉 조건) → 상위 후보를
+  3시드×400으로 확인. 채택 규칙 +0.0015
+- 비싼 조합: GBM 변형은 전부 배포값 이하, **ridge α=10**만 +0.0011(0.6998 vs 0.6987)
+- **cand0** = α10 + {legacy_w .9, fam_w .15, conf .25, gain_α .5, rank_β .4, blend fast .6/bal .45/prem .3}:
+  3시드 0.7030/0.7007/0.7020 = **0.7019 (배포 0.6979 대비 +0.0040)**; cand1(α30) +0.0023
+- 정직한 held-out(Train만 재학습, `tools/run_holdout_e43*.ps1`, 빌드 도구에 ROUTER_* env 훅 추가):
+  배포 안전계수(.98/.89/.88) 그대로 → **premium 초과 4.06(0점)**, blend_premium만 .45로 되돌려도 4.08
+  → 새 예측치엔 안전계수 재보정 필요. `e43b_bust_curve.py`(3시드×400) 기준 초과확률 0%인
+  premium ≤.86·balanced ≤.85~.87, Dev가 CV q99 밖의 어려운 표본이었으므로 보수적으로 **.98/.87/.85** 선택
+  → held-out **0.7019** (fast 0.6764 +.0023 / balanced 0.6972 +.0017 / premium 0.7406 +.0017, 비율
+  1.199/1.784/3.572), 배포 0.7000 대비 **+0.0019**
+- 해석: 개별 튜닝된 상수들이 공동 최적이 아니었음(legacy 비중↑·family/kNN 비중↓·랭크 헤드 비중↑·
+  balanced는 메타 비중↑/premium은↓). CV +0.0040 중 held-out에 남은 건 +0.0019 — 선택 편향이 절반을
+  먹었지만 노이즈 한계 위. 배포 반영은 사용자 승인 대기

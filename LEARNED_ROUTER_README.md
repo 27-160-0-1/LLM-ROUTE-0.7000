@@ -129,8 +129,11 @@ python tools/train_learned_router_gpu.py `
   --validation-outcomes data/dev/outcomes.json `
   --artifact src/ossp_router/resources/learned-router.v1.json `
   --report reports/learned-router-gpu-report.v1.json `
-  --word-bins 8192 --char-bins 8192 --alphas 30 `
-  --blend-weights 0.75 --context-limits 1000000
+  --word-bins 8192 --char-bins 8192 --alphas 10 `
+  --blend-weights 0.9 --context-limits 1000000
+# (E43 이후 배포 상수: ridge α 10, legacy blend 0.9, family 0.15, kNN conf 0.25, gain α 0.5,
+#  rank β 0.4, tier blend .6/.45/.3, 안전계수 .98/.87/.85 — tools/deploy_e43.ps1 이 ROUTER_* env로
+#  build_router_augmentation.py / build_meta_gbm.py 에 주입하며 전체 체인을 한 번에 재현한다)
 # 2) family 평균 + kNN 테이블 (idf, 문서벡터 top-256, 5자리 양자화)
 python tools/build_router_augmentation.py --artifact src/ossp_router/resources/learned-router.v1.json --train-input data/combined/inputs.json --train-outcomes data/combined/outcomes.json --dev-input data/materialized/dev/inputs.json --dev-outcomes data/dev/outcomes.json
 # 3) 메타 GBM (sklearn 필요; 선형 특징은 5-fold OOF, kNN 특징은 LOO로 leakage 차단)
@@ -184,7 +187,8 @@ leakage 차단이 핵심 설계다: 메타 GBM이 소비하는 선형·kNN 특�
 | + kNN k=16 | CV 0.6982 / EV 0.6976 | E20; Colab 스윕으로 발견 |
 | + 순서형 점수 헤드 | CV EV 0.6982 | E21; 삼각측량 채택(3-시드 평균 +0.0013), 배포 완료·QEMU 7-8s |
 | + 랭크 효율 헤드 β=0.25 (E27) | CV EV(시드7) 0.6976→0.6982(β=0.5 참조치) | E27; 3시드 평균 +0.0007, in-sample 참고치(합산 학습 후 dev 재채점, 성능 지표 아님) 0.7286, QEMU 6.6~7.7s |
-| **held-out 검증 (Train-only 재학습, 현재 공식 수치)** | **dev 0.7000 / CV EV 0.6982** | Train 1,760만으로 재학습·조회표에서 Dev 제외 후 Dev 880 순수 채점: fast 0.6741(ratio 1.187)/balanced 0.6955(ratio 1.722)/premium 0.7389(ratio 3.600), 전 tier 예산 통과. baseline(Train-only) dev 0.6954 대비 **+0.0046** |
+| **E43 공동 하이퍼파라미터 재탐색 (2026-08-19, 현재 배포)** | **held-out dev 0.7019 / CV 3시드 0.7019** | ridge α10·legacy .9·family .15·kNN conf .25·rank β .4·blend .6/.45/.3·안전계수 .98/.87/.85. Train-only 재학습 held-out: fast 0.6764(ratio 1.199)/balanced 0.6972(1.784)/premium 0.7406(3.572), CV 초과확률 3시드 모두 0%. 배포 대비 held-out **+0.0019** |
+| held-out 검증 (Train-only 재학습, E27 배포본) | dev 0.7000 / CV EV 0.6982 | Train 1,760만으로 재학습·조회표에서 Dev 제외 후 Dev 880 순수 채점: fast 0.6741(ratio 1.187)/balanced 0.6955(ratio 1.722)/premium 0.7389(ratio 3.600), 전 tier 예산 통과. baseline(Train-only) dev 0.6954 대비 **+0.0046** |
 
 진행 중: E23 kNN 표현 3종 스윕 (Colab VM2). E22 특징 5종 스윕(Colab VM1)은
 완료·전부 기각 (특징 공간 방향 수확 종료, 상세는 §5 아래 및
