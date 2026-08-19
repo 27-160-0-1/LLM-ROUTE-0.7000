@@ -12,33 +12,54 @@ SK텔레콤 Efficient LLM Routing Challenge 제출용 prompt-only 라우터의 �
 `axk1-think` 중 하나를 고른다. episode ID, 입력 순서, split 정보는 어떤
 특징에도 사용하지 않는다.
 
-## 1. 최종 성능 요약 (2026-08-15)
+## 1. 현황 요약 (2026-08-19 기준)
 
-모든 구성요소를 공개 Train+Dev 합산 2,640문항으로 학습했다. Dev가 학습에
-포함되므로 dev self-check(0.7404)는 in-sample 참고치이고, 공식 품질 추정은
-**5-fold 중첩 교차검증**이다.
+**배포본 = E43** (release 원격 `27-160-0-1/LLM-ROUTE-0.7000` main, 커밋 `feaee05` 이후).
+모든 구성요소는 공개 Train+Dev 합산 2,640문항으로 학습했고, 인용 가능한 성능 수치는
+**정직한 held-out**(Train 1,760만으로 전 체인 재학습, 조회표에서 Dev 제외, Dev 880 채점)과
+**5-fold 중첩 CV EV**(880×400 부트스트랩, 시드 7/17/23) 두 가지뿐이다. 합산 학습 후 Dev를
+다시 채점한 값(0.72~0.74)은 in-sample이라 성능 지표로 쓰지 않는다.
 
-| Tier | CV 기대점수(EV) | 안전계수 | 메타 blend |
-|---|---:|---:|---:|
-| Fast (가중 0.4) | 0.6647 | 0.98 | 0.60 |
-| Balanced (가중 0.3) | 0.6921 | 0.89 | 0.30 |
-| Premium (가중 0.3) | 0.7464 | 0.88 | 0.45 |
+| 항목 | 값 |
+|---|---|
+| held-out dev (E43 배포본) | **0.7019** — fast 0.6764 / balanced 0.6972 / premium 0.7406, 비용비 1.199 / 1.784 / 3.572 |
+| held-out dev (직전 E27 배포본) | 0.7000 — fast 0.6741 / balanced 0.6955 / premium 0.7389 |
+| 공식 hash-regex baseline (Train-only) | 0.6954 |
+| CV 3시드 EV (E43 / E27) | 0.7019 / 0.6979 (E43 하니스 기준) |
+| CV 예산초과확률 (E43, .98/.87/.85) | fast 0 % / balanced 0 % / premium 0 % (3시드 모두) |
+| 오라클 상한 (완벽 예측 가정) | 0.7944 — 0.80은 구조적으로 불가 |
 
-- **가중 CV 점수 0.6982 / 가중 CV-EV 0.6982** (순서형 점수 헤드 배포, E21;
-  gain 헤드 α=0.5 + kNN k=16 위에 적용; 순서형 이전 EV 0.6976, gain 이전
-  0.6930/0.6928, k=8 시절 0.6983/0.6966) (공식 hash-regex baseline의
-  train-단독 dev 점수 0.6954와 비교할 때, EV는 예산초과=0점 위험까지 반영한
-  값임에 유의).[^ord-tier]
+배포 상수(E43): ridge α 10, legacy blend 0.9, family 평균 0.15, kNN conf 0.25(k=16), gain α 0.5,
+rank β 0.4, tier별 메타 blend fast .6 / balanced .45 / premium .3, 안전계수 .98 / .87 / .85.
+재현: `tools/deploy_e43.ps1`(ROUTER_* 환경변수로 빌드 도구에 주입, 이전 아티팩트는 `*.e27.bak`).
 
-[^ord-tier]: 순서형 점수 헤드(E21) 배포 후 tier별(fast/balanced/premium)
-  세부 EV·안전계수·blend는 재측정 예정 — 아래 표는 gain 헤드 단계(kNN
-  k=16) 값을 그대로 유지한 것이며 최신 가중 수치와 정확히 일치하지 않는다.
-- 기대점수(EV) = 부트스트랩 재표집에서의 `점수 × 예산통과확률` 평균.
-  비공개 평가는 단 한 번의 표본 추출이고 예산을 넘으면 해당 tier가 0점이므로
-  raw 점수가 아니라 EV를 최적화 기준으로 사용한다.
-- 부트스트랩은 **880 크기**(공개 Dev 규모)로 재표집한다. 비공개셋 크기가
-  비공개이므로 작은 쪽을 가정하는 것이 안전하다 (표본이 작을수록 비용비율
-  분산이 커져 초과 위험이 커진다).
+### 2026-08-18~19에 확정된 사실
+
+1. **자체 라벨링(E41)으로는 못 올린다.** 주최측 라벨 생성 방식을 토큰 수로 역추적해 family별
+   형식 지시문(code는 CRUXEval 공식 2-shot)을 재구성했고, Colab bf16 A.X-3.1-Light로 공개
+   1,873문항을 재현하면 within.25 0.82 / 상관 0.73까지 맞는다. 그 라벨 6,718개를 light 헤드에
+   넣어도 CV EV는 ±0.0005. 파이프라인(`colab-label/`)은 남겨 두었다.
+2. **출처 부가정보 특징(E42)도 못 올린다.** 정규식 구조 특징 57개·공개 출처 조회 특징 10개는
+   예측 RMSE를 전 열에서 개선하는데 EV는 −0.01. 원인은 "업그레이드 대상으로 뽑히는 문항의 비용이
+   과소예측"되는 선택 편향 — 점수 헤드만 좋아지면 EV가 깎인다(E32/E36과 같은 교훈).
+3. **공동 하이퍼파라미터 재탐색(E43)은 올린다.** 따로따로 튜닝된 상수들이 공동 최적이 아니었다.
+   CV +0.0040 중 held-out에 남은 것은 +0.0019(선택 편향이 절반을 먹음). 새 예측치엔 안전계수
+   재보정이 필수였다(구 .88로는 Dev premium 초과 4.06).
+4. **런타임의 진짜 비용은 조회 미스 경로다(E44).** "QEMU 6~8초 통과" 기록은 전부 공개 문항이
+   SHA-256 조회표에 적중한 경로였고, 비공개셋은 전부 미스라 순수 Python heavy 경로를 탄다
+   (이 노트북 2,640문항 tier당 ~130초; 공식 Apple Silicon은 hash-regex baseline 보정으로
+   2.5~3.5× 빠름 → 약 40~50초로 90초 이내 추정). 출력이 바이트 동일한 속도 최적화만 반영했고,
+   출력이 바뀌는 텍스트 절단은 held-out −0.002~0.003이라 기각했다.
+5. **E39 premium 보험(안전계수 .82, −0.0016)은 채택하지 않기로 했다**(사용자 결정).
+   E43의 .85가 CV 초과확률 0 %로 사실상 그 역할을 대신한다.
+
+### 진행 중 / 남은 선택지
+
+- **E45+E46** (Colab CPU, `experiments/e45_e46.py`, `colab-label/e45_colab_bundle.zip`): E43
+  최적점 주변 정밀 재탐색(tier별 gain α·rank β, kNN k, ridge α) + 선택-가중 비용 헤드.
+  채택 규칙은 3시드 평균 +0.0015 **이고** 대체 fold 분할에서도 양수일 것.
+- 닫힌 방향(재시도 금지): MLP·임베딩·외부 라우터 9종·시드 앙상블·isotonic·텍스트 증강·자체
+  라벨·부가정보 특징·비용 불확실성 팽창·꼬리 분위 비용·안전계수 상향. 상세는 `EXPERIMENT_LOG.md`.
 
 ## 2. 런타임 예측 파이프라인
 
@@ -190,8 +211,12 @@ leakage 차단이 핵심 설계다: 메타 GBM이 소비하는 선형·kNN 특�
 | **E43 공동 하이퍼파라미터 재탐색 (2026-08-19, 현재 배포)** | **held-out dev 0.7019 / CV 3시드 0.7019** | ridge α10·legacy .9·family .15·kNN conf .25·rank β .4·blend .6/.45/.3·안전계수 .98/.87/.85. Train-only 재학습 held-out: fast 0.6764(ratio 1.199)/balanced 0.6972(1.784)/premium 0.7406(3.572), CV 초과확률 3시드 모두 0%. 배포 대비 held-out **+0.0019** |
 | held-out 검증 (Train-only 재학습, E27 배포본) | dev 0.7000 / CV EV 0.6982 | Train 1,760만으로 재학습·조회표에서 Dev 제외 후 Dev 880 순수 채점: fast 0.6741(ratio 1.187)/balanced 0.6955(ratio 1.722)/premium 0.7389(ratio 3.600), 전 tier 예산 통과. baseline(Train-only) dev 0.6954 대비 **+0.0046** |
 
-진행 중: E23 kNN 표현 3종 스윕 (Colab VM2). E22 특징 5종 스윕(Colab VM1)은
-완료·전부 기각 (특징 공간 방향 수확 종료, 상세는 §5 아래 및
+| E41 자체 라벨(Colab bf16, 지시문 v1) ❌ | CV ±0.0005 | pilot within.25 0.82; 6,718 라벨을 light 헤드에 투입 |
+| E42 출처 부가정보 특징 ❌ | CV −0.010 | RMSE 개선에도 EV 하락(선택 편향) |
+| E44 런타임 재측정 | 출력 동일 최적화 | 조회 미스 경로 2,640문항 ~130s(이 노트북) ≈ 40~50s(공식 장비 추정) |
+| E45/E46 (진행 중) | — | Colab 번들 대기 |
+
+진행 중: E45+E46 (Colab). 그 외 탐색 축은 모두 닫혔다 (아래 미채택 목록과
 EXPERIMENT_LOG.md 참조).
 
 모든 실험의 상세 기록(가설·방법·수치·판정)은 **`EXPERIMENT_LOG.md`**에 있다.
@@ -214,12 +239,18 @@ CV EV +0.0004로 노이즈 수준, 커버리지 10.8%뿐 — kNN이 이미 모�
   런타임 모듈: `learned_router.py`, `legacy_hash_regex.py`, `similarity.py`,
   `heuristic.py`, `protocol.py` (+resources). **새 모듈/리소스를 추가하면
   `.dockerignore` 화이트리스트에 반드시 추가할 것.**
-- 이 Windows/x86_64 호스트의 QEMU 에뮬레이션 검사(공식 제약 동일: 2 CPU,
-  2GiB, read-only, pids 32, 90초/tier)는 공개 2,640문항 기준 tier당 약
-  46~61초로 통과. QEMU 시간은 참고값이며 합격/불합격 판단은 네이티브
-  ARM64 장비에서 `tools/check_runtime.py`로 해야 한다 (Windows에서는
-  `fcntl` 때문에 실행 불가 — 동일 제약을 복제한 대체 스크립트는 세션
-  scratchpad `qemu_check.py` 참조).
+- **조회 적중 vs 미스를 구분해서 측정할 것.** 공개 2,640문항은 SHA-256
+  조회표에 전부 적중하므로 그 측정(QEMU 48~77초, 네이티브 2~3초)은 비공개셋의
+  비용을 말해주지 않는다. 미스 경로(프롬프트 끝에 공백 1자를 붙여 강제)는 이
+  Windows/x86_64 노트북 네이티브에서 2,640문항 tier당 ~130초, QEMU에서는 28분+
+  (측정 불가). 공식 Apple Silicon은 hash-regex baseline 교차 측정으로 2.5~3.5×
+  빠르다고 보정되어 약 40~50초(2,640문항)·15~20초(880문항)로 추정한다.
+  `tools/qemu_check.py`가 공식 컨테이너 제한(2 CPU·2 GiB·pids 32·read-only·
+  /tmp 256 m·network none·uid 65532)을 복제한 Windows용 대체 도구다;
+  합격/불합격 판단은 네이티브 arm64 장비의 `tools/check_runtime.py`로 한다.
+- 문항당 비용: 짧은 프롬프트 ~20~55 ms, 40~70k자 BABILong ~0.3~0.5 s (kNN 4k자
+  헤드의 posting 스캔 + 전문 정규식·해시). 출력이 바뀌는 절단(head 8k+tail 4k,
+  kNN 헤드 1.5k)은 held-out −0.002~0.003이라 기각.
 - 컨테이너와 네이티브의 결정 일치, 아티팩트 분리 전후 결정 동일성을 매번
   확인했다. 순수 Python 추론 경로는 FNV 접두사 캐시·Counter 집계 등으로
   원본 대비 2배 최적화되어 있다 (출력 바이트 동일 검증).
@@ -230,9 +261,12 @@ CV EV +0.0004로 노이즈 수준, 커버리지 10.8%뿐 — kNN이 이미 모�
   family→kNN→메타→할당), artifact 파싱(지연 로드 포함)
 - `src/ossp_router/similarity.py` — 해시 tf-idf·kNN 색인·family 분류·트리 평가
 - `src/ossp_router/resources/learned-router.v1.json` — 본 artifact (4.1MB)
-- `src/ossp_router/resources/learned-router-heavy.v1.json` — 지연 로드 블록 (10.7MB)
+- `src/ossp_router/resources/learned-router-heavy.v1.json` — 지연 로드 블록 (11.7MB)
 - `tools/train_learned_router_gpu.py` / `build_router_augmentation.py` /
   `build_meta_gbm.py` / `build_public_lookup.py` / `pack_artifact.py` — 학습 체인
 - `tools/combine_public_data.py` — train+dev 분석용 병합 파일 생성
 - `reports/learned-router-cpu-self-check.v1.json` — 공식 scorer 재채점 (in-sample)
 - `container/entrypoint.py` — 제출 컨테이너 진입점
+- `tools/deploy_e43.ps1` — 배포 아티팩트 전체 재빌드(E43 상수), `tools/run_holdout*.ps1` — Train-only held-out
+- `tools/qemu_check.py` — Windows용 런타임 검사, `experiments/e43_joint_sweep.py`·`e43b_bust_curve.py`·`e45_e46.py` — 공동 탐색/초과확률/후속 탐색
+- `colab-label/` — 자체 라벨링 파이프라인(E41; build_pool·judge·run_labels·ingest·notebook)

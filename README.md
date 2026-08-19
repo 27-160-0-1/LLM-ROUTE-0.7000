@@ -5,8 +5,11 @@ SPDX-License-Identifier: Apache-2.0
 
 # Efficient LLM Routing Challenge
 
-> 이 작업본에 추가된 GPU 학습·CPU 실행 라우터와 재현 방법은
-> [LEARNED_ROUTER_README.md](LEARNED_ROUTER_README.md)에 정리되어 있습니다.
+> 이 작업본(제출 저장소)의 라우터: 공개 Train+Dev로 학습한 prompt-only 스태킹 라우터
+> (해시 선형 헤드 → family/kNN → 메타 GBM → 예산 할당, 표준 라이브러리 런타임).
+> **현재 배포 E43 — 정직한 held-out dev 0.7019 (공식 baseline 0.6954)**.
+> 설계·학습 절차·평가 방법·성능 이력·런타임 검증은 [LEARNED_ROUTER_README.md](LEARNED_ROUTER_README.md),
+> 실험 44건의 가설·수치·판정은 [EXPERIMENT_LOG.md](EXPERIMENT_LOG.md)에 있습니다.
 
 **프롬프트 난이도·특성에 따라 최적 모델을 선택하는 compute-efficient routing
 오픈소스 라우터 개발 챌린지**
