@@ -242,10 +242,15 @@ def _raw_dense_from_context(
     basic: Any,
     tokens: Sequence[str],
 ) -> Tuple[float, ...]:
-    nonspace = max(1, sum(not character.isspace() for character in text))
-    ascii_count = sum(ord(character) < 128 and not character.isspace() for character in text)
-    punctuation = sum(not character.isalnum() and not character.isspace() for character in text)
-    alphabetic = [word for word in tokens if any(character.isalpha() for character in word)]
+    # str.split() with no separator splits on exactly the characters for which
+    # str.isspace() is true, so the joined remainder is the non-space text; the
+    # ASCII count is the byte length after dropping non-ASCII code points.  Same
+    # values as the per-character generators, an order of magnitude faster.
+    nonspace_text = "".join(text.split())
+    nonspace = max(1, len(nonspace_text))
+    ascii_count = len(nonspace_text.encode("ascii", "ignore"))
+    punctuation = len(nonspace_text) - sum(map(str.isalnum, nonspace_text))
+    alphabetic = [word for word in tokens if any(map(str.isalpha, word))]
     average_word_length = (
         sum(len(word) for word in alphabetic) / max(1, len(alphabetic))
     )

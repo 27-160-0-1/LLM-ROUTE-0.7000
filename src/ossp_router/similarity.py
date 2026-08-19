@@ -184,9 +184,11 @@ class KnnIndex:
         if not query:
             return (), 0.0
         scores: Dict[int, float] = {}
+        get_postings = self.postings.get
+        get_score = scores.get
         for index, value in query.items():
-            for document, stored in self.postings.get(index, ()):
-                scores[document] = scores.get(document, 0.0) + value * stored
+            for document, stored in get_postings(index, ()):
+                scores[document] = get_score(document, 0.0) + value * stored
         if not scores:
             return (), 0.0
         ranked = sorted(scores.items(), key=lambda item: (-item[1], item[0]))[:neighbors]
